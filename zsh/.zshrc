@@ -87,10 +87,12 @@ alias hw='cd ~/Dropbox/schoolwork'
 alias grub-mk='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias gmail='cd ~/Downloads/ && mutt -F ~/.mutt/gmailrc'
 alias outlook='cd ~/Downloads/ && mutt -F ~/.mutt/outlookrc'
-alias getmusic='youtube-dl --add-metadata -x --audio-format mp3 -o "%(title)s.%(ext)s"'
+alias getmusic='youtube-dl --add-metadata -x --audio-format mp3 -o "%(title)s-%(artist)s.%(ext)s"'
 alias download='youtube-dl --add-metadata -o "%(title)s.%(ext)s"'
 alias callhome='ssh -p 8008 phonehome.webhop.me'
+alias cmail='ssh -p 8008 phonehome.webhop.me -t "mutt"'
 alias emacs='emacs -nw'
 bindkey -v
 export TERM=xterm-256color
+alias g='googler -n 3'
 fpath=(/usr/local/share/zsh-completions $fpath)
