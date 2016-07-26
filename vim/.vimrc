@@ -54,7 +54,7 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 "set guifont=Inconsolata:h12:cANSI
 "Bindings
-let mapleader="\<Space>"       " leader is space
+                        \section{let mapleader="\<Space>"       " leader is space}
 inoremap jk <esc>
 "Clean all the bad lines etc
 map <F5> :setlocal spell! spelllang=en_us<CR>
