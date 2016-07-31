@@ -91,6 +91,7 @@ alias getmusic='youtube-dl --add-metadata -x --audio-format mp3 -o "%(title)s-%(
 alias download='youtube-dl --add-metadata -o "%(title)s.%(ext)s"'
 alias callhome='ssh -p 8008 phonehome.webhop.me'
 alias cmail='ssh -p 8008 phonehome.webhop.me -t "mutt"'
+alias chat='ssh dropbox'
 alias emacs='emacs -nw'
 bindkey -v
 export TERM=xterm-256color
