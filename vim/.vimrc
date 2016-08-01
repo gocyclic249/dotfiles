@@ -37,6 +37,11 @@ set noshowmode
  NeoBundle 'reedes/vim-wordy'
  NeoBundle 'vim-airline/vim-airline'
  NeoBundle 'freitass/todo.txt-vim'
+ NeoBundle 'MarcWeber/vim-addon-mw-utils'
+ NeoBundle 'tomtom/tlib_vim'
+ NeoBundle 'garbas/vim-snipmate'
+ NeoBundle 'honza/vim-snippets'
+ NeoBundle 'ervandew/supertab'
  call neobundle#end()
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.

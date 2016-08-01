@@ -104,4 +104,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #Todo.txt shit
 PATH=$PATH:"/usr/local/Cellar/todo-txt/2.10/bin/"
 alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
+alias et='vim ~/Dropbox/todo/todo.txt'
 export TODOTXT_DEFAULT_ACTION=list
