@@ -36,6 +36,7 @@ set noshowmode
  NeoBundle 'vimwiki/vimwiki'
  NeoBundle 'reedes/vim-wordy'
  NeoBundle 'vim-airline/vim-airline'
+ NeoBundle 'freitass/todo.txt-vim'
  call neobundle#end()
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
@@ -53,8 +54,9 @@ set wildmenu            " visual autocomplete for command menu
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 "set guifont=Inconsolata:h12:cANSI
-"Bindings
-                        \section{let mapleader="\<Space>"       " leader is space}
+"Bindin
+let mapleader="\<Space>"       " leader is space}
+let maplocalleader="\<Space>"       " leader is space}
 inoremap jk <esc>
 "Clean all the bad lines etc
 map <F5> :setlocal spell! spelllang=en_us<CR>

@@ -94,9 +94,14 @@ alias cmail='ssh -p 8008 phonehome.webhop.me -t "mutt"'
 alias chat='ssh dropbox'
 alias emacs='emacs -nw'
 bindkey -v
-export TERM=xterm-256color
+export TERM=screen-256color
 alias g='googler -n 3'
 alias thinkcentre='sshfs -p 8008 phonehome.webhop.me:/home/eleventh/ ~/remote/thinkcentre'
 fpath=(/usr/local/share/zsh-completions $fpath)
 weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-40121}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+#Todo.txt shit
+PATH=$PATH:"/usr/local/Cellar/todo-txt/2.10/bin/"
+alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
+export TODOTXT_DEFAULT_ACTION=list
