@@ -68,7 +68,7 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
-nnoremap <leader>l ]sz=
+nnoremap <leader>; [sz=
 nnoremap <leader>p :TogglePencil <CR>
 nnoremap <leader>cu :w !detex \|wc -w<CR>
 nnoremap <leader>g :Goyo<CR>

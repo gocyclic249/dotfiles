@@ -104,5 +104,15 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #Todo.txt shit
 PATH=$PATH:"/usr/local/Cellar/todo-txt/2.10/bin/"
 alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
-alias et='vim ~/Dropbox/todo/todo.txt'
+alias ta='todo.sh -d ~/Dropbox/todo/todo.cfg add'
+alias td='todo.sh -d ~/Dropbox/todo/todo.cfg do'
+alias te='vim ~/Dropbox/todo/todo.txt'
 export TODOTXT_DEFAULT_ACTION=list
+
+#Calendar shit
+alias g='gcalcli'
+alias gw='gcalcli calw 1'
+alias ga='gcalcli add --calendar 'gocyclic249@gmail.com''
+alias gq='gcalcli quick --calendar 'gocyclic249@gmail.com''
+
+alias tg='gw && t'
