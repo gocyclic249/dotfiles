@@ -28,11 +28,7 @@ set noshowmode
  " Let NeoBundle manage NeoBundle
  " Required:
  NeoBundleFetch 'Shougo/neobundle.vim'
- NeoBundle 'junegunn/goyo.vim'
- NeoBundle 'reedes/vim-colors-pencil'
- NeoBundle 'NLKNguyen/papercolor-theme'
  NeoBundle 'altercation/vim-colors-solarized'
- NeoBundle 'reedes/vim-pencil'
  NeoBundle 'vimwiki/vimwiki'
  NeoBundle 'reedes/vim-wordy'
  NeoBundle 'vim-airline/vim-airline'
@@ -50,8 +46,8 @@ set noshowmode
 
 "My config
 syntax enable           " enable syntax processing
-set tabstop=4       " number of visual spaces per TAB
-set softtabstop=4   " number of spaces in tab when editing
+set tabstop=2       " number of visual spaces per TAB
+set softtabstop=2   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 "set relativenumber              " show line numbers
 set nu
@@ -68,22 +64,11 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
-nnoremap <leader>; [sz=
-nnoremap <leader>p :TogglePencil <CR>
+nnoremap <leader>; [sz=A
 nnoremap <leader>cu :w !detex \|wc -w<CR>
-nnoremap <leader>g :Goyo<CR>
 nnoremap <leader>z :let &scrolloff=999-&scrolloff<CR>
 
 "Vim Shortcuts
-nnoremap <leader>c  a\parencite{}.<ESC>hi<ESC>:w<CR>a
-nnoremap <leader>cp <ESC>bi\parencite[p. <ESC>ea]{Comer}. <ESC>:w<CR>a
-nnoremap <leader>ce <ESC>bi\parencite[p. <ESC>ea]{Corey}. <ESC>:w<CR>a
-nnoremap <leader>cd <ESC>bi\parencite[p. <ESC>ea]{DSM}. <ESC>:w<CR>a
-nnoremap <leader>ca a\citeauthor{}<ESC>i<ESC>:w<CR>a
-nnoremap <leader>cy a(\citeyear{}).<ESC>2hi<ESC>:w<CR>a
-nnoremap <leader>s <ESC>^i\section{<ESC>A}<ESC>:w<CR>
-nnoremap <leader>su <ESC>^i\subsection{<ESC>A}<ESC>:w<CR>
-
 set nocompatible
 filetype plugin on
 syntax on
@@ -93,19 +78,6 @@ filetype indent on              "loading of indent files for all formats
 colorscheme default
 set bg=dark
 
-"Pencil
-
-let g:pencil#autoformat = 1      " 0=manual, 1=auto (def)
-""let g:pencil#mode_indicators = {'hard': 'H', 'auto': 'A', 'soft': 'S', 'off': '',}
-let g:pencil#wrapModeDefault = 'hard'
-let g:pencil#textwidth = 70
-
-augroup pencil
-        autocmd!
-        autocmd FileType tex,latex,wiki,md,markdown call pencil#init()
-        autocmd FileType wiki call pencil#init()
-        autocmd FileType md,markdown call pencil#init()
-augroup END
 
 "Wiki Settings
 let g:vimwiki_list = [{'path': '$HOME/Dropbox/wiki'}]
