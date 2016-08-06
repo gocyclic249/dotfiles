@@ -31,13 +31,15 @@ set noshowmode
  NeoBundle 'altercation/vim-colors-solarized'
  NeoBundle 'vimwiki/vimwiki'
  NeoBundle 'reedes/vim-wordy'
- NeoBundle 'vim-airline/vim-airline'
  NeoBundle 'freitass/todo.txt-vim'
  NeoBundle 'MarcWeber/vim-addon-mw-utils'
  NeoBundle 'tomtom/tlib_vim'
  NeoBundle 'garbas/vim-snipmate'
  NeoBundle 'honza/vim-snippets'
  NeoBundle 'ervandew/supertab'
+ NeoBundle 'chriskempson/base16-vim'
+ NeoBundle 'vim-airline/vim-airline'
+ NeoBundle 'vim-airline/vim-airline-themes'
  call neobundle#end()
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
@@ -54,7 +56,7 @@ set nu
 set wildmenu            " visual autocomplete for command menu
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-"set guifont=Inconsolata:h12:cANSI
+set guifont=Terminus\ (TTF):h18
 "Bindin
 let mapleader="\<Space>"       " leader is space}
 let maplocalleader="\<Space>"       " leader is space}
@@ -75,9 +77,13 @@ syntax on
 filetype indent on              "loading of indent files for all formats
 
 "Colorscheme
-colorscheme default
+colorscheme base16-green-screen
 set bg=dark
 
+"Vim Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+set laststatus=2
 
 "Wiki Settings
 let g:vimwiki_list = [{'path': '$HOME/Dropbox/wiki'}]
