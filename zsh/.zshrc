@@ -115,3 +115,10 @@ alias gw='gcalcli calw 1'
 alias ga='gcalcli add --calendar 'gocyclic249@gmail.com''
 alias gq='gcalcli quick --calendar 'gocyclic249@gmail.com''
 alias tg='gw && t'
+
+#Color Switching
+set_iterm_profile() { echo -e "\033]50;SetProfile=$1\a"} 
+alias @dropbox='set_iterm_profile dropbox; ssh dropbox; set_iterm_profile Default'
+alias @mail='set_iterm_profile mail; ssh mailbox -t "mutt"; set_iterm_profile Default'
+alias @mailbox='set_iterm_profile mail; ssh mailbox; set_iterm_profile Default'
+alias @proxmox='set_iterm_profile pve; ssh proxmox; set_iterm_profile Default'
