@@ -40,6 +40,7 @@ set noshowmode
  NeoBundle 'chriskempson/base16-vim'
  NeoBundle 'vim-airline/vim-airline'
  NeoBundle 'vim-airline/vim-airline-themes'
+ NeoBundle 'jamessan/vim-gnupg'
  call neobundle#end()
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.

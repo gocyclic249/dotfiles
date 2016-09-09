@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+#Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -85,22 +85,18 @@ export EDITOR='vim'
 #source /usr/share/zsh/site-contrib/powerline.zsh
 alias hw='cd ~/Dropbox/schoolwork'
 alias grub-mk='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias gmail='cd ~/Downloads/ && mutt -F ~/.mutt/gmailrc'
-alias outlook='cd ~/Downloads/ && mutt -F ~/.mutt/outlookrc'
-alias getmusic='youtube-dl --add-metadata -x --audio-format mp3 -o "%(title)s-%(artist)s.%(ext)s"'
-alias download='youtube-dl --add-metadata -o "%(title)s.%(ext)s"'
-alias callhome='ssh -p 8008 phonehome.webhop.me'
-alias cmail='ssh mailbox -t "mutt"'
-alias chat='ssh dropbox'
+alias getmusic='youtube-dl --add-metadata -x --write-all-thumbnails --audio-format mp3 -o "%(title)s-%(artist)s.%(ext)s"'
+alias download='youtube-dl --add-metadata --write-all-thumbnails -o "%(title)s.%(ext)s"'
 alias emacs='emacs -nw'
 bindkey -v
 export TERM=screen-256color
 alias g='googler -n 3'
-alias thinkcentre='sshfs -p 8008 phonehome.webhop.me:/home/eleventh/ ~/remote/thinkcentre'
 fpath=(/usr/local/share/zsh-completions $fpath)
 weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-40121}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 alias worm='buku -s worm'
+#
 #Todo.txt shit
 PATH=$PATH:"/usr/local/Cellar/todo-txt/2.10/bin/"
 alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
@@ -118,7 +114,10 @@ alias tg='gw && t'
 
 #Color Switching
 set_iterm_profile() { echo -e "\033]50;SetProfile=$1\a"} 
-alias @dropbox='set_iterm_profile dropbox; ssh dropbox; set_iterm_profile Default'
+alias @chat='set_iterm_profile chat; ssh commo -t "tmux attach -t chat"; set_iterm_profile Dropdown'
 alias @mail='set_iterm_profile mail; ssh mailbox -t "mutt"; set_iterm_profile Default'
 alias @mailbox='set_iterm_profile mail; ssh mailbox; set_iterm_profile Default'
 alias @proxmox='set_iterm_profile pve; ssh proxmox; set_iterm_profile Default'
+alias @vpn='set_iterm_profile vpn; ssh vpn; set_iterm_profile Default'
+export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
+alias startgpg='/usr/local/bin/gpgconf --kill gpg-agent && /usr/local/bin/gpgconf --launch gpg-agent'
