@@ -52,7 +52,7 @@ syntax enable           " enable syntax processing
 set tabstop=2       " number of visual spaces per TAB
 set softtabstop=2   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
-"set relativenumber              " show line numbers
+set relativenumber              " show line numbers
 set nu
 set wildmenu            " visual autocomplete for command menu
 set incsearch           " search as characters are entered
@@ -63,8 +63,10 @@ let mapleader="\<Space>"       " leader is space}
 let maplocalleader="\<Space>"       " leader is space}
 inoremap jk <esc>
 "Clean all the bad lines etc
+set tw=72
 map <F5> :setlocal spell! spelllang=en_us<CR>
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
+nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --template ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx <CR> !open %:r.docx <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
 nnoremap <leader>; [sz=A
@@ -90,3 +92,5 @@ set laststatus=2
 let g:vimwiki_list = [{'path': '$HOME/Dropbox/wiki'}]
 
 au BufRead /tmp/mutt-* set tw=72
+
+set iskeyword+=_
