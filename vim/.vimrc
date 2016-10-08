@@ -66,7 +66,7 @@ inoremap jk <esc>
 set tw=72
 map <F5> :setlocal spell! spelllang=en_us<CR>
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
-nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --template ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx <CR> !open %:r.docx <CR> 
+nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx <CR> !open %:r.docx <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
 nnoremap <leader>; [sz=A
