@@ -115,8 +115,7 @@ alias tg='gw && t'
 #Color Switching
 set_iterm_profile() { echo -e "\033]50;SetProfile=$1\a"} 
 alias @chat='set_iterm_profile chat; ssh commo -t "tmux attach -t chat"; set_iterm_profile Dropdown'
-alias @mail='set_iterm_profile mail; ssh mailbox -t "mutt"; set_iterm_profile Default'
-alias @mailbox='set_iterm_profile mail; ssh mailbox; set_iterm_profile Default'
+alias @mail='set_iterm_profile mail; cd ~/Downloads && mutt && cd -; set_iterm_profile Default'
 alias @proxmox='set_iterm_profile pve; ssh proxmox; set_iterm_profile Default'
 alias @vpn='set_iterm_profile vpn; ssh vpn; set_iterm_profile Default'
 export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
