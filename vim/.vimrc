@@ -65,6 +65,7 @@ inoremap jk <esc>
 "Clean all the bad lines etc
 set tw=72
 map <F5> :setlocal spell! spelllang=en_us<CR>
+set pastetoggle=<F2>
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx && open %:r.docx <CR> 
 nnoremap <leader>o :browse confirm e <CR>

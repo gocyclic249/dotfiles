@@ -94,6 +94,7 @@ alias g='googler -n 3'
 fpath=(/usr/local/share/zsh-completions $fpath)
 weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-40121}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+alias megaton='mplayer http://us2.internet-radio.com:8443'
 
 alias worm='buku -s worm'
 #
