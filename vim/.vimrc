@@ -64,13 +64,28 @@ let maplocalleader="\<Space>"       " leader is space}
 inoremap jk <esc>
 "Clean all the bad lines etc
 set tw=72
-map <F5> :setlocal spell! spelllang=en_us<CR>
+
+"F key mappings"
 set pastetoggle=<F2>
+inoremap <F3>  <ESC>zg
+nnoremap <F3>  <ESC>zg
+inoremap <F4>  <ESC> :call Spelling() <CR>
+nnoremap <F4>  <ESC> :call Spelling() <CR>
+inoremap <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
+nnoremap <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
+noremap <F6> <ESC>:w<CR>
+
+function! Spelling()
+        :normal delm s
+        :normal ms
+        :normal [sz=
+        :normal `s
+endfunction 
+
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx && open %:r.docx <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
-nnoremap <leader>; [sz=A
 nnoremap <leader>cu :w !detex \|wc -w<CR>
 nnoremap <leader>z :let &scrolloff=999-&scrolloff<CR>
 
@@ -81,13 +96,15 @@ syntax on
 filetype indent on              "loading of indent files for all formats
 
 "Colorscheme
-colorscheme base16-green-screen
-set bg=dark
+"colorscheme base16-green-screen
+"set bg=dark
 
 "Vim Airline
 let g:airline#extensions#tabline#enabled = 1
+
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0
+let g:airline_theme = 'base16'
 set laststatus=2
 
 "Wiki Settings
