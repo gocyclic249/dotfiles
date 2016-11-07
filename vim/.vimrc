@@ -76,9 +76,9 @@ nnoremap <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
 noremap <F6> <ESC>:w<CR>
 
 function! Spelling()
-        :normal delm s
         :normal ms
-        :normal [sz=
+        :normal [s
+        :normal 1z=
         :normal `s
 endfunction 
 
