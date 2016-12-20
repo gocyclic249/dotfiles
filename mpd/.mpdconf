@@ -1,4 +1,4 @@
- music_directory         "~/Media/Music"
+ music_directory         "~/Media"
     playlist_directory      "~/.mpd/playlists"
     db_file                 "~/.mpd/mpd.db"
     log_file                "~/.mpd/mpd.log"
@@ -24,3 +24,4 @@
     port                    "6600"
 
     user                    "eleventh"
+

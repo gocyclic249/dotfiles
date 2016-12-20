@@ -30,7 +30,6 @@ set noshowmode
  NeoBundleFetch 'Shougo/neobundle.vim'
  NeoBundle 'altercation/vim-colors-solarized'
  NeoBundle 'vimwiki/vimwiki'
- NeoBundle 'reedes/vim-wordy'
  NeoBundle 'freitass/todo.txt-vim'
  NeoBundle 'MarcWeber/vim-addon-mw-utils'
  NeoBundle 'tomtom/tlib_vim'
@@ -41,6 +40,8 @@ set noshowmode
  NeoBundle 'vim-airline/vim-airline'
  NeoBundle 'vim-airline/vim-airline-themes'
  NeoBundle 'jamessan/vim-gnupg'
+ NeoBundle 'vim-scripts/LanguageTool'
+
  call neobundle#end()
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
@@ -58,29 +59,23 @@ set wildmenu            " visual autocomplete for command menu
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 set guifont=Terminus\ (TTF):h18
+set tw=72
+
 "Bindin
 let mapleader="\<Space>"       " leader is space}
 let maplocalleader="\<Space>"       " leader is space}
-inoremap jk <esc>
-"Clean all the bad lines etc
-set tw=72
 
 "F key mappings"
 set pastetoggle=<F2>
-inoremap <F3>  <ESC>zg
-nnoremap <F3>  <ESC>zg
-inoremap <F4>  <ESC> :call Spelling() <CR>
-nnoremap <F4>  <ESC> :call Spelling() <CR>
+inoremap <F3>  <ESC>:call Addword()<CR>A
+inoremap <F4>  <ESC>:call Spelling()<CR>A
 inoremap <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
+nnoremap <F3>  <ESC>:call Addword()<CR>A
+nnoremap <F4>  <ESC>:call Spelling()<CR>A
 nnoremap <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
-noremap <F6> <ESC>:w<CR>
 
-function! Spelling()
-        :normal ms
-        :normal [s
-        :normal 1z=
-        :normal `s
-endfunction 
+nnoremap <leader>g <ESC>:LanguageToolCheck<CR>
+nnoremap <leader>c <ESC>:LanguageToolClear<CR>
 
 nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/schoolwork/bibliography.bib -i % -o %:r.docx && open %:r.docx <CR> 
@@ -88,8 +83,7 @@ nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
 nnoremap <leader>cu :w !detex \|wc -w<CR>
 nnoremap <leader>z :let &scrolloff=999-&scrolloff<CR>
-
-"Vim Shortcuts
+nnoremap <leader>v :e ~/.vimrc
 set nocompatible
 filetype plugin on
 syntax on
@@ -101,7 +95,6 @@ filetype indent on              "loading of indent files for all formats
 
 "Vim Airline
 let g:airline#extensions#tabline#enabled = 1
-
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_theme = 'base16'
@@ -110,6 +103,30 @@ set laststatus=2
 "Wiki Settings
 let g:vimwiki_list = [{'path': '$HOME/Dropbox/wiki'}]
 
+"Mutt integration
 au BufRead /tmp/mutt-* set tw=72
 
-set iskeyword+=_
+"Language  Tool Settings
+
+let g:languagetool_jar='/usr/local/Cellar/languagetool/3.5/libexec/languagetool-commandline.jar'
+
+"abbriviation
+ab frontline front line
+ab teh the
+ab ptsd PTSD
+
+
+" Functions
+function! Spelling()
+        :w 
+        :normal [s
+        :normal 1z=
+        :normal gi
+endfunction 
+
+function! Addword()
+        :normal [s
+        :normal zg
+        :normal gi
+endfunction 
+
