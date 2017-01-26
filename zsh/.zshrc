@@ -83,8 +83,9 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #source /usr/share/zsh/site-contrib/powerline.zsh
-alias hw='cd ~/Dropbox/schoolwork/Final'
 alias grub-mk='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias hw='cd ~/Dropbox/schoolwork/Final'
+alias wrt='cd ~/Dropbox/Writing'
 alias getmusic='youtube-dl --add-metadata -x --write-all-thumbnails --audio-format mp3 -o "%(title)s-%(artist)s.%(ext)s"'
 alias download='youtube-dl --add-metadata --write-all-thumbnails -o "%(title)s.%(ext)s"'
 alias emacs='emacs -nw'
