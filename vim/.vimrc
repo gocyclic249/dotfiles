@@ -26,6 +26,10 @@ NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'jamessan/vim-gnupg'
 NeoBundle 'vim-scripts/LanguageTool'
 NeoBundle 'rhysd/vim-grammarous'
+NeoBundle 'godlygeek/tabular'
+NeoBundle 'plasticboy/vim-markdown'
+"NeoBundle 'vim-pandoc/vim-pandoc-syntax'
+"NeoBundle 'vim-pandoc/vim-pandoc'
 
 call neobundle#end()
 " If there are uninstalled bundles found on startup,
@@ -33,7 +37,7 @@ call neobundle#end()
 NeoBundleCheck
 "end NeoBundle Magick
 
-"My config
+"#####My config
 set clipboard=unnamedplus           "paste the clipboard to unnamed register
 set shortmess=atI               "remove message at vim start 
 set cmdheight=1                 "command line length
@@ -88,8 +92,9 @@ map! <F5> <ESC>:setlocal spell! spelllang=en_us<CR>
 map <F6> :call Latexindent()<CR>
 map <F7> :call Secindent()<CR>
 "Leader Maps
-nnoremap <leader>m :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
+nnoremap <leader>ml :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/Dropbox/schoolwork/Final/Thesis.bib -i % -o %:r.docx && open %:r.docx <CR> 
+nnoremap <leader>md :!pandoc -S -s -V geometry:margin=1in % -o %:r.pdf && open %:r.pdf <CR> 
 nnoremap <leader>o :browse confirm e <CR>
 nnoremap <leader>b :buffers<CR>:buffer<Space>
 nnoremap <leader>cu :w !detex \|wc -w<CR>

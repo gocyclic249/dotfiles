@@ -12,13 +12,16 @@
     audio_output {
       type                  "osx"
       name                  "CoreAudio"
+      format "44100:16:2"
       mixer_type            "software"
     }
 
-    decoder {
-      plugin                "mp4ff"
-      enabled               "no"
-    }
+		audio_output {
+			 type "fifo"
+			 name "my_fifo"
+			 path "/tmp/mpd.fifo"
+			 format "44100:16:2"
+			 }
 
     bind_to_address         "127.0.0.1"
     port                    "6600"
