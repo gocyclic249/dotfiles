@@ -122,3 +122,13 @@ alias @proxmox='set_iterm_profile pve; ssh proxmox; set_iterm_profile Default'
 alias @vpn='set_iterm_profile vpn; ssh vpn; set_iterm_profile Default'
 export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
 alias startgpg='/usr/local/bin/gpgconf --kill gpg-agent && /usr/local/bin/gpgconf --launch gpg-agent'
+
+ if ! pgrep -x -u "${USER}" gpg-agent >/dev/null 2>&1; then
+   gpg-connect-agent /bye >/dev/null 2>&1
+   fi
+ unset SSH_AGENT_PID
+ if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
+   export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
+   fi
+
+
