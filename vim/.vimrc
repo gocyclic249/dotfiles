@@ -28,6 +28,7 @@ NeoBundle 'vim-scripts/LanguageTool'
 NeoBundle 'rhysd/vim-grammarous'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'edkolev/tmuxline.vim'
 "NeoBundle 'vim-pandoc/vim-pandoc-syntax'
 "NeoBundle 'vim-pandoc/vim-pandoc'
 
@@ -105,13 +106,14 @@ nmap <leader>n <Plug>(grammarous-move-to-next-error)<Plug>(grammarous-move-to-in
 
 "Colorscheme
 "colorscheme base16-green-screen
-"set bg=dark
+set bg=dark
 
 "Vim Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0
-let g:airline_theme = 'base16'
+let g:airline_theme = 'solarized'
+let g:airline#extensions#tmuxline#enabled = 0
 set laststatus=2
 
 "Wiki Settings

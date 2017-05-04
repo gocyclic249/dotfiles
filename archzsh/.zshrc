@@ -88,6 +88,7 @@ alias hw='cd ~/Dropbox/schoolwork/Final'
 alias wrt='cd ~/Dropbox/Writing'
 alias getmusic='youtube-dl --add-metadata -x --write-all-thumbnails --audio-format mp3 -o "%(title)s-%(artist)s.%(ext)s"'
 alias download='youtube-dl --add-metadata --write-all-thumbnails -o "%(title)s.%(ext)s"'
+alias pron='cd ~/.pron; youtube-dl --add-metadata --write-all-thumbnails -o "%(title)s.%(ext)s"'
 alias emacs='emacs -nw'
 bindkey -v
 export TERM=screen-256color
@@ -100,7 +101,7 @@ alias megaton='mplayer http://us2.internet-radio.com:8443'
 alias worm='buku -s worm'
 #
 #Todo.txt shit
-PATH=$PATH:"/usr/local/Cellar/todo-txt/2.10/bin/"
+PATH=$PATH:"~/bin/"
 alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
 alias ta='todo.sh -d ~/Dropbox/todo/todo.cfg add'
 alias td='todo.sh -d ~/Dropbox/todo/todo.cfg do'
@@ -114,14 +115,7 @@ alias ga='gcalcli add --calendar 'gocyclic249@gmail.com''
 alias gq='gcalcli quick --calendar 'gocyclic249@gmail.com''
 alias tg='gw && t'
 
-#Color Switching
-set_iterm_profile() { echo -e "\033]50;SetProfile=$1\a"} 
-alias @chat='set_iterm_profile chat; ssh commo -t "tmux attach -t chat"; set_iterm_profile Dropdown'
-alias @mail='set_iterm_profile mail; cd ~/Downloads && mutt && cd -; set_iterm_profile Default'
-alias @proxmox='set_iterm_profile pve; ssh proxmox; set_iterm_profile Default'
-alias @vpn='set_iterm_profile vpn; ssh vpn; set_iterm_profile Default'
-export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
-alias startgpg='/usr/local/bin/gpgconf --kill gpg-agent && /usr/local/bin/gpgconf --launch gpg-agent'
+alias @mail='cd ~/Downloads && mutt && cd -; set_iterm_profile Default'
 
  if ! pgrep -x -u "${USER}" gpg-agent >/dev/null 2>&1; then
    gpg-connect-agent /bye >/dev/null 2>&1
