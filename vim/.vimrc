@@ -39,7 +39,7 @@ NeoBundleCheck
 "end NeoBundle Magick
 
 "#####My config
-set clipboard=unnamedplus           "paste the clipboard to unnamed register
+set clipboard=unnamed           "paste the clipboard to unnamed register
 set shortmess=atI               "remove message at vim start 
 set cmdheight=1                 "command line length
 set noswapfile
@@ -50,7 +50,6 @@ filetype indent on              "loading of indent files for all formats
 set autoindent
 set smartindent
 syntax on 
-
 set t_Co=256 
 set splitbelow                  "Sane split defaults
 set splitright
@@ -63,12 +62,11 @@ set softtabstop=2   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 set relativenumber              " show line numbers
 set nu
-set wildmenu            " visual autocomplete for command menu
+set wildmenu            " visual auto complete for command menu
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-set guifont=Terminus\ (TTF):h18
-set tw=72
 set nocompatible
+set tw=72
 
 "abbriviation
 ab frontline front line
@@ -82,6 +80,9 @@ autocmd BufEnter * silent! lcd %:p:h "Sets working deirectory to current file
 autocmd! bufwritepost ~/.vimrc nested :source ~/.vimrc "resource the .vimrc when saved 
 
 "Bindin
+
+map j gj 
+map k gk
 let mapleader="\<Space>"       " leader is space}
 let maplocalleader="\<Space>"       " leader is space}
 

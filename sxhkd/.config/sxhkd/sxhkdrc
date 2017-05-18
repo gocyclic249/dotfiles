@@ -2,7 +2,13 @@ super + shift + f
     firefox
 
 super + shift + m 
-    uxterm -title "cmus" -e cmus
+    st -t "ncmpcpp" -e ncmpcpp
+
+super + F6
+    xbacklight -dec 10
+
+super + F7
+    xbacklight -inc 10
 
 super + F8
     amixer set Master toggle
@@ -13,14 +19,14 @@ super + F9
 super + F10
     amixer set Master 5%+
 
-XF86Launch5
+XF86TouchpadOn
     dmenu_run
 
 XF86Tools
-    emacs
+    st -t vim -e vim
 
 super + shift + w 
-    uxterm -title "weechat" -e weechat
+    st -t "weechat" -e weechat
 
 super + shift + r 
-    uxterm -title "rtv" -e rtv
+    st -t "rtv" -e rtv

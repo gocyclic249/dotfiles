@@ -10,8 +10,8 @@
     follow_inside_symlinks  "yes"
 
     audio_output {
-      type                  "osx"
-      name                  "CoreAudio"
+      type                  "alsa"
+      name                  "My Speakers"
       format "44100:16:2"
       mixer_type            "software"
     }

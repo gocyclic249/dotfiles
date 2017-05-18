@@ -1,6 +1,9 @@
 setxkbmap -option caps:swapescape
+sxhkd &
+[[ -f ~/.xmodmap ]] && xmodmap ~/.xmodmap
 compton -b --focus-exclude "x = 0 && y = 0 && override_redirect = true" &
-nmcli con up id US\ East &
+sleep 30s && nmcli con up id US\ East &
+sleep 30s && mpd &
 firefox &
 st &
 while true; do
