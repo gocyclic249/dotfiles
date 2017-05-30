@@ -67,6 +67,7 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 set nocompatible
 set tw=72
+set fileencoding=utf-8
 
 "abbriviation
 ab frontline front line
@@ -104,6 +105,7 @@ nnoremap <leader>z :let &scrolloff=999-&scrolloff<CR>
 nnoremap <leader>v :e ~/.vimrc
 nmap <leader>g :GrammarousCheck
 nmap <leader>n <Plug>(grammarous-move-to-next-error)<Plug>(grammarous-move-to-info-window)
+
 
 "Colorscheme
 "colorscheme base16-green-screen

@@ -1,6 +1,22 @@
 #todo list
 snippet todo
-	(${1}) `strftime("%Y-%m-%d")` ${2} +${0}
+	(${1}) `strftime("%Y-%m-%d")`: `strftime("%hh:%mm")` ${2} +${0}
+
+snippet trip
+	When: 
+	`strftime("%c")`
+	Where:
+	MK
+	What:
+	Bumper Number: ${1}
+	Who: 
+	Driver: ${2}
+	TC: ${3} 
+	Passengers:
+	${4}
+
+	Total Pax:
+	${5}
 
 snippet cl
 	Class Number: 
