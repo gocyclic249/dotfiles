@@ -10,6 +10,6 @@ nohup sleep 30s && mpd &
 #       sleep 20
 #done &
 #
-exec startxfce4
+exec startlxqt
 
 

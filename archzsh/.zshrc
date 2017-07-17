@@ -92,7 +92,6 @@ alias pron='cd ~/.pron; youtube-dl --add-metadata --write-all-thumbnails -o "%(t
 alias emacs='emacs -nw'
 bindkey -v
 export TERM=screen-256color
-alias g='googler -n 3'
 fpath=(/usr/local/share/zsh-completions $fpath)
 weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-40121}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
@@ -135,4 +134,8 @@ if [[ -z "$TMUX" ]] ;then
     fi
 fi
 
+isodate=$(date +%Y%m%d)
+update(){
+   mv $1 "$(date +%Y%m%d)_${1:8}"
+}
 

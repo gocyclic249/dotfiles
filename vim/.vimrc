@@ -98,14 +98,16 @@ map <F7> :call Secindent()<CR>
 "Leader Maps
 nnoremap <leader>ml :!latexmk -pdf -pv -gg -silent %<CR> :!latexmk -c <CR> 
 nnoremap <leader>d :!pandoc -S -s -f latex -t docx --data-dir=~/.pandoc --reference-docx ~/.pandoc/apa.docx --csl ~/.pandoc/apa.csl --bibliography ~/Dropbox/schoolwork/Final/Thesis.bib -i % -o %:r.docx && open %:r.docx <CR> 
-nnoremap <leader>md :!pandoc -S -s -V geometry:margin=1in % -o %:r.pdf && open %:r.pdf <CR> 
-nnoremap <leader>o :browse confirm e <CR>
+nnoremap <leader>md :!pandoc -S -s -V geometry:margin=1in % -o %:r.pdf <CR> 
 nnoremap <leader>b :buffers<CR>:buffer<Space>
 nnoremap <leader>cu :w !detex \|wc -w<CR>
 nnoremap <leader>z :let &scrolloff=999-&scrolloff<CR>
 nnoremap <leader>v :e ~/.vimrc
 nmap <leader>g :GrammarousCheck
 nmap <leader>n <Plug>(grammarous-move-to-next-error)<Plug>(grammarous-move-to-info-window)
+nnoremap <leader>d i#<ESC>"=strftime('%Y-%m-%d')<CR>pa#
+nnoremap <leader>q ^i*?* <ESC>
+nnoremap <leader>p <ESC>:hardcopy > %:r.pdf <CR>
 
 
 "Colorscheme
@@ -173,3 +175,7 @@ endfunction
 
 "CSV Stuff
 let b:csv_arrange_align = 'l*'
+
+"Print Options
+set printfont=courier:H12
+set printoptions=paper:letter,header:0,syntax:n
