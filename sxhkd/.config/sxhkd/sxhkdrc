@@ -1,6 +1,9 @@
 super + shift + f
     firefox
 
+super + shift + b
+    qutebrowser
+
 super + shift + m 
     st -t "ncmpcpp" -e ncmpcpp
 
