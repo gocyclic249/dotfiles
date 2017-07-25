@@ -116,6 +116,7 @@ alias tg='gw && t'
 
 alias @mail='cd ~/Downloads && mutt && cd -; set_iterm_profile Default'
 alias imount='sudo mount -o gid=users,uid=eleventh,fmask=113,dmask=002'
+alias proxy='sshuttle -r metaarpa --dns 0/0'
 
  if ! pgrep -x -u "${USER}" gpg-agent >/dev/null 2>&1; then
    gpg-connect-agent /bye >/dev/null 2>&1
