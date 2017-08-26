@@ -118,6 +118,8 @@ alias @mail='cd ~/Downloads && mutt && cd -; set_iterm_profile Default'
 alias imount='sudo mount -o gid=users,uid=eleventh,fmask=113,dmask=002'
 alias proxy='sshuttle -r metaarpa --dns 0/0'
 alias backup='rsync -av --delete -e ssh /home/eleventh/sdf eleventh@metaarpa:~/thinkpad'
+alias pushsdf='rsync -av -e ssh /home/eleventh/Writing eleventh@metaarpa:~/'
+alias pushsdf='rsync -av -e ssh eleventh@metaarpa:~/Writing /home/eleventh/ '
 
  if ! pgrep -x -u "${USER}" gpg-agent >/dev/null 2>&1; then
    gpg-connect-agent /bye >/dev/null 2>&1
