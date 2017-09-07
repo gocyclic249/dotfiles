@@ -18,6 +18,7 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
+     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -25,21 +26,20 @@ values."
      ;; ----------------------------------------------------------------
      auto-completion
      better-defaults
-     themes-megapack
      emacs-lisp
      git
      shell-scripts
-     spotify
      markdown
      pandoc
+     erc
      spell-checking
      (latex  :variables
              latex-build-command "LatexMk"
              latex-enable-auto-fill t)
      org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+      (shell :variables
+             shell-default-height 30
+             shell-default-position 'right)
      spell-checking
      ;; syntax-checking
      ;; version-control
@@ -108,6 +108,7 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light):
    dotspacemacs-themes '(
+                         zenburn
                          sanityinc-solarized-light
                          solarized-dark
                          monokai
@@ -116,8 +117,8 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
-   dotspacemacs-default-font '("Times"
-                               :size 18
+   dotspacemacs-default-font '("hack"
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1)
@@ -260,13 +261,51 @@ layers configuration. You are free to put any user code."
   (setq TeX-auto-save t)
   (setq TeX-PDF-mode t)
   (add-hook 'text-mode-hook 'turn-on-auto-fill)
-  (setq-default fill-column 80)
+  (setq-default fill-column 72)
   (setq reftex-default-bibliography '("~/Dropbox/schoolwork/bibliography.bib"))
-  (eval-after-load 'reftex-vars
-    '(progn 
-       (setq reftex-cite-format '((?\C-m . "[@%l]")))))
-)
+  (setq org-directory "~/Dropbox/org")
+  (setq org-default-notes-file "~/Dropbox/org/notes.org")
 
+(setq gnus-ignored-newsgroups "^to\\.\\|^[0-9. ]+\\( \\|$\\)\\|^[\”]\”[#’()]")
+(setq nnml-directory "~/.gmail")
+(setq message-directory "~/.gmail")
+
+;; Get email, and store in nnml
+(setq gnus-secondary-select-methods
+      '(
+        (nnimap "gmail"
+                (nnimap-address
+                 "imap.gmail.com")
+                (nnimap-server-port 993)
+                (nnimap-stream ssl))
+        ))
+
+;; Send email via Gmail:
+(setq message-send-mail-function 'smtpmail-send-it
+      smtpmail-default-smtp-server "smtp.gmail.com")
+
+;; Archive outgoing email in Sent folder on imap.gmail.com:
+(setq gnus-message-archive-method '(nnimap "imap.gmail.com")
+      gnus-message-archive-group "[Gmail]/Sent Mail")
+
+;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
+(setq org-capture-templates
+      (quote (("t" "Todo" entry (file "~/Dropbox/org/Todo.org")
+               "* TODO %?\n%U\n%a\n")
+              ("n" "Note" entry (file "~/Dropbox/org/notes.org")
+               "* %? :NOTE:\n%U\n%a\n")
+              ("w" "Task" entry (file "~/Dropbox/org/Task.org")
+               "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\nSchedule: %^{Schedule}t\n:Tasking:\n")
+              ("j" "Journal" entry (file+datetree "~/Dropbox/org/Diary.org")
+               "* %?\n%U\n")
+              ("a" "Appointment" entry (file "~/Dropbox/org/Appointments.org")
+               "* Appointment with %? :MEETING:\n%U")
+             ("e" "Event" entry
+               (file "~/Dropbox/org/notes.org")
+               "* %? :HAPPENING: 
+%U
+%a")
+))))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
@@ -332,18 +371,95 @@ layers configuration. You are free to put any user code."
  '(TeX-view-program-selection (quote ((output-pdf "Evince"))))
  '(battery-mode-line-limit 100)
  '(display-battery-mode t)
+ '(erc-auto-set-away t)
+ '(erc-autoaway-message "I saw a shiny object and wandered off")
  '(fancy-battery-mode t)
  '(fancy-battery-show-percentage t t)
+ '(flyspell-auto-correct-binding [67108923])
+ '(helm-org-format-outline-path t t)
+ '(nrepl-message-colors
+   (quote
+    ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
+ '(org-after-todo-state-change-hook (quote (org-clock-out-if-current)))
+ '(org-agenda-diary-file (quote diary-file))
  '(org-agenda-files
    (quote
-    ("~/Dropbox/org/notes.org" "~/Dropbox/org/Appointments.org" "~/Dropbox/org/work.org")))
- '(org-directory "~/Dropbox/org/")
- '(reftex-cite-format "\\parencite{%l}")
- '(reftex-format-cite-function nil))
+    ("~/Dropbox/org/Task.org" "~/Dropbox/org/Appointments.org" "~/Dropbox/org/Todo.org" "~/Dropbox/org/notes.org")))
+ '(org-agenda-restore-windows-after-quit t)
+ '(org-capture-templates
+   (quote
+    (("t" "Todo" entry
+      (file "~/Dropbox/org/Todo.org")
+      "* TODO %?
+%U
+%a
+")
+     ("n" "Note" entry
+      (file "~/Dropbox/org/notes.org")
+      "* %? :NOTE:
+%U
+%a
+")
+     ("w" "Task" entry
+      (file "~/Dropbox/org/Task.org")
+      "* Tasking: %? 
+Who: %^{Who}
+What: %^{What}
+Where: %^{Where}
+Why: %^{Why}
+When:
+Schedule: %^{Schedule}t
+:Tasking:
+")
+     ("j" "Journal" entry
+      (file+datetree "~/Dropbox/org/Diary.org")
+      "* %?
+%U
+")
+     ("a" "Appointment" entry
+      (file "~/Dropbox/org/Appointments.org")
+      "* Appointment with %? :MEETING:
+%U")
+     ("e" "Event" entry
+      (file "~/Dropbox/org/notes.org")
+      "* %? :HAPPENING: 
+%U
+%a"))))
+ '(org-datetree-add-timestamp nil)
+ '(org-default-notes-file "notes.org")
+ '(org-directory "~/Dropbox/org")
+ '(org-export-async-init-file
+   "/home/eleventh/.emacs.d/layers/+emacs/org/local/org-async-init.el")
+ '(org-export-time-stamp-file t)
+ '(org-export-with-clocks t)
+ '(org-export-with-section-numbers nil)
+ '(org-export-with-toc nil)
+ '(org-footnote-auto-adjust t)
+ '(org-footnote-section nil)
+ '(org-format-latex-header
+   "\\documentclass{article}
+\\usepackage[usenames]{color}
+[PACKAGES]
+[DEFAULT-PACKAGES]
+\\pagestyle{empty}             % do not remove
+")
+ '(org-image-actual-width nil)
+ '(org-imenu-depth 8)
+ '(org-link-translation-function (quote toc-org-unhrefify))
+ '(org-log-done (quote time))
+ '(org-startup-indented t)
+ '(org-startup-with-inline-images t)
+ '(org-tag-persistent-alist (quote (("CUOPS" . 99) ("FUOPS" . 102) ("DRIVER" . 100))))
+ '(org-todo-keywords (quote ((sequence "TODO" "WORKING" "DONE"))))
+ '(pandoc-data-dir "~/Dropbox/schoolwork/pandoc/")
+ '(reftex-format-cite-function nil)
+ '(reftex-plug-into-AUCTeX (quote (nil nil t t t)))
+ '(toc-org-max-depth 10))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:background nil))))
  '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
  '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil)))))

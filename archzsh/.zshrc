@@ -130,14 +130,14 @@ alias pullsdf='rsync -av -e ssh eleventh@metaarpa:~/Writing /home/eleventh/ '
    fi
 
 
-if [[ -z "$TMUX" ]] ;then
-    ID="`tmux ls | grep -vm1 attached | cut -d: -f1`" # get the id of a deattached session
-    if [[ -z "$ID" ]] ;then # if not available create a new one
-        tmux new-session
-    else
-        tmux attach-session -t "$ID" # if available attach to it
-    fi
-fi
+#if [[ -z "$TMUX" ]] ;then
+ #   ID="`tmux ls | grep -vm1 attached | cut -d: -f1`" # get the id of a deattached session
+   # if [[ -z "$ID" ]] ;then # if not available create a new one
+     #   tmux new-session
+    #else
+#        tmux attach-session -t "$ID" # if available attach to it
+ #   fi
+#fi
 
 isodate=$(date +%Y%m%d)
 update(){

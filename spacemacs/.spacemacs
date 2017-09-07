@@ -18,6 +18,7 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
+     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -25,13 +26,10 @@ values."
      ;; ----------------------------------------------------------------
      auto-completion
      better-defaults
-     themes-megapack
      emacs-lisp
      git
      shell-scripts
-     spotify
      markdown
-     gnus
      pandoc
      erc
      spell-checking
@@ -39,9 +37,9 @@ values."
              latex-build-command "LatexMk"
              latex-enable-auto-fill t)
      org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+      (shell :variables
+             shell-default-height 30
+             shell-default-position 'right)
      spell-checking
      ;; syntax-checking
      ;; version-control
@@ -77,7 +75,7 @@ values."
    ;; This variable has no effect if Emacs is launched with the parameter
    ;; `--insecure' which forces the value of this variable to nil.
    ;; (default t)
-   dotspacemacs-elpa-https nil  
+   dotspacemacs-elpa-https t
    ;; Maximum allowed time in seconds to contact an ELPA repository.
    dotspacemacs-elpa-timeout 5
    ;; If non nil then spacemacs will check for updates at startup
@@ -110,7 +108,7 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light):
    dotspacemacs-themes '(
-                         monokai
+                         zenburn
                          sanityinc-solarized-light
                          solarized-dark
                          monokai
@@ -292,19 +290,19 @@ layers configuration. You are free to put any user code."
 
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
 (setq org-capture-templates
-      (quote (("t" "Todo" entry (file "~/Dropbox/org/notes.org")
+      (quote (("t" "Todo" entry (file "~/Dropbox/org/Todo.org")
                "* TODO %?\n%U\n%a\n")
               ("n" "Note" entry (file "~/Dropbox/org/notes.org")
                "* %? :NOTE:\n%U\n%a\n")
-              ("w" "Task" entry (file "~/Dropbox/org/work.org")
+              ("w" "Task" entry (file "~/Dropbox/org/Task.org")
                "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\nSchedule: %^{Schedule}t\n:Tasking:\n")
-              ("j" "Journal" entry (file+datetree "~/Dropbox/org/diary.org")
+              ("j" "Journal" entry (file+datetree "~/Dropbox/org/Diary.org")
                "* %?\n%U\n")
               ("a" "Appointment" entry (file "~/Dropbox/org/Appointments.org")
                "* Appointment with %? :MEETING:\n%U")
              ("e" "Event" entry
                (file "~/Dropbox/org/notes.org")
-               "* %? :HAPPENING: 
+               "* %? 
 %U
 %a")
 ))))
@@ -317,7 +315,7 @@ layers configuration. You are free to put any user code."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(LaTeX-command-style (quote (("" ""))))
- '(TeX-PDF-mode t t)
+ '(TeX-PDF-mode t)
  '(TeX-check-engine t)
  '(TeX-command-list
    (quote
@@ -368,29 +366,108 @@ layers configuration. You are free to put any user code."
      ("Clean" "TeX-clean" TeX-run-function nil t :help "Delete generated intermediate files")
      ("Clean All" "(TeX-clean t)" TeX-run-function nil t :help "Delete generated intermediate and output files")
      ("Other" "" TeX-run-command t t :help "Run an arbitrary command"))))
- '(TeX-master t t)
+ '(TeX-master t)
  '(TeX-show-compilation nil)
  '(TeX-view-program-selection (quote ((output-pdf "Evince"))))
  '(battery-mode-line-limit 100)
  '(display-battery-mode t)
  '(erc-auto-set-away t)
  '(erc-autoaway-message "I saw a shiny object and wandered off")
- '(erc-rename-buffers t)
  '(fancy-battery-mode t)
  '(fancy-battery-show-percentage t t)
  '(flyspell-auto-correct-binding [67108923])
+ '(helm-org-format-outline-path t)
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
+ '(org-after-todo-state-change-hook (quote (org-clock-out-if-current)))
  '(org-agenda-diary-file (quote diary-file))
  '(org-agenda-files
    (quote
-    ("~/Dropbox/org/work.org" "~/Dropbox/org/Appointments.org" "~/Dropbox/org/notes.org" "~/Dropbox/org/CST2016.org")))
+    ("~/Dropbox/org/Todo.org" "~/Dropbox/org/Task.org" "~/Dropbox/org/Appointments.org" "~/Dropbox/org/notes.org")))
+ '(org-agenda-restore-windows-after-quit t)
+ '(org-agenda-skip-scheduled-if-done t)
+ '(org-agenda-span (quote day))
+ '(org-agenda-time-grid
+   (quote
+    ((daily today require-timed)
+     "----------------"
+     (400 600 800 1000 1200 1400 1600 1800 2000))))
+ '(org-capture-templates
+   (quote
+    (("t" "Todo" entry
+      (file "~/Dropbox/org/Todo.org")
+      "* TODO %?
+%U
+%a
+")
+     ("n" "Note" entry
+      (file "~/Dropbox/org/notes.org")
+      "* %? :NOTE:
+%U
+%a
+")
+     ("w" "Task" entry
+      (file "~/Dropbox/org/Task.org")
+      "* TODO %? 
+Who: %^{Who}
+What: %^{What}
+Where: %^{Where}
+Why: %^{Why}
+When:
+Schedule: %^{Schedule}t
+:Tasking:
+")
+     ("j" "Journal" entry
+      (file+datetree "~/Dropbox/org/Diary.org")
+      "* %?
+%U
+")
+     ("a" "Appointment" entry
+      (file "~/Dropbox/org/Appointments.org")
+      "* Appointment with %?
+%U")
+     ("e" "Event" entry
+      (file "~/Dropbox/org/notes.org")
+      "* %? 
+%U
+%a"))))
+ '(org-complete-tags-always-offer-all-agenda-tags t)
  '(org-datetree-add-timestamp nil)
- '(org-directory "~/Dropbox/org/")
+ '(org-default-notes-file "notes.org")
+ '(org-directory "~/Dropbox/org")
+ '(org-export-async-init-file
+   "/home/eleventh/.emacs.d/layers/+emacs/org/local/org-async-init.el")
+ '(org-export-headline-levels 1)
+ '(org-export-time-stamp-file t)
+ '(org-export-with-clocks t)
+ '(org-export-with-section-numbers nil)
+ '(org-export-with-toc t)
+ '(org-footnote-auto-adjust t)
+ '(org-footnote-section nil)
+ '(org-format-latex-header
+   "\\documentclass{article}
+\\usepackage[usenames]{color}
+[PACKAGES]
+[DEFAULT-PACKAGES]
+\\pagestyle{empty}             % do not remove
+")
+ '(org-group-tags t)
+ '(org-image-actual-width nil)
+ '(org-imenu-depth 8)
+ '(org-link-translation-function (quote toc-org-unhrefify))
+ '(org-list-demote-modify-bullet (quote (("-" . "-") ("*" . "+"))))
+ '(org-list-indent-offset 2)
+ '(org-log-done (quote time))
+ '(org-startup-indented t)
+ '(org-startup-with-inline-images t)
+ '(org-tag-alist nil)
+ '(org-tag-persistent-alist nil)
+ '(org-todo-keywords (quote ((sequence "TODO" "WORKING" "DONE"))))
  '(pandoc-data-dir "~/Dropbox/schoolwork/pandoc/")
  '(reftex-format-cite-function nil)
- '(reftex-plug-into-AUCTeX (quote (nil nil t t t)) t))
+ '(reftex-plug-into-AUCTeX (quote (nil nil t t t)))
+ '(toc-org-max-depth 1))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
