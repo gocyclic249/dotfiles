@@ -45,16 +45,14 @@ COMPLETION_WAITING_DOTS="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
-export PATH=/home/eleventh/bin:$PATH
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, colorize, cp, colored-man-pages)
+plugins=(git, colorize, cp,)
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,7 +98,6 @@ alias megaton='mplayer http://us2.internet-radio.com:8443'
 alias worm='buku -s worm'
 #
 #Todo.txt shit
-PATH=$PATH:"~/bin/"
 alias t='todo.sh -d ~/Dropbox/todo/todo.cfg'
 alias ta='todo.sh -d ~/Dropbox/todo/todo.cfg add'
 alias td='todo.sh -d ~/Dropbox/todo/todo.cfg do'
