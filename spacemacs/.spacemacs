@@ -31,18 +31,22 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     markdown
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     spacemacs-layouts 
      auto-completion
      better-defaults
+     emms
      emacs-lisp
      git
      spell-checking
      erc
      org
+     gnus
      (latex  :variables
              latex-build-command "LatexMk"
              latex-enable-auto-fill t)
@@ -178,10 +182,10 @@ values."
    dotspacemacs-default-layout-name "Default"
    ;; If non nil the default layout name is displayed in the mode-line.
    ;; (default nil)
-   dotspacemacs-display-default-layout nil
+   dotspacemacs-display-default-layout t
    ;; If non nil then the last auto saved layouts are resume automatically upon
    ;; start. (default nil)
-   dotspacemacs-auto-resume-layouts nil
+   dotspacemacs-auto-resume-layouts t
    ;; Size (in MB) above which spacemacs will prompt to open the large file
    ;; literally to avoid performance issues. Opening a file literally means that
    ;; no major mode or minor modes are active. (default is 1)
@@ -324,45 +328,49 @@ you should place your code here."
   (setq org-directory "~/Dropbox/org")
   (setq org-default-notes-file "~/Dropbox/org/notes.org")
 
-(setq gnus-ignored-newsgroups "^to\\.\\|^[0-9. ]+\\( \\|$\\)\\|^[\”]\”[#’()]")
-(setq nnml-directory "~/.gmail")
-(setq message-directory "~/.gmail")
-
-;; Get email, and store in nnml
-(setq gnus-secondary-select-methods
-      '(
-        (nnimap "gmail"
-                (nnimap-address
-                 "imap.gmail.com")
-                (nnimap-server-port 993)
-                (nnimap-stream ssl))
-        ))
+  ;; gnus
+  (setq gnus-secondary-select-methods
+'(
+  (nnimap "Outlook"
+           (nnimap-address
+            "imap.outlook.com")
+           (nnimap-server-port 993)
+           (nnimap-stream ssl))
+  ))
 
 ;; Send email via Gmail:
 (setq message-send-mail-function 'smtpmail-send-it
-      smtpmail-default-smtp-server "smtp.gmail.com")
+  smtpmail-default-smtp-server "smtp-mail.outlook.com")
 
 ;; Archive outgoing email in Sent folder on imap.gmail.com:
-(setq gnus-message-archive-method '(nnimap "imap.gmail.com")
-      gnus-message-archive-group "[Gmail]/Sent Mail")
+(setq gnus-message-archive-method '(nnimap "imap.outlook.com")
+    gnus-message-archive-group "/Sent")
+
+;; set return email address based on incoming email address
+(setq gnus-posting-styles
+    '(((header "to" "barkerdb@outlook.com")
+       (address "barkerdb@outlook.com"))))
+
+;; store email in ~/gmail directory
+(setq nnml-directory "~/.mail")
+(setq message-directory "~/.mail")
 
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
 (setq org-capture-templates
       (quote (("t" "Todo" entry (file "~/Dropbox/org/Todo.org")
-               "* TODO %?\n%U\n%a\n")
+               "* TODO %?")
               ("n" "Note" entry (file "~/Dropbox/org/notes.org")
                "* %? :NOTE:\n%U\n%a\n")
               ("w" "Task" entry (file "~/Dropbox/org/Task.org")
-               "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\nSchedule: %^{Schedule}t\n:Tasking:\n")
+               "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\n")
               ("j" "Journal" entry (file+datetree "~/Dropbox/org/Diary.org")
                "* %?\n%U\n")
               ("a" "Appointment" entry (file "~/Dropbox/org/Appointments.org")
                "* Appointment with %? :MEETING:\n%U")
-             ("e" "Event" entry
-               (file "~/Dropbox/org/notes.org")
-               "* %? 
-%U
-%a")
+              ("e" "Event" entry (file "~/Dropbox/org/notes.org")
+               "* %? %a")
+               ("v" "Van" entry (file+headline "~/Dropbox/org/Task.org" "VANS")
+                "** Vans %^{Number} For: %^{Who} \nDestination: %^{Destination} \nTime Gone:%^{time}")
   ))))
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -372,52 +380,24 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(emms-cache-file "~/.emacs.d/private/emms/cache")
+ '(emms-player-list (quote (emms-player-mplayer mplayer)))
  '(org-agenda-files
    (quote
     ("~/Dropbox/org/notes.org" "~/Dropbox/org/Todo.org" "~/Dropbox/org/Task.org" "~/Dropbox/org/Appointments.org")))
- '(org-agenda-prefix-format
-   (quote
-    ((agenda . " %i %?-12t")
-     (todo . " %i %-12:c")
-     (tags . " %i %-12:c")
-     (search . " %i %-12:c"))))
- '(org-agenda-use-time-grid t)
+ '(org-agenda-restore-windows-after-quit t t)
+ '(org-agenda-use-time-grid nil)
  '(org-agenda-view-columns-initially nil)
- '(org-capture-templates
-   (quote
-    (("t" "Todo" entry
-      (file "~/Dropbox/org/Todo.org")
-      "* TODO %?
-%a
-")
-     ("n" "Note" entry
-      (file "~/Dropbox/org/notes.org")
-      "* %? :NOTE:
-%a
-")
-     ("w" "Task" entry
-      (file "~/Dropbox/org/Task.org")
-      "* TODO %? 
-Who: %^{Who}
-What: %^{What}
-Where: %^{Where}
-Why: %^{Why}")
-     ("j" "Journal" entry
-      (file+olp+datetree "~/Dropbox/org/Diary.org")
-      "* %?
-%U
-")
-     ("a" "Appointment" entry
-      (file "~/Dropbox/org/Appointments.org")
-      "* Appointment with %? :MEETING:")
-     ("e" "Event" entry
-      (file "~/Dropbox/org/notes.org")
-      "* %? 
-%U
-%a"))) t)
+ '(org-agenda-window-setup (quote current-window))
  '(org-complete-tags-always-offer-all-agenda-tags t)
  '(org-fast-tag-selection-single-key t)
- '(org-fontify-emphasized-text nil))
+ '(org-fontify-emphasized-text nil)
+ '(org-level-color-stars-only nil)
+ '(org-pretty-entities t)
+ '(org-startup-with-inline-images t)
+ '(package-selected-packages
+   (quote
+    (smartparens flycheck helm org-plus-contrib magit magit-popup git-commit emms markdown-toc mmm-mode markdown-mode gh-md xterm-color ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package unfill toc-org spaceline smeargle shell-pop restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-download org-bullets open-junk-file neotree mwim multi-term move-text magit-gitflow macrostep lorem-ipsum linum-relative link-hint info+ indent-guide hungry-delete htmlize hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-company helm-c-yasnippet helm-ag google-translate golden-ratio gnuplot gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-helm flycheck-pos-tip flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu eshell-z eshell-prompt-extras esh-help erc-yt erc-view-log erc-social-graph erc-image erc-hl-nicks elisp-slime-nav dumb-jump diff-hl define-word company-statistics company-auctex column-enforce-mode clean-aindent-mode auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile auctex-latexmk aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
