@@ -33,7 +33,6 @@ values."
    '(
      html
      markdown
-     themes-megapack
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -116,8 +115,6 @@ values."
    ;; section of the documentation for details on available variables.
    ;; (default 'vim)
    dotspacemacs-editing-style 'hybrid
-   ;; If non nil output loading progress in `*Messages*' buffer. (default nil)
-   dotspacemacs-verbose-loading nil
    ;; Specify the startup banner. Default value is `official', it displays
    ;; the official spacemacs logo. An integer value is the index of text
    ;; banner, `random' chooses a random text banner in `core/banners'
@@ -140,9 +137,8 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(cyberpunk
-                         sanityinc-solarized-dark
-                         sanityinc-solarized-light)
+   dotspacemacs-themes '(solarized-dark
+                         solarized-light)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
@@ -337,29 +333,24 @@ you should place your code here."
   (setq org-default-notes-file "~/Dropbox/org/notes.org")
 
   ;; Mu4e
-  (setq mu4e-contexts
+  (setq mu4e-maildir "~/Mail"
+        mu4e-contexts
         `( ,(make-mu4e-context
              :name "Gmail"
-             :match-func (lambda (msg) (when msg
-                                         (string-prefix-p "/Gmail" (mu4e-message-field msg :maildir))))
-             :vars '(
-                     (mu4e-trash-folder . "/Gmail/[Gmail].Trash")
-                     (mu4e-refile-folder . "/Gmail/[Gmail].Archive")
-                     ))
+             :match-func (lambda (msg) (when msg (mu4e-message-contact-field-matches msg :to "gocyclic249@gmail.com")))
+             :vars '((mu4e-trash-folder      . "/Gmail/[Gmail].Trash")))
            ,(make-mu4e-context
              :name "Outlook"
-             :match-func (lambda (msg) (when msg
-                                         (string-prefix-p "/Outlook" (mu4e-message-field msg :maildir))))
-             :vars '(
-                     (mu4e-trash-folder . "/Outlook/Deleted")
-                     (mu4e-refile-folder . "/Outlook/Archive")
-                     ))
-           ))
+             :match-func (lambda (msg) (when msg (mu4e-message-contact-field-matches msg :to "barkerdb@outlook.com")))
+             :vars '((mu4e-trash-folder      . "/Outlook/Deleted")))))
   (setq message-send-mail-function 'smtpmail-send-it)
   (setq mu4e-get-mail-command "offlineimap")
-  (setq mu4e-maildir (expand-file-name "~/Mail"))
   (setq mu4e-view-show-images t
-    mu4e-view-show-addresses t)
+        mu4e-view-show-addresses t)
+;; Mail directory shortcuts
+  (setq mu4e-maildir-shortcuts
+        '(("/Gmail/INBOX" . ?g)
+          ("/Outlook/Inbox" . ?i)))
   (defvar my-mu4e-account-alist
     '(("Gmail"
        (user-mail-address  "gocyclic249@gmail.com")
@@ -384,7 +375,6 @@ you should place your code here."
   (setq mu4e-user-mail-address-list
         (mapcar (lambda (account) (cadr (assq 'user-mail-address account)))
                 my-mu4e-account-alist))
-
   (defun my-mu4e-set-account ()
   "Set the account for composing a message."
   (let* ((account
@@ -408,10 +398,6 @@ you should place your code here."
 (add-hook 'mu4e-compose-pre-hook 'my-mu4e-set-account)
 ;; don't keep message buffers around
 (setq message-kill-buffer-on-exit t)
-;;; Mail directory shortcuts
-(setq mu4e-maildir-shortcuts
-      '(("/Gmail/INBOX" . ?g)
-        ("/Outlook/Inbox" . ?i)))
 
 (setq mu4e-sent-messages-behavior 'delete)
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
@@ -448,7 +434,6 @@ you should place your code here."
     (emms-player-mpd emms-player-mpg321 emms-player-ogg123 emms-player-mplayer-playlist emms-player-mplayer emms-player-vlc emms-player-vlc-playlist)))
  '(erc-nick "eleventh")
  '(erc-rename-buffers t)
- '(erc-server "irc.parahumans.net")
  '(evil-want-Y-yank-to-eol nil)
  '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
  '(gnus-use-full-window nil)
