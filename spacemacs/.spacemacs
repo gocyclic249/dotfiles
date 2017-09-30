@@ -7,7 +7,7 @@
 You should not put any user code in this function besides modifying the variable
 values."
   (setq-default
-   ;; Base distribution to use. This is a layer contained in the directory
+   ;c Base distribution to use. This is a layer contained in the directory
    ;; `+distribution'. For now available distributions are `spacemacs-base'
    ;; or `spacemacs'. (default 'spacemacs)
    dotspacemacs-distribution 'spacemacs
@@ -31,6 +31,7 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     csv
      html
      markdown
      ;; ----------------------------------------------------------------
@@ -50,20 +51,31 @@ values."
      latex
      pandoc
      org
+     ranger
      mu4e
+     themes-megapack
+     spell-checking
+     syntax-checking
+     version-control
      (latex  :variables
              latex-build-command "LatexMk"
              latex-enable-auto-fill t)
      (shell :variables
-             shell-default-height 30
-             shell-default-shell 'ansi-term
-             shell-default-position 'bottom
-             shell-default-full-span nil
-             shell-default-term-shell "/bin/zsh")
-     spell-checking
-     syntax-checking
-     version-control
+            shell-default-height 30
+            shell-default-shell 'ansi-term
+            shell-default-position 'bottom
+            shell-default-full-span nil
+            shell-default-term-shell "/bin/zsh")
+                   (erc :variables
+                          erc-server-list
+                          '(("localhost"
+                             :port "6667")
+                            ("irc.parahumans.net"
+                             :ssl t
+                             :port "6697" )))
+
      )
+
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
@@ -137,8 +149,9 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(solarized-dark
-                         solarized-light)
+   dotspacemacs-themes '(cyberpunk
+                         sanityinc-solarized-light
+                         sanityinc-solarized-dark)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
@@ -320,7 +333,17 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (require 'helm-bookmark)
+  ;; Emacs Web Wowser
+  (evil-leader/set-key-for-mode 'eww-mode
+    "oq"    'eww-quit
+    "or"    'eww-reload
+    "ow"    'eww-copy-page-url
+    "od"    'eww-download
+    "oh"    'eww-back-url
+    "ol"    'eww-forward-url
+    "oH"    'eww-list-histories
+    "ob"    'eww-add-bookmark
+    "oB" 'eww-list-bookmarks)
   (setq-default TeX-master nil)
   (setq TeX-parse-self t)
   (setq LaTeX-always-use-Biber t)
@@ -333,20 +356,9 @@ you should place your code here."
   (setq org-default-notes-file "~/Dropbox/org/notes.org")
 
   ;; Mu4e
-  (setq mu4e-maildir "~/Mail"
-        mu4e-contexts
-        `( ,(make-mu4e-context
-             :name "Gmail"
-             :match-func (lambda (msg) (when msg (mu4e-message-contact-field-matches msg :to "gocyclic249@gmail.com")))
-             :vars '((mu4e-trash-folder      . "/Gmail/[Gmail].Trash")))
-           ,(make-mu4e-context
-             :name "Outlook"
-             :match-func (lambda (msg) (when msg (mu4e-message-contact-field-matches msg :to "barkerdb@outlook.com")))
-             :vars '((mu4e-trash-folder      . "/Outlook/Deleted")))))
-  (setq message-send-mail-function 'smtpmail-send-it)
   (setq mu4e-get-mail-command "offlineimap")
-  (setq mu4e-view-show-images t
-        mu4e-view-show-addresses t)
+  (setq mu4e-maildir "~/Mail")
+  (setq message-send-mail-function 'smtpmail-send-it)
 ;; Mail directory shortcuts
   (setq mu4e-maildir-shortcuts
         '(("/Gmail/INBOX" . ?g)
@@ -357,7 +369,7 @@ you should place your code here."
        (user-full-name     "Dan B")
        (mu4e-sent-folder   "/Gmail/[Gmail].Sent Mail")
        (mu4e-drafts-folder "/Gmail/[Gmail].Drafts")
-       (mu4e-trash-folder  "/Gmail/[Gmail].Trash")
+       (mu4e-trash-folder  "/trash")
        (mu4e-refile-folder "/Gmail/archive")
       (smtpmail-default-smtp-server "smtp.gmail.com")
       (smtpmail-smtp-server "smtp.gmail.com")
@@ -367,11 +379,10 @@ you should place your code here."
        (user-full-name     "Daniel Barker")
        (mu4e-sent-folder   "/Outlook/Sent Items")
        (mu4e-drafts-folder "/Outlook/Drafts")
-       (mu4e-trash-folder  "/Outlook/Deleted")
+       (mu4e-trash-folder  "/trash")
        (mu4e-refile-folder "/Outlook/Archives")
        (smtpmail-smtp-server "smtp-mail.outlook.com")
        (smtpmail-smtp-service 587))))
-      (mu4e/mail-account-reset)
   (setq mu4e-user-mail-address-list
         (mapcar (lambda (account) (cadr (assq 'user-mail-address account)))
                 my-mu4e-account-alist))
@@ -400,24 +411,48 @@ you should place your code here."
 (setq message-kill-buffer-on-exit t)
 
 (setq mu4e-sent-messages-behavior 'delete)
+
+;; Rename server buffers to reflect the current network name instead
+;; of SERVER:PORT (e.g., "freenode" instead of "irc.freenode.net:6667").
+;; This is useful when using a bouncer like ZNC where you have multiple
+;; connections to the same server.
+(setq erc-rename-buffers t)
+
+;; Interpret mIRC-style color commands in IRC chats
+(setq erc-interpret-mirc-color t)
+
+;; The following are commented out by default, but users of other
+;; non-Emacs IRC clients might find them useful.
+;; Kill buffers for channels after /part
+(setq erc-kill-buffer-on-part t)
+;; Kill buffers for private queries after quitting the server
+(setq erc-kill-queries-on-quit t)
+;; Kill buffers for server messages after quitting the server
+(setq erc-kill-server-buffer-on-quit t)
+
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
+(defun my-org-archive-done-tasks ()
+  (interactive)
+  (org-map-entries 'org-archive-subtree "/DONE" 'file))
 (setq org-capture-templates
-      (quote (("t" "Todo" entry (file "~/Dropbox/org/Todo.org")
-               "* TODO %?")
+      (quote (("t" "Todo" entry (file+headline "~/Dropbox/org/Todo.org" "Todo")
+               "** TODO %?")
               ("n" "Note" entry (file "~/Dropbox/org/notes.org")
-               "* %? :NOTE:\n%U\n%a\n")
-              ("w" "Task" entry (file "~/Dropbox/org/Task.org")
+               "** %? :NOTE:\n%U\n%a\n")
+              ("w" "Task" entry (file+headline "~/Dropbox/org/Todo.org" "Tasks")
                "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\n")
               ("j" "Journal" entry (file+datetree "~/Dropbox/org/Diary.org")
-               "* %?\n%U\n")
-              ("a" "Appointment" entry (file "~/Dropbox/org/Appointments.org")
-               "* Appointment: %? :APPOINTMENT:")
-              ("m" "Meeting" entry (file+headline "~/Dropbox/org/Appointments.org" "Meetings")
+               "** %?\n%U\n")
+              ("a" "Appointment" entry (file+headline "~/Dropbox/org/Todo.org" "Meetings")
+               "** Appointment: %? :APPOINTMENT:")
+              ("m" "Meeting" entry (file+headline "~/Dropbox/org/Todo.org" "Meetings")
                "** Meeting: %? :MEETING:")
-              ("e" "Event" entry (file "~/Dropbox/org/notes.org")
+              ("e" "Event" entry (file+headline "~/Dropbox/org/Todo.org" "Events")
                "* %? %a")
-               ("v" "Van" entry (file+headline "~/Dropbox/org/Task.org" "VANS")
+               ("v" "Van" entry (file+headline "~/Dropbox/org/Todo.org" "Vans")
                 "** Vans %^{Number} For: %^{Who} \nDestination: %^{Destination} \nTime Gone:%^{time}")
+               ("d" "Duty" entry (file+headline "~/Dropbox/org/Duty.org" "Daily")
+                "** %t\n*** Altman :%^{Duty}:\n*** Barham :%^{Duty}: \n*** Contreras :%^{Duty}:\n*** Colon :%^{Duty}:\n*** Blaine :%^{Duty}:\n*** Palmer :%^{Duty}:\n*** Hunt :%^{Duty}:\n*** Stover :%^{Duty}:\n*** Lanier :%^{Duty}:\n*** Escabedo :%^{Duty}:\n*** Miller :%^{Duty}:\n*** Nielsen :%^{Duty}:\n*** Fornah :%^{Duty}:\n***" )
   ))))
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -427,13 +462,19 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
+ '(blink-cursor-mode nil)
+ '(column-number-mode t)
  '(emms-cache-file "~/.emacs.d/private/emms/cache")
  '(emms-player-list (quote (emms-player-mplayer mplayer)))
  '(emms-setup-default-player-list
    (quote
     (emms-player-mpd emms-player-mpg321 emms-player-ogg123 emms-player-mplayer-playlist emms-player-mplayer emms-player-vlc emms-player-vlc-playlist)))
- '(erc-nick "eleventh")
- '(erc-rename-buffers t)
+ '(erc-modules
+   (quote
+    (autojoin capab-identify completion log move-to-prompt scrolltobottom services spelling image hl-nicks youtube services netsplit fill button match track readonly networks ring autojoin noncommands irccontrols move-to-prompt stamp menu list)))
+ '(erc-notifications-mode t)
  '(evil-want-Y-yank-to-eol nil)
  '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
  '(gnus-use-full-window nil)
@@ -444,7 +485,7 @@ you should place your code here."
      ("date:today..now" "Today's messages" 116)
      ("date:7d..now" "Last 7 days" 119)
      ("mime:image/*" "Messages with images" 112))))
- '(mu4e-update-interval 300)
+ '(mu4e-context-policy (quote pick-first))
  '(notmuch-search-line-faces
    (quote
     (("unread" :foreground "#aeee00")
@@ -452,16 +493,14 @@ you should place your code here."
      ("deleted" :foreground "#ff2c4b" :bold t))))
  '(org-agenda-deadline-leaders (quote ("Due  " "In %3d d.: " "%2d d. ago: ")))
  '(org-agenda-default-appointment-duration 60)
- '(org-agenda-files
-   (quote
-    ("~/Dropbox/org/notes.org" "~/Dropbox/org/Todo.org" "~/Dropbox/org/Task.org" "~/Dropbox/org/Appointments.org")))
+ '(org-agenda-files (quote ("~/Dropbox/org/Duty.org" "~/Dropbox/org/Todo.org")))
  '(org-agenda-prefix-format
    (quote
     ((agenda . "%t%s ")
      (todo . "%-12:c")
      (tags . " %i %-12:c")
      (search . " %i %-12:c"))))
- '(org-agenda-restore-windows-after-quit t)
+ '(org-agenda-restore-windows-after-quit t t)
  '(org-agenda-scheduled-leaders (quote ("" "In:%2dx:")))
  '(org-agenda-use-time-grid nil)
  '(org-agenda-view-columns-initially nil)
@@ -472,12 +511,37 @@ you should place your code here."
  '(org-level-color-stars-only nil)
  '(org-pretty-entities t)
  '(org-startup-with-inline-images t)
+ '(org-tags-column 40)
  '(package-selected-packages
    (quote
-    (web-mode tagedit slim-mode scss-mode sass-mode pug-mode less-css-mode helm-css-scss haml-mode emmet-mode company-web web-completion-data mu4e-maildirs-extension mu4e-alert powerline spinner org-category-capture alert log4e gntp pandoc-mode ox-pandoc ht zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme smartparens flycheck helm org-plus-contrib magit magit-popup git-commit emms markdown-toc mmm-mode markdown-mode gh-md xterm-color ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package unfill toc-org spaceline smeargle shell-pop restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-download org-bullets open-junk-file neotree mwim multi-term move-text magit-gitflow macrostep lorem-ipsum linum-relative link-hint info+ indent-guide hungry-delete htmlize hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-company helm-c-yasnippet helm-ag google-translate golden-ratio gnuplot gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-helm flycheck-pos-tip flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu eshell-z eshell-prompt-extras esh-help erc-yt erc-view-log erc-social-graph erc-image erc-hl-nicks elisp-slime-nav dumb-jump diff-hl define-word company-statistics company-auctex column-enforce-mode clean-aindent-mode auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile auctex-latexmk aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell))))
+    (yasnippet company with-editor hydra dash s ranger iedit goto-chg helm-core projectile async csv-mode web-mode tagedit slim-mode scss-mode sass-mode pug-mode less-css-mode helm-css-scss haml-mode emmet-mode company-web web-completion-data mu4e-maildirs-extension mu4e-alert powerline spinner org-category-capture alert log4e gntp pandoc-mode ox-pandoc ht zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme smartparens flycheck helm org-plus-contrib magit magit-popup git-commit emms markdown-toc mmm-mode markdown-mode gh-md xterm-color ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package unfill toc-org spaceline smeargle shell-pop restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-download org-bullets open-junk-file neotree mwim multi-term move-text magit-gitflow macrostep lorem-ipsum linum-relative link-hint info+ indent-guide hungry-delete htmlize hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-company helm-c-yasnippet helm-ag google-translate golden-ratio gnuplot gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-helm flycheck-pos-tip flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu eshell-z eshell-prompt-extras esh-help erc-yt erc-view-log erc-social-graph erc-image erc-hl-nicks elisp-slime-nav dumb-jump diff-hl define-word company-statistics company-auctex column-enforce-mode clean-aindent-mode auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile auctex-latexmk aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell)))
+ '(show-paren-mode t)
+ '(tool-bar-mode nil)
+ '(vc-annotate-background nil)
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#dc322f")
+     (40 . "#cb4b16")
+     (60 . "#b58900")
+     (80 . "#859900")
+     (100 . "#2aa198")
+     (120 . "#268bd2")
+     (140 . "#d33682")
+     (160 . "#6c71c4")
+     (180 . "#dc322f")
+     (200 . "#cb4b16")
+     (220 . "#b58900")
+     (240 . "#859900")
+     (260 . "#2aa198")
+     (280 . "#268bd2")
+     (300 . "#d33682")
+     (320 . "#6c71c4")
+     (340 . "#dc322f")
+     (360 . "#cb4b16"))))
+ '(vc-annotate-very-old-color nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((((class color) (min-colors 89)) (:foreground "#d3d3d3" :background "#000000")))))
+ '(default ((t (:family "xos4 Terminus" :foundry "xos4" :slant normal :weight normal :height 105 :width normal)))))

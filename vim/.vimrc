@@ -111,7 +111,6 @@ nnoremap <leader>p <ESC>:hardcopy > %:r.pdf <CR>
 
 
 "Colorscheme
-colorscheme base16-green-screen
 set bg=dark
 set guifont=Inconsolata-g\ for\ Powerline\ Medium\ 14
 "Vim Airline
