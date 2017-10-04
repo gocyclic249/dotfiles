@@ -1,0 +1,1802 @@
+2017-10-02 12:46:44		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-10-02 12:46:44		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-10-02 12:46:44		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-10-02 12:46:44		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-10-02 12:46:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 12:47:00	=!=	irc: unable to add temporary server "localhost" because the addition of temporary servers with command /connect is currently disabled
+2017-10-02 12:47:00	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2017-10-02 12:47:25	=!=	Error with command "/plugin add aset" (help on command: /help plugin)
+2017-10-02 12:47:38		[core]  /plugin  list|listfull [<name>]
+2017-10-02 12:47:38		                 load <filename> [<arguments>]
+2017-10-02 12:47:38		                 autoload [<arguments>]
+2017-10-02 12:47:38		                 reload [<name>|* [<arguments>]]
+2017-10-02 12:47:38		                 unload [<name>]
+2017-10-02 12:47:38		list/load/unload plugins
+2017-10-02 12:47:38		     list: list loaded plugins
+2017-10-02 12:47:38		 listfull: list loaded plugins (verbose)
+2017-10-02 12:47:38		     load: load a plugin
+2017-10-02 12:47:38		 autoload: autoload plugins in system or user directory
+2017-10-02 12:47:38		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2017-10-02 12:47:38		   unload: unload a plugin (if no name given, unload all plugins)
+2017-10-02 12:47:38		 filename: plugin (file) to load
+2017-10-02 12:47:38		     name: a plugin name
+2017-10-02 12:47:38		arguments: arguments given to plugin on load
+2017-10-02 12:47:38		Without argument, this command lists loaded plugins.
+2017-10-02 12:47:51	=!=	Error: unable to load plugin "aset": aset: cannot open shared object file: No such file or directory
+2017-10-02 12:47:51	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2017-10-02 12:48:10	=!=	Error with command "/python install aset.py" (help on command: /help python)
+2017-10-02 12:48:53		script: downloading list of scripts...
+2017-10-02 12:48:53		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 12:48:54		perl: loading script "/home/eleventh/.weechat/perl/iset.pl"
+2017-10-02 12:48:54		perl: registered script "iset", version 4.3 (Interactive Set for configuration options)
+2017-10-02 12:48:54		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2017-10-02 12:48:54		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2017-10-02 12:48:54		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2017-10-02 12:48:54		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2017-10-02 12:49:03		Options saved to sec.conf
+2017-10-02 12:49:03		Options saved to weechat.conf
+2017-10-02 12:49:03		Options saved to plugins.conf
+2017-10-02 12:49:03		Options saved to charset.conf
+2017-10-02 12:49:03		Options saved to logger.conf
+2017-10-02 12:49:03		Options saved to exec.conf
+2017-10-02 12:49:03		Options saved to trigger.conf
+2017-10-02 12:49:03		Options saved to aspell.conf
+2017-10-02 12:49:03		Options saved to alias.conf
+2017-10-02 12:49:03		Options saved to buflist.conf
+2017-10-02 12:49:03		Options saved to fifo.conf
+2017-10-02 12:49:03		Options saved to xfer.conf
+2017-10-02 12:49:03		Options saved to irc.conf
+2017-10-02 12:49:03		Options saved to relay.conf
+2017-10-02 12:49:03		Options saved to script.conf
+2017-10-02 12:49:03		Options saved to iset.conf
+2017-10-02 12:49:44	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2017-10-02 12:49:56		irc: server Bitlbee added
+2017-10-02 12:50:05	=!=	You can not write text in this buffer
+2017-10-02 12:53:47	=!=	You can not write text in this buffer
+2017-10-02 12:54:15		Option changed: irc.server.Bitlbee.autojoin = "on"  (default if null: "")
+2017-10-02 12:54:26		Options saved to sec.conf
+2017-10-02 12:54:26		Options saved to weechat.conf
+2017-10-02 12:54:26		Options saved to plugins.conf
+2017-10-02 12:54:26		Options saved to charset.conf
+2017-10-02 12:54:26		Options saved to logger.conf
+2017-10-02 12:54:26		Options saved to exec.conf
+2017-10-02 12:54:26		Options saved to trigger.conf
+2017-10-02 12:54:26		Options saved to aspell.conf
+2017-10-02 12:54:26		Options saved to alias.conf
+2017-10-02 12:54:26		Options saved to buflist.conf
+2017-10-02 12:54:26		Options saved to fifo.conf
+2017-10-02 12:54:26		Options saved to xfer.conf
+2017-10-02 12:54:26		Options saved to irc.conf
+2017-10-02 12:54:26		Options saved to relay.conf
+2017-10-02 12:54:26		Options saved to script.conf
+2017-10-02 12:54:26		Options saved to iset.conf
+2017-10-02 12:55:08		Option changed: irc.server.Bitlbee.autorejoin = on  (default if null: off)
+2017-10-02 12:55:26		Option changed: irc.server.Bitlbee.autoconnect = on  (default if null: off)
+2017-10-02 12:55:46		Option changed: irc.server.Bitlbee.autojoin = ""  (default if null: "")
+2017-10-02 12:56:02		Option changed: irc.server.Bitlbee.password = "Royal10??"  (default if null: "")
+2017-10-02 12:56:16		Options saved to sec.conf
+2017-10-02 12:56:16		Options saved to weechat.conf
+2017-10-02 12:56:16		Options saved to plugins.conf
+2017-10-02 12:56:16		Options saved to charset.conf
+2017-10-02 12:56:16		Options saved to logger.conf
+2017-10-02 12:56:16		Options saved to exec.conf
+2017-10-02 12:56:16		Options saved to trigger.conf
+2017-10-02 12:56:16		Options saved to aspell.conf
+2017-10-02 12:56:16		Options saved to alias.conf
+2017-10-02 12:56:16		Options saved to buflist.conf
+2017-10-02 12:56:16		Options saved to fifo.conf
+2017-10-02 12:56:16		Options saved to xfer.conf
+2017-10-02 12:56:16		Options saved to irc.conf
+2017-10-02 12:56:16		Options saved to relay.conf
+2017-10-02 12:56:16		Options saved to script.conf
+2017-10-02 12:56:16		Options saved to iset.conf
+2017-10-02 12:57:58		fifo: pipe closed
+2017-10-02 12:58:02		perl scripts loaded: iset
+2017-10-02 12:58:02		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 12:58:02		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 12:58:37		Options saved to sec.conf
+2017-10-02 12:58:37		Options saved to weechat.conf
+2017-10-02 12:58:37		Options saved to plugins.conf
+2017-10-02 12:58:37		Options saved to charset.conf
+2017-10-02 12:58:37		Options saved to logger.conf
+2017-10-02 12:58:37		Options saved to exec.conf
+2017-10-02 12:58:37		Options saved to trigger.conf
+2017-10-02 12:58:37		Options saved to aspell.conf
+2017-10-02 12:58:37		Options saved to alias.conf
+2017-10-02 12:58:37		Options saved to buflist.conf
+2017-10-02 12:58:37		Options saved to fifo.conf
+2017-10-02 12:58:37		Options saved to xfer.conf
+2017-10-02 12:58:37		Options saved to irc.conf
+2017-10-02 12:58:37		Options saved to relay.conf
+2017-10-02 12:58:37		Options saved to iset.conf
+2017-10-02 12:58:37		Options saved to script.conf
+2017-10-02 13:03:01		fifo: pipe closed
+2017-10-02 13:34:23		perl scripts loaded: iset
+2017-10-02 13:34:23		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 13:34:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 13:34:30		fifo: pipe closed
+2017-10-02 13:34:38		perl scripts loaded: iset
+2017-10-02 13:34:38		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 13:34:38		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 13:36:34	=!=	Error: unknown command "/connnect" (type /help for help)
+2017-10-02 13:37:00		irc: server parahumans added
+2017-10-02 14:04:56		script: script "urlgrab" not found
+2017-10-02 14:05:07		python: loading script "/home/eleventh/.weechat/python/urlgrab.py"
+2017-10-02 14:05:07		python: registered script "urlgrab", version 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-02 14:05:38		python: loading script "/home/eleventh/.weechat/python/colorize_nicks.py"
+2017-10-02 14:05:38		python: registered script "colorize_nicks", version 23 (Use the weechat nick colors in the chat area)
+2017-10-02 14:06:52		fifo: pipe closed
+2017-10-02 14:06:54		perl scripts loaded: iset
+2017-10-02 14:06:54		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:06:54		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:06:54		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:09:25		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 14:09:54		[urlgrab] urlgrab: no entries
+2017-10-02 14:10:25		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 14:10:37		[python/urlgrab]  /url  [open <url> | <url> | show | copy [n] | [n] | list]
+2017-10-02 14:10:37		Url Grabber
+2017-10-02 14:10:37		open or <url>: opens the url
+2017-10-02 14:10:37		show: Opens the select buffer to allow for url selection
+2017-10-02 14:10:37		copy: Copies the nth url to the system clipboard
+2017-10-02 14:10:37		list: Lists the urls in the current buffer
+2017-10-02 14:11:26		[python/urlgrab]  /url  [open <url> | <url> | show | copy [n] | [n] | list]
+2017-10-02 14:11:26		Url Grabber
+2017-10-02 14:11:26		open or <url>: opens the url
+2017-10-02 14:11:26		show: Opens the select buffer to allow for url selection
+2017-10-02 14:11:26		copy: Copies the nth url to the system clipboard
+2017-10-02 14:11:26		list: Lists the urls in the current buffer
+2017-10-02 14:11:47		[urlgrab] Unknown command 'shwo'.  Try '/help url' for usage
+2017-10-02 14:13:18		fifo: pipe closed
+2017-10-02 14:13:22		perl scripts loaded: iset
+2017-10-02 14:13:22		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:13:22		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:13:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:14:54		script: autoload enabled for script "iset.pl"
+2017-10-02 14:14:55		perl: loading script "/home/eleventh/.weechat/perl/buffers.pl"
+2017-10-02 14:14:55		perl: registered script "buffers", version 5.6 (Sidebar with list of buffers)
+2017-10-02 14:14:55		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2017-10-02 14:14:55		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2017-10-02 14:14:55		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2017-10-02 14:14:55		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2017-10-02 14:14:55	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-02 14:15:10		script: autoload enabled for script "buffers.pl"
+2017-10-02 14:15:16		script: autoload enabled for script "colorize_nicks.py"
+2017-10-02 14:15:22		script: autoload enabled for script "urlgrab.py"
+2017-10-02 14:15:34		Options saved to sec.conf
+2017-10-02 14:15:34		Options saved to weechat.conf
+2017-10-02 14:15:34		Options saved to plugins.conf
+2017-10-02 14:15:34		Options saved to charset.conf
+2017-10-02 14:15:34		Options saved to logger.conf
+2017-10-02 14:15:34		Options saved to exec.conf
+2017-10-02 14:15:34		Options saved to trigger.conf
+2017-10-02 14:15:34		Options saved to aspell.conf
+2017-10-02 14:15:34		Options saved to alias.conf
+2017-10-02 14:15:34		Options saved to buflist.conf
+2017-10-02 14:15:34		Options saved to fifo.conf
+2017-10-02 14:15:34		Options saved to xfer.conf
+2017-10-02 14:15:34		Options saved to irc.conf
+2017-10-02 14:15:34		Options saved to relay.conf
+2017-10-02 14:15:34		Options saved to iset.conf
+2017-10-02 14:15:34		Options saved to urlgrab.conf
+2017-10-02 14:15:34		Options saved to colorize_nicks.conf
+2017-10-02 14:15:34		Options saved to script.conf
+2017-10-02 14:15:34		Options saved to buffers.conf
+2017-10-02 14:17:24		[urlgrab] No URL found - Invalid index
+2017-10-02 14:17:39		[urlgrab] No URL found - Invalid channel
+2017-10-02 14:18:53		[urlgrab] No URL found - Invalid channel
+2017-10-02 14:19:13		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 14:21:10		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 14:22:26		[urlgrab] loading https://t.co/Z7LZ2pHpxo locally
+2017-10-02 14:26:43		[urlgrab] --> 1 : https://t.co/LKhmnlXpWT
+2017-10-02 14:26:43		[urlgrab] --> 2 : https://t.co/TLJFpVUSn6
+2017-10-02 14:26:43		[urlgrab] --> 3 : https://t.co/Luar1NRbb1
+2017-10-02 14:26:43		[urlgrab] --> 4 : https://t.co/hHunv0wYNz
+2017-10-02 14:26:43		[urlgrab] --> 5 : https://t.co/HWwSW902mH
+2017-10-02 14:26:43		[urlgrab] --> 6 : https://t.co/fUigAwgAXJ
+2017-10-02 14:26:43		[urlgrab] --> 7 : https://t.co/Z7LZ2pHpxo
+2017-10-02 14:26:43		[urlgrab] --> 8 : https://t.co/TMxdeSajbl
+2017-10-02 14:26:43		[urlgrab] --> 9 : https://t.co/Pez1ZaoxiH
+2017-10-02 14:26:43		[urlgrab] --> 10 : https://t.co/6OyAHLA9Nk
+2017-10-02 14:38:40	=!=	Error: unknown command "/b" (type /help for help)
+2017-10-02 14:40:20		Option changed: weechat.bar.buffers.position = top  (default: left)
+2017-10-02 14:41:39		fifo: pipe closed
+2017-10-02 14:41:41	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-02 14:41:41		perl scripts loaded: buffers, iset
+2017-10-02 14:41:41		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:41:41		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:41:41		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:41:57		script: script "buffers.py" not found
+2017-10-02 14:42:04		Options saved to sec.conf
+2017-10-02 14:42:04		Options saved to weechat.conf
+2017-10-02 14:42:04		Options saved to plugins.conf
+2017-10-02 14:42:04		Options saved to charset.conf
+2017-10-02 14:42:04		Options saved to logger.conf
+2017-10-02 14:42:04		Options saved to exec.conf
+2017-10-02 14:42:04		Options saved to trigger.conf
+2017-10-02 14:42:04		Options saved to aspell.conf
+2017-10-02 14:42:04		Options saved to alias.conf
+2017-10-02 14:42:04		Options saved to buflist.conf
+2017-10-02 14:42:04		Options saved to fifo.conf
+2017-10-02 14:42:04		Options saved to xfer.conf
+2017-10-02 14:42:04		Options saved to irc.conf
+2017-10-02 14:42:04		Options saved to relay.conf
+2017-10-02 14:42:04		Options saved to buffers.conf
+2017-10-02 14:42:04		Options saved to iset.conf
+2017-10-02 14:42:04		Options saved to urlgrab.conf
+2017-10-02 14:42:04		Options saved to colorize_nicks.conf
+2017-10-02 14:42:04		Options saved to script.conf
+2017-10-02 14:42:06		fifo: pipe closed
+2017-10-02 14:42:07	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-02 14:42:07		perl scripts loaded: buffers, iset
+2017-10-02 14:42:07		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:42:07		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:42:07		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:42:39		perl: unloading script "buffers"
+2017-10-02 14:42:39		perl: script removed: /home/eleventh/.weechat/perl/autoload/buffers.pl
+2017-10-02 14:42:39		perl: script removed: /home/eleventh/.weechat/perl/buffers.pl
+2017-10-02 14:43:25		fifo: pipe closed
+2017-10-02 14:43:26		perl scripts loaded: iset
+2017-10-02 14:43:26		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:43:26		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:43:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:44:34		Option changed: weechat.bar.buffers.filling_left_right = horizontal  (default: vertical)
+2017-10-02 14:44:36		Options saved to sec.conf
+2017-10-02 14:44:36		Options saved to weechat.conf
+2017-10-02 14:44:36		Options saved to plugins.conf
+2017-10-02 14:44:36		Options saved to charset.conf
+2017-10-02 14:44:36		Options saved to logger.conf
+2017-10-02 14:44:36		Options saved to exec.conf
+2017-10-02 14:44:36		Options saved to trigger.conf
+2017-10-02 14:44:36		Options saved to aspell.conf
+2017-10-02 14:44:36		Options saved to alias.conf
+2017-10-02 14:44:36		Options saved to buflist.conf
+2017-10-02 14:44:36		Options saved to fifo.conf
+2017-10-02 14:44:36		Options saved to xfer.conf
+2017-10-02 14:44:36		Options saved to irc.conf
+2017-10-02 14:44:36		Options saved to relay.conf
+2017-10-02 14:44:36		Options saved to iset.conf
+2017-10-02 14:44:36		Options saved to urlgrab.conf
+2017-10-02 14:44:36		Options saved to colorize_nicks.conf
+2017-10-02 14:44:36		Options saved to script.conf
+2017-10-02 14:44:41		fifo: pipe closed
+2017-10-02 14:44:42		perl scripts loaded: iset
+2017-10-02 14:44:42		python scripts loaded: colorize_nicks, urlgrab
+2017-10-02 14:44:42		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 14:44:42		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 14:44:55		script: script "buffer.py" not found
+2017-10-02 14:45:39		perl: loading script "/home/eleventh/.weechat/perl/buffers.pl"
+2017-10-02 14:45:39		perl: registered script "buffers", version 5.6 (Sidebar with list of buffers)
+2017-10-02 14:45:39	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-02 14:46:10	=!=	Error with command "/plugin disable buflist" (help on command: /help plugin)
+2017-10-02 14:46:24		Plugin "buflist" unloaded
+2017-10-02 14:46:49		Options saved to sec.conf
+2017-10-02 14:46:49		Options saved to weechat.conf
+2017-10-02 14:46:49		Options saved to plugins.conf
+2017-10-02 14:46:49		Options saved to charset.conf
+2017-10-02 14:46:49		Options saved to logger.conf
+2017-10-02 14:46:49		Options saved to exec.conf
+2017-10-02 14:46:49		Options saved to trigger.conf
+2017-10-02 14:46:49		Options saved to aspell.conf
+2017-10-02 14:46:49		Options saved to alias.conf
+2017-10-02 14:46:49		Options saved to fifo.conf
+2017-10-02 14:46:49		Options saved to xfer.conf
+2017-10-02 14:46:49		Options saved to irc.conf
+2017-10-02 14:46:49		Options saved to relay.conf
+2017-10-02 14:46:49		Options saved to iset.conf
+2017-10-02 14:46:49		Options saved to urlgrab.conf
+2017-10-02 14:46:49		Options saved to colorize_nicks.conf
+2017-10-02 14:46:49		Options saved to script.conf
+2017-10-02 14:46:49		Options saved to buffers.conf
+2017-10-02 14:47:53		Option changed: weechat.look.buffer_time_format = ""  (default: "%H:%M:%S")
+2017-10-02 14:48:06		Options saved to sec.conf
+2017-10-02 14:48:06		Options saved to weechat.conf
+2017-10-02 14:48:06		Options saved to plugins.conf
+2017-10-02 14:48:06		Options saved to charset.conf
+2017-10-02 14:48:06		Options saved to logger.conf
+2017-10-02 14:48:06		Options saved to exec.conf
+2017-10-02 14:48:06		Options saved to trigger.conf
+2017-10-02 14:48:06		Options saved to aspell.conf
+2017-10-02 14:48:06		Options saved to alias.conf
+2017-10-02 14:48:06		Options saved to fifo.conf
+2017-10-02 14:48:06		Options saved to xfer.conf
+2017-10-02 14:48:06		Options saved to irc.conf
+2017-10-02 14:48:06		Options saved to relay.conf
+2017-10-02 14:48:06		Options saved to iset.conf
+2017-10-02 14:48:06		Options saved to urlgrab.conf
+2017-10-02 14:48:06		Options saved to colorize_nicks.conf
+2017-10-02 14:48:06		Options saved to script.conf
+2017-10-02 14:48:06		Options saved to buffers.conf
+2017-10-02 14:48:28		Options saved to sec.conf
+2017-10-02 14:48:28		Options saved to weechat.conf
+2017-10-02 14:48:28		Options saved to plugins.conf
+2017-10-02 14:48:28		Options saved to charset.conf
+2017-10-02 14:48:28		Options saved to logger.conf
+2017-10-02 14:48:28		Options saved to exec.conf
+2017-10-02 14:48:28		Options saved to trigger.conf
+2017-10-02 14:48:28		Options saved to aspell.conf
+2017-10-02 14:48:28		Options saved to alias.conf
+2017-10-02 14:48:28		Options saved to fifo.conf
+2017-10-02 14:48:28		Options saved to xfer.conf
+2017-10-02 14:48:28		Options saved to irc.conf
+2017-10-02 14:48:28		Options saved to relay.conf
+2017-10-02 14:48:28		Options saved to iset.conf
+2017-10-02 14:48:28		Options saved to urlgrab.conf
+2017-10-02 14:48:28		Options saved to colorize_nicks.conf
+2017-10-02 14:48:28		Options saved to script.conf
+2017-10-02 14:48:28		Options saved to buffers.conf
+2017-10-02 14:50:07		Mouse enabled
+2017-10-02 14:50:19		Options saved to sec.conf
+2017-10-02 14:50:19		Options saved to weechat.conf
+2017-10-02 14:50:19		Options saved to plugins.conf
+2017-10-02 14:50:19		Options saved to charset.conf
+2017-10-02 14:50:19		Options saved to logger.conf
+2017-10-02 14:50:19		Options saved to exec.conf
+2017-10-02 14:50:19		Options saved to trigger.conf
+2017-10-02 14:50:19		Options saved to aspell.conf
+2017-10-02 14:50:19		Options saved to alias.conf
+2017-10-02 14:50:19		Options saved to fifo.conf
+2017-10-02 14:50:19		Options saved to xfer.conf
+2017-10-02 14:50:19		Options saved to irc.conf
+2017-10-02 14:50:19		Options saved to relay.conf
+2017-10-02 14:50:19		Options saved to iset.conf
+2017-10-02 14:50:19		Options saved to urlgrab.conf
+2017-10-02 14:50:19		Options saved to colorize_nicks.conf
+2017-10-02 14:50:19		Options saved to script.conf
+2017-10-02 14:50:19		Options saved to buffers.conf
+2017-10-02 14:51:36		Option changed: weechat.bar.title.size_max = 2  (default: 0)
+2017-10-02 14:51:52		Option changed: weechat.bar.input.size_max = 3  (default: 0)
+2017-10-02 14:51:54		Options saved to sec.conf
+2017-10-02 14:51:54		Options saved to weechat.conf
+2017-10-02 14:51:54		Options saved to plugins.conf
+2017-10-02 14:51:54		Options saved to charset.conf
+2017-10-02 14:51:54		Options saved to logger.conf
+2017-10-02 14:51:54		Options saved to exec.conf
+2017-10-02 14:51:54		Options saved to trigger.conf
+2017-10-02 14:51:54		Options saved to aspell.conf
+2017-10-02 14:51:54		Options saved to alias.conf
+2017-10-02 14:51:54		Options saved to fifo.conf
+2017-10-02 14:51:54		Options saved to xfer.conf
+2017-10-02 14:51:54		Options saved to irc.conf
+2017-10-02 14:51:54		Options saved to relay.conf
+2017-10-02 14:51:54		Options saved to iset.conf
+2017-10-02 14:51:54		Options saved to urlgrab.conf
+2017-10-02 14:51:54		Options saved to colorize_nicks.conf
+2017-10-02 14:51:54		Options saved to script.conf
+2017-10-02 14:51:54		Options saved to buffers.conf
+2017-10-02 14:52:53	=!=	Error with command "/alias b /buffer" (help on command: /help alias)
+2017-10-02 14:53:46	=!=	Error with command "/alias /b /buffer" (help on command: /help alias)
+2017-10-02 14:53:54		[alias]  /alias  list [<alias>]
+2017-10-02 14:53:54		                 add <alias> [<command>[;<command>...]]
+2017-10-02 14:53:54		                 addcompletion <completion> <alias> [<command>[;<command>...]]
+2017-10-02 14:53:54		                 del <alias> [<alias>...]
+2017-10-02 14:53:54		list, add or remove command aliases
+2017-10-02 14:53:54		         list: list aliases (without argument, this list is displayed)
+2017-10-02 14:53:54		          add: add an alias
+2017-10-02 14:53:54		addcompletion: add an alias with a custom completion
+2017-10-02 14:53:54		          del: delete an alias
+2017-10-02 14:53:54		   completion: completion for alias: by default completion is done with target command
+2017-10-02 14:53:54		               note: you can use %%command to use completion of an existing command
+2017-10-02 14:53:54		        alias: name of alias
+2017-10-02 14:53:54		      command: command name with arguments (many commands can be separated by semicolons)
+2017-10-02 14:53:54		Note: in command, special variables are replaced:
+2017-10-02 14:53:54		        $n: argument 'n' (between 1 and 9)
+2017-10-02 14:53:54		       $-m: arguments from 1 to 'm'
+2017-10-02 14:53:54		       $n-: arguments from 'n' to last
+2017-10-02 14:53:54		      $n-m: arguments from 'n' to 'm'
+2017-10-02 14:53:54		        $*: all arguments
+2017-10-02 14:53:54		        $~: last argument
+2017-10-02 14:53:54		      $var: where "var" is a local variable of buffer (see /buffer localvar)
+2017-10-02 14:53:54		            examples: $nick, $channel, $server, $plugin, $name
+2017-10-02 14:53:54		Examples:
+2017-10-02 14:53:54		  alias /split to split window horizontally:
+2017-10-02 14:53:54		    /alias add split /window splith
+2017-10-02 14:53:54		  alias /hello to say "hello" on all channels but not on #weechat:
+2017-10-02 14:53:54		    /alias add hello /allchan -exclude=#weechat msg * hello
+2017-10-02 14:53:54		  alias /forcejoin to send IRC command "forcejoin" with completion of /sajoin:
+2017-10-02 14:53:54		    /alias addcompletion %%sajoin forcejoin /quote forcejoin
+2017-10-02 14:54:13		Alias "b" => "/buffer" created
+2017-10-02 14:54:25		Options saved to sec.conf
+2017-10-02 14:54:25		Options saved to weechat.conf
+2017-10-02 14:54:25		Options saved to plugins.conf
+2017-10-02 14:54:25		Options saved to charset.conf
+2017-10-02 14:54:25		Options saved to logger.conf
+2017-10-02 14:54:25		Options saved to exec.conf
+2017-10-02 14:54:25		Options saved to trigger.conf
+2017-10-02 14:54:25		Options saved to aspell.conf
+2017-10-02 14:54:25		Options saved to alias.conf
+2017-10-02 14:54:25		Options saved to fifo.conf
+2017-10-02 14:54:25		Options saved to xfer.conf
+2017-10-02 14:54:25		Options saved to irc.conf
+2017-10-02 14:54:25		Options saved to relay.conf
+2017-10-02 14:54:25		Options saved to iset.conf
+2017-10-02 14:54:25		Options saved to urlgrab.conf
+2017-10-02 14:54:25		Options saved to colorize_nicks.conf
+2017-10-02 14:54:25		Options saved to script.conf
+2017-10-02 14:54:25		Options saved to buffers.conf
+2017-10-02 14:59:24		[urlgrab] --> 1 : https://t.co/tbEl1smwJS
+2017-10-02 14:59:24		[urlgrab] --> 2 : https://t.co/5UeYsdrJSL
+2017-10-02 14:59:24		[urlgrab] --> 3 : https://t.co/3OwIwksaFk
+2017-10-02 14:59:24		[urlgrab] --> 4 : https://t.co/iyPBws1yyH
+2017-10-02 14:59:24		[urlgrab] --> 5 : https://t.co/Mfw1KnK0bA
+2017-10-02 14:59:24		[urlgrab] --> 6 : https://t.co/ye4qESH6uU
+2017-10-02 14:59:24		[urlgrab] --> 7 : https://t.co/dUBuVdY2hw
+2017-10-02 14:59:24		[urlgrab] --> 8 : https://t.co/zjktApe1nB
+2017-10-02 14:59:24		[urlgrab] --> 9 : https://t.co/riGzMAKqiz
+2017-10-02 14:59:24		[urlgrab] --> 10 : https://t.co/WwcX2TJdgw
+2017-10-02 14:59:56		[urlgrab] loading https://t.co/tbEl1smwJS locally
+2017-10-02 15:01:10		Alias "topen" => "/url open $1 #twitter_11eleventh11#" created
+2017-10-02 15:01:20		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:02:05		Option changed: alias.cmd.topen = "/url open 1 #twitter_11eleventh11#"  (default: "/url open $1 #twitter_11eleventh11#")
+2017-10-02 15:02:17		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:02:32		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:02:43		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:03:42		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:04:09		Option changed: alias.cmd.topen = "/url show 1 #twitter_11eleventh11#"  (default: "/url open $1 #twitter_11eleventh11#")
+2017-10-02 15:04:51		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:11:22	=!=	Error: unknown command "/b5" (type /help for help)
+2017-10-02 15:42:29		[urlgrab] --> 1 : https://lh3.googleusercontent.com/-EoQuamvU4A4/WdJBV9pPorI/AAAAAAAAA5A/4RnTmPik3qE0NJOXzKMwhPu7Kb_OAmwXwCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 15:42:37		[urlgrab] Unknown command 'open'.  Try '/help url' for usage
+2017-10-02 15:42:52		[urlgrab] loading https://lh3.googleusercontent.com/-EoQuamvU4A4/WdJBV9pPorI/AAAAAAAAA5A/4RnTmPik3qE0NJOXzKMwhPu7Kb_OAmwXwCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 15:55:28	=!=	Error: unknown command "/bind" (type /help for help)
+2017-10-02 15:58:30	=!=	Error: it is not safe to bind key "@*:button3" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2017-10-02 15:59:23	=!=	Error: it is not safe to bind key "@*:button3" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2017-10-02 16:04:01		New key binding (context "default"): meta-ctrl-N => /window +1
+2017-10-02 16:04:23		New key binding (context "default"): meta-ctrl-P => /window +1
+2017-10-02 16:04:27		Key "meta-ctrl-N" unbound (context: "default")
+2017-10-02 16:04:27		New key binding (context "default"): meta-ctrl-N => /window +1
+2017-10-02 16:04:30		Key "meta-ctrl-P" unbound (context: "default")
+2017-10-02 16:04:30		New key binding (context "default"): meta-ctrl-P => /window 11
+2017-10-02 16:04:35		Key "meta-ctrl-P" unbound (context: "default")
+2017-10-02 16:04:35		New key binding (context "default"): meta-ctrl-P => /window -1
+2017-10-02 16:04:39		Options saved to sec.conf
+2017-10-02 16:04:39		Options saved to weechat.conf
+2017-10-02 16:04:39		Options saved to plugins.conf
+2017-10-02 16:04:39		Options saved to charset.conf
+2017-10-02 16:04:39		Options saved to logger.conf
+2017-10-02 16:04:39		Options saved to exec.conf
+2017-10-02 16:04:39		Options saved to trigger.conf
+2017-10-02 16:04:39		Options saved to aspell.conf
+2017-10-02 16:04:39		Options saved to alias.conf
+2017-10-02 16:04:39		Options saved to fifo.conf
+2017-10-02 16:04:39		Options saved to xfer.conf
+2017-10-02 16:04:39		Options saved to irc.conf
+2017-10-02 16:04:39		Options saved to relay.conf
+2017-10-02 16:04:39		Options saved to iset.conf
+2017-10-02 16:04:39		Options saved to urlgrab.conf
+2017-10-02 16:04:39		Options saved to colorize_nicks.conf
+2017-10-02 16:04:39		Options saved to script.conf
+2017-10-02 16:04:39		Options saved to buffers.conf
+2017-10-02 16:06:50		[urlgrab] No URL found - Invalid index
+2017-10-02 16:19:38		[irc]  /notify  add <nick> [<server> [-away]]
+2017-10-02 16:19:38		                del <nick>|-all [<server>]
+2017-10-02 16:19:38		add a notification for presence or away status of nicks on servers
+2017-10-02 16:19:38		   add: add a notification
+2017-10-02 16:19:38		  nick: nick
+2017-10-02 16:19:38		server: internal server name (by default current server)
+2017-10-02 16:19:38		 -away: notify when away message is changed (by doing whois on nick)
+2017-10-02 16:19:38		   del: delete a notification
+2017-10-02 16:19:38		  -all: delete all notifications
+2017-10-02 16:19:38		Without argument, this command displays notifications for current server (or all servers if command is issued on core buffer).
+2017-10-02 16:19:38		Examples:
+2017-10-02 16:19:38		  notify when "toto" joins/quits current server:
+2017-10-02 16:19:38		    /notify add toto
+2017-10-02 16:19:38		  notify when "toto" joins/quits freenode server:
+2017-10-02 16:19:38		    /notify add toto freenode
+2017-10-02 16:19:38		  notify when "toto" is away or back on freenode server:
+2017-10-02 16:19:38		    /notify add toto freenode -away
+2017-10-02 16:22:37	=!=	Error: unknown command "/scripts" (type /help for help)
+2017-10-02 16:26:06		Notify list for all servers:
+2017-10-02 16:26:06		  Kam @ Bitlbee: online 
+2017-10-02 16:26:10	=!=	Error: unknown command "/bd" (type /help for help)
+2017-10-02 16:26:15	=!=	Error with command "/buffer delet" (help on command: /help buffer)
+2017-10-02 16:26:36		python: loading script "/home/eleventh/.weechat/python/notification.py"
+2017-10-02 16:26:36		python: registered script "notification", version 1 (Notifies of a number of events through desktop notifications and an optional status icon)
+2017-10-02 16:26:54		Options saved to sec.conf
+2017-10-02 16:26:54		Options saved to weechat.conf
+2017-10-02 16:26:54		Options saved to plugins.conf
+2017-10-02 16:26:54		Options saved to charset.conf
+2017-10-02 16:26:54		Options saved to logger.conf
+2017-10-02 16:26:54		Options saved to exec.conf
+2017-10-02 16:26:54		Options saved to trigger.conf
+2017-10-02 16:26:54		Options saved to aspell.conf
+2017-10-02 16:26:54		Options saved to alias.conf
+2017-10-02 16:26:54		Options saved to fifo.conf
+2017-10-02 16:26:54		Options saved to xfer.conf
+2017-10-02 16:26:54		Options saved to irc.conf
+2017-10-02 16:26:54		Options saved to relay.conf
+2017-10-02 16:26:54		Options saved to iset.conf
+2017-10-02 16:26:54		Options saved to urlgrab.conf
+2017-10-02 16:26:54		Options saved to colorize_nicks.conf
+2017-10-02 16:26:54		Options saved to script.conf
+2017-10-02 16:26:54		Options saved to buffers.conf
+2017-10-02 16:27:03		script: autoload enabled for script "notification.py"
+2017-10-02 16:27:05		Options saved to sec.conf
+2017-10-02 16:27:05		Options saved to weechat.conf
+2017-10-02 16:27:05		Options saved to plugins.conf
+2017-10-02 16:27:05		Options saved to charset.conf
+2017-10-02 16:27:05		Options saved to logger.conf
+2017-10-02 16:27:05		Options saved to exec.conf
+2017-10-02 16:27:05		Options saved to trigger.conf
+2017-10-02 16:27:05		Options saved to aspell.conf
+2017-10-02 16:27:05		Options saved to alias.conf
+2017-10-02 16:27:05		Options saved to fifo.conf
+2017-10-02 16:27:05		Options saved to xfer.conf
+2017-10-02 16:27:05		Options saved to irc.conf
+2017-10-02 16:27:05		Options saved to relay.conf
+2017-10-02 16:27:05		Options saved to iset.conf
+2017-10-02 16:27:05		Options saved to urlgrab.conf
+2017-10-02 16:27:05		Options saved to colorize_nicks.conf
+2017-10-02 16:27:05		Options saved to script.conf
+2017-10-02 16:27:05		Options saved to buffers.conf
+2017-10-02 17:09:32		Option changed: plugins.var.python.notification.notify_on_dcc_request = "off"
+2017-10-02 17:10:13		fifo: pipe closed
+2017-10-02 17:10:15	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-02 17:10:15		perl scripts loaded: buffers, iset
+2017-10-02 17:10:15		python scripts loaded: colorize_nicks, notification, urlgrab
+2017-10-02 17:10:15		script: 349 scripts for WeeChat 1.9.1
+2017-10-02 17:10:15		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-02 17:11:10		Option changed: weechat.bar.buffers.hidden = on
+2017-10-02 17:11:20		Option changed: weechat.bar.buffers.hidden = off  (default: on)
+2017-10-02 17:11:35		Plugin "buflist" unloaded
+2017-10-02 17:12:29		Options saved to sec.conf
+2017-10-02 17:12:29		Options saved to weechat.conf
+2017-10-02 17:12:29		Options saved to plugins.conf
+2017-10-02 17:12:29		Options saved to charset.conf
+2017-10-02 17:12:29		Options saved to logger.conf
+2017-10-02 17:12:29		Options saved to exec.conf
+2017-10-02 17:12:29		Options saved to trigger.conf
+2017-10-02 17:12:29		Options saved to aspell.conf
+2017-10-02 17:12:29		Options saved to alias.conf
+2017-10-02 17:12:29		Options saved to fifo.conf
+2017-10-02 17:12:29		Options saved to xfer.conf
+2017-10-02 17:12:29		Options saved to irc.conf
+2017-10-02 17:12:29		Options saved to relay.conf
+2017-10-02 17:12:29		Options saved to buffers.conf
+2017-10-02 17:12:29		Options saved to iset.conf
+2017-10-02 17:12:29		Options saved to urlgrab.conf
+2017-10-02 17:12:29		Options saved to colorize_nicks.conf
+2017-10-02 17:12:29		Options saved to script.conf
+2017-10-02 17:15:24		Option changed: weechat.bar.buflist.hidden = on  (default: off)
+2017-10-02 17:37:45	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2017-10-02 17:38:02		[urlgrab] loading https://lh3.googleusercontent.com/-m2J0VRiZOm8/WdJcn5J1KaI/AAAAAAAAA5s/HDsF5OT7MM4DkQcAGGaPwR6K0ISVazCygCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 17:38:59		[urlgrab] loading https://lh3.googleusercontent.com/-x24SWTNd0gE/WdJcos5CJcI/AAAAAAAAA5w/jQO9_lbKEpEcg1JAVjAzz4nGJVFMIzEzQCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:29:17		[urlgrab] --> 1 : https://lh3.googleusercontent.com/-2J3A0UkYJrk/WdKFbMKf4RI/AAAAAAAAA6A/pYyBXSspbXMZOmq4GW0kMUuzMdJ7yJ-WwCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:29:17		[urlgrab] --> 2 : https://lh3.googleusercontent.com/-x24SWTNd0gE/WdJcos5CJcI/AAAAAAAAA5w/jQO9_lbKEpEcg1JAVjAzz4nGJVFMIzEzQCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:29:17		[urlgrab] --> 3 : https://lh3.googleusercontent.com/-m2J0VRiZOm8/WdJcn5J1KaI/AAAAAAAAA5s/HDsF5OT7MM4DkQcAGGaPwR6K0ISVazCygCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:29:17		[urlgrab] --> 4 : https://lh3.googleusercontent.com/-bDRldvAdTOk/WdJbSq7KXMI/AAAAAAAAA5g/nxoaWe8GybU5WEQs025RJIQ5sm31JKW-wCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:29:31		[urlgrab] loading https://lh3.googleusercontent.com/-2J3A0UkYJrk/WdKFbMKf4RI/AAAAAAAAA6A/pYyBXSspbXMZOmq4GW0kMUuzMdJ7yJ-WwCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:43:14		[urlgrab] loading https://lh3.googleusercontent.com/-xT_CRDizb7A/WdKIoEX0hzI/AAAAAAAAA6k/UkDyt8_KQXc7aRYnDojJfjGNh6b_arYQQCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:43:17		[urlgrab] loading https://lh3.googleusercontent.com/-zUp_4h7gbKo/WdKIl1L2yXI/AAAAAAAAA6g/E7EaI7l7cK8aOowad6y9Ho7Ya50BpBaqgCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:43:27		[urlgrab] loading https://lh3.googleusercontent.com/-zohMa-ojeyQ/WdKIkXGQqsI/AAAAAAAAA6c/f_IwWnIA48gG1fOFUhkYT_sPKS2PewVUgCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:44:10		[urlgrab] No URL found - Invalid channel
+2017-10-02 20:46:12		[urlgrab] loading https://lh3.googleusercontent.com/-zUp_4h7gbKo/WdKIl1L2yXI/AAAAAAAAA6g/E7EaI7l7cK8aOowad6y9Ho7Ya50BpBaqgCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:46:16		[urlgrab] No URL found - Invalid channel
+2017-10-02 20:46:28		[urlgrab] --> 1 : https://lh3.googleusercontent.com/-xT_CRDizb7A/WdKIoEX0hzI/AAAAAAAAA6k/UkDyt8_KQXc7aRYnDojJfjGNh6b_arYQQCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 2 : https://lh3.googleusercontent.com/-zUp_4h7gbKo/WdKIl1L2yXI/AAAAAAAAA6g/E7EaI7l7cK8aOowad6y9Ho7Ya50BpBaqgCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 3 : https://lh3.googleusercontent.com/-zohMa-ojeyQ/WdKIkXGQqsI/AAAAAAAAA6c/f_IwWnIA48gG1fOFUhkYT_sPKS2PewVUgCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 4 : https://lh3.googleusercontent.com/-vJhWIUInM1U/WdKHOs6al-I/AAAAAAAAA6Q/wwG-3S3UkUgLEzzIpv9Aap_blVMM23jzACK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 5 : https://lh3.googleusercontent.com/-TAciwFHKM3s/WdKHEpfHC8I/AAAAAAAAA6M/CbaGTeb-xfIGzaNT9Asc01hABO6lMdHYgCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 6 : https://lh3.googleusercontent.com/-2J3A0UkYJrk/WdKFbMKf4RI/AAAAAAAAA6A/pYyBXSspbXMZOmq4GW0kMUuzMdJ7yJ-WwCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 7 : https://lh3.googleusercontent.com/-x24SWTNd0gE/WdJcos5CJcI/AAAAAAAAA5w/jQO9_lbKEpEcg1JAVjAzz4nGJVFMIzEzQCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 8 : https://lh3.googleusercontent.com/-m2J0VRiZOm8/WdJcn5J1KaI/AAAAAAAAA5s/HDsF5OT7MM4DkQcAGGaPwR6K0ISVazCygCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:46:28		[urlgrab] --> 9 : https://lh3.googleusercontent.com/-bDRldvAdTOk/WdJbSq7KXMI/AAAAAAAAA5g/nxoaWe8GybU5WEQs025RJIQ5sm31JKW-wCK8BGAs/s0/2017-10-02.jpg
+2017-10-02 20:56:52		[urlgrab] loading https://lh3.googleusercontent.com/-ntCAwcnQDpo/WdKLnwbqwFI/AAAAAAAAA68/ASVoWJdFLAQ_MoeQu00s-56ehGcKXBRQgCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-02 20:56:58		[urlgrab] loading https://lh3.googleusercontent.com/-C4dln277TfY/WdKKtwteIgI/AAAAAAAAA6w/ShRx6gv_G5IvuMIrlzWauptwZjJhDeaogCK8BGAs/s0/2017-10-02.jpg locally
+2017-10-03 08:46:50		Option changed: weechat.look.color_inactive_window = off  (default: on)
+2017-10-03 08:47:00		Options saved to sec.conf
+2017-10-03 08:47:00		Options saved to weechat.conf
+2017-10-03 08:47:00		Options saved to plugins.conf
+2017-10-03 08:47:00		Options saved to charset.conf
+2017-10-03 08:47:00		Options saved to logger.conf
+2017-10-03 08:47:00		Options saved to exec.conf
+2017-10-03 08:47:00		Options saved to trigger.conf
+2017-10-03 08:47:00		Options saved to aspell.conf
+2017-10-03 08:47:00		Options saved to alias.conf
+2017-10-03 08:47:00		Options saved to fifo.conf
+2017-10-03 08:47:00		Options saved to xfer.conf
+2017-10-03 08:47:00		Options saved to irc.conf
+2017-10-03 08:47:00		Options saved to relay.conf
+2017-10-03 08:47:00		Options saved to buffers.conf
+2017-10-03 08:47:00		Options saved to iset.conf
+2017-10-03 08:47:00		Options saved to urlgrab.conf
+2017-10-03 08:47:00		Options saved to colorize_nicks.conf
+2017-10-03 08:47:00		Options saved to script.conf
+2017-10-03 08:47:05		Options saved to sec.conf
+2017-10-03 08:47:05		Options saved to weechat.conf
+2017-10-03 08:47:05		Options saved to plugins.conf
+2017-10-03 08:47:05		Options saved to charset.conf
+2017-10-03 08:47:05		Options saved to logger.conf
+2017-10-03 08:47:05		Options saved to exec.conf
+2017-10-03 08:47:05		Options saved to trigger.conf
+2017-10-03 08:47:05		Options saved to aspell.conf
+2017-10-03 08:47:05		Options saved to alias.conf
+2017-10-03 08:47:05		Options saved to fifo.conf
+2017-10-03 08:47:05		Options saved to xfer.conf
+2017-10-03 08:47:05		Options saved to irc.conf
+2017-10-03 08:47:05		Options saved to relay.conf
+2017-10-03 08:47:05		Options saved to buffers.conf
+2017-10-03 08:47:05		Options saved to iset.conf
+2017-10-03 08:47:05		Options saved to urlgrab.conf
+2017-10-03 08:47:05		Options saved to colorize_nicks.conf
+2017-10-03 08:47:05		Options saved to script.conf
+2017-10-03 09:23:43	=!=	Error: unknown command "/scripts" (type /help for help)
+2017-10-03 09:25:50	=!=	Error: unknown command "/scripts" (type /help for help)
+2017-10-03 09:29:17		fifo: pipe closed
+2017-10-03 09:38:35	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 09:38:35		perl scripts loaded: buffers, iset
+2017-10-03 09:38:35		python scripts loaded: colorize_nicks, notification, urlgrab
+2017-10-03 09:38:35		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 09:38:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 09:39:09		ruby: loading script "/home/eleventh/.weechat/ruby/url_hinter.rb"
+2017-10-03 09:39:09		ruby: registered script "url_hinter", version 0.4 (Open an url in the weechat buffer to type a hint)
+2017-10-03 09:39:20		script: autoload enabled for script "url_hinter.rb"
+2017-10-03 09:40:32		[ruby/url_hinter]  /url_hinter  continuous|first
+2017-10-03 09:40:32		Search url strings, and highlight them, and if you type a hint key, open the url related to hint key.
+2017-10-03 09:40:32		continuous | Continue hint mode even if selected url is opend.
+2017-10-03 09:40:32		first      | Open a url that appears first on the current buffer.
+2017-10-03 09:41:13		python: unloading script "urlgrab"
+2017-10-03 09:41:13		python: script removed: /home/eleventh/.weechat/python/autoload/urlgrab.py
+2017-10-03 09:41:13		python: script removed: /home/eleventh/.weechat/python/urlgrab.py
+2017-10-03 09:42:01	=!=	irc: command "part" must be executed on irc buffer (server or channel)
+2017-10-03 09:44:20		Alias "F" => "/url_hinter" created
+2017-10-03 09:44:23		Options saved to sec.conf
+2017-10-03 09:44:23		Options saved to weechat.conf
+2017-10-03 09:44:23		Options saved to plugins.conf
+2017-10-03 09:44:23		Options saved to charset.conf
+2017-10-03 09:44:23		Options saved to logger.conf
+2017-10-03 09:44:23		Options saved to exec.conf
+2017-10-03 09:44:23		Options saved to trigger.conf
+2017-10-03 09:44:23		Options saved to aspell.conf
+2017-10-03 09:44:23		Options saved to alias.conf
+2017-10-03 09:44:23		Options saved to buflist.conf
+2017-10-03 09:44:23		Options saved to fifo.conf
+2017-10-03 09:44:23		Options saved to xfer.conf
+2017-10-03 09:44:23		Options saved to irc.conf
+2017-10-03 09:44:23		Options saved to relay.conf
+2017-10-03 09:44:23		Options saved to buffers.conf
+2017-10-03 09:44:23		Options saved to iset.conf
+2017-10-03 09:44:23		Options saved to colorize_nicks.conf
+2017-10-03 09:44:23		Options saved to script.conf
+2017-10-03 09:44:26	=!=	ruby: unable to run function "launch_url_hinter"
+2017-10-03 09:44:26	=!=	ruby: error: (eval):371:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2017-10-03 09:44:26	=!=	ruby: error:      from (eval):371:in `has_url?'
+2017-10-03 09:44:26	=!=	ruby: error:      from (eval):321:in `each'
+2017-10-03 09:44:26	=!=	ruby: error:      from (eval):283:in `find'
+2017-10-03 09:44:26	=!=	ruby: error:      from (eval):283:in `has_url_in_display?'
+2017-10-03 09:44:26	=!=	ruby: error:      from (eval):101:in `launch_url_hinter'
+2017-10-03 09:44:31	=!=	Error: unknown command "/F]" (type /help for help)
+2017-10-03 09:44:35	=!=	ruby: unable to run function "launch_url_hinter"
+2017-10-03 09:44:35	=!=	ruby: error: (eval):371:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2017-10-03 09:44:35	=!=	ruby: error:      from (eval):371:in `has_url?'
+2017-10-03 09:44:35	=!=	ruby: error:      from (eval):321:in `each'
+2017-10-03 09:44:35	=!=	ruby: error:      from (eval):283:in `find'
+2017-10-03 09:44:35	=!=	ruby: error:      from (eval):283:in `has_url_in_display?'
+2017-10-03 09:44:35	=!=	ruby: error:      from (eval):101:in `launch_url_hinter'
+2017-10-03 09:44:39	=!=	ruby: unable to run function "launch_url_hinter"
+2017-10-03 09:44:39	=!=	ruby: error: (eval):371:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2017-10-03 09:44:39	=!=	ruby: error:      from (eval):371:in `has_url?'
+2017-10-03 09:44:39	=!=	ruby: error:      from (eval):321:in `each'
+2017-10-03 09:44:39	=!=	ruby: error:      from (eval):283:in `find'
+2017-10-03 09:44:39	=!=	ruby: error:      from (eval):283:in `has_url_in_display?'
+2017-10-03 09:44:39	=!=	ruby: error:      from (eval):101:in `launch_url_hinter'
+2017-10-03 09:46:29		ruby: unloading script "url_hinter"
+2017-10-03 09:46:29		ruby: script removed: /home/eleventh/.weechat/ruby/autoload/url_hinter.rb
+2017-10-03 09:46:29		ruby: script removed: /home/eleventh/.weechat/ruby/url_hinter.rb
+2017-10-03 09:49:06		ruby: loading script "/home/eleventh/.weechat/ruby/url_shorten.rb"
+2017-10-03 09:49:07		ruby: registered script "url_shorten", version 1.9.0 (Shorten url)
+2017-10-03 09:50:34		ruby: unloading script "url_shorten"
+2017-10-03 09:50:34		ruby: script removed: /home/eleventh/.weechat/ruby/autoload/url_shorten.rb
+2017-10-03 09:50:34		ruby: script removed: /home/eleventh/.weechat/ruby/url_shorten.rb
+2017-10-03 09:50:48		python: loading script "/home/eleventh/.weechat/python/urlgrab.py"
+2017-10-03 09:50:48		python: registered script "urlgrab", version 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-03 09:50:53		[urlgrab] #twitter_11eleventh11: no entries
+2017-10-03 09:51:53		script: script "url_grab.py" not found
+2017-10-03 09:52:00		script: script "urlgrab.py" is already installed and up-to-date
+2017-10-03 09:52:11		[urlgrab] urlgrab: no entries
+2017-10-03 09:52:18		[urlgrab] #twitter_11eleventh11: no entries
+2017-10-03 10:08:52		fifo: pipe closed
+2017-10-03 10:08:54	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 10:08:54		perl scripts loaded: buffers, iset
+2017-10-03 10:08:54		python scripts loaded: colorize_nicks, notification, urlgrab
+2017-10-03 10:08:54		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 10:08:54		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 10:09:03		[urlgrab] Unknown command 'https://t.co/8JeeDjaul5'.  Try '/help url' for usage
+2017-10-03 10:10:42		[urlgrab] Unknown command 'RT_com'.  Try '/help url' for usage
+2017-10-03 10:10:49		[urlgrab] --> 1 : https://t.co/6gpt9hPJ6M
+2017-10-03 10:10:49		[urlgrab] --> 2 : https://t.co/Rc57TdQ7SQ
+2017-10-03 10:10:49		[urlgrab] --> 3 : https://t.co/ecorQdz7u9
+2017-10-03 10:10:49		[urlgrab] --> 4 : https://t.co/P4CnHzHcy6
+2017-10-03 10:10:49		[urlgrab] --> 5 : https://t.co/DrmsFR6uni
+2017-10-03 10:10:49		[urlgrab] --> 6 : https://t.co/RMYviBMYid
+2017-10-03 10:10:49		[urlgrab] --> 7 : https://t.co/poyYmvV2dO
+2017-10-03 10:10:49		[urlgrab] --> 8 : https://t.co/gpORFB7bV0
+2017-10-03 10:10:49		[urlgrab] --> 9 : https://t.co/Uo3j0FMXFZ
+2017-10-03 10:10:49		[urlgrab] --> 10 : https://t.co/CJjmUc3VWj
+2017-10-03 10:11:10		[urlgrab] loading https://t.co/6gpt9hPJ6M locally
+2017-10-03 10:12:19		[urlgrab] TIME: no entries
+2017-10-03 10:12:37		[urlgrab] TIME: no entries
+2017-10-03 11:10:50		irc: server s3slack added
+2017-10-03 11:11:18	=!=	Error with command "/secure thetocroaches.lGlXyfcXBn52TdynqU6u" (help on command: /help secure)
+2017-10-03 11:11:25		[core]  /secure  passphrase <passphrase>|-delete
+2017-10-03 11:11:25		                 decrypt <passphrase>|-discard
+2017-10-03 11:11:25		                 set <name> <value>
+2017-10-03 11:11:25		                 del <name>
+2017-10-03 11:11:25		manage secured data (passwords or private data encrypted in file sec.conf)
+2017-10-03 11:11:25		passphrase: change the passphrase (without passphrase, data is stored as plain text in file sec.conf)
+2017-10-03 11:11:25		   -delete: delete passphrase
+2017-10-03 11:11:25		   decrypt: decrypt data still encrypted (it happens only if passphrase was not given on startup)
+2017-10-03 11:11:25		  -discard: discard all data still encrypted
+2017-10-03 11:11:25		       set: add or change secured data
+2017-10-03 11:11:25		       del: delete secured data
+2017-10-03 11:11:25		Without argument, this command displays secured data in a new buffer.
+2017-10-03 11:11:25		Keys on secure buffer:
+2017-10-03 11:11:25		  alt+v  toggle values
+2017-10-03 11:11:25		When a passphrase is used (data encrypted), it is asked by WeeChat on startup.
+2017-10-03 11:11:25		It is possible to set environment variable "WEECHAT_PASSPHRASE" to prevent the prompt (this same variable is used by WeeChat on /upgrade).
+2017-10-03 11:11:25		Secured data with format ${sec.data.xxx} can be used in:
+2017-10-03 11:11:25		  - command /eval
+2017-10-03 11:11:25		  - command line argument "--run-command"
+2017-10-03 11:11:25		  - options weechat.startup.command_{before|after}_plugins
+2017-10-03 11:11:25		  - other options that may contain a password or sensitive data (for example proxy, irc server and relay); see /help on the options to check if they are evaluated.
+2017-10-03 11:11:25		Examples:
+2017-10-03 11:11:25		  set a passphrase:
+2017-10-03 11:11:25		    /secure passphrase this is my passphrase
+2017-10-03 11:11:25		  encrypt freenode SASL password:
+2017-10-03 11:11:25		    /secure set freenode mypassword
+2017-10-03 11:11:25		    /set irc.server.freenode.sasl_password "${sec.data.freenode}"
+2017-10-03 11:11:25		  encrypt oftc password for nickserv:
+2017-10-03 11:11:25		    /secure set oftc mypassword
+2017-10-03 11:11:25		    /set irc.server.oftc.command "/msg nickserv identify ${sec.data.oftc}"
+2017-10-03 11:11:25		  alias to ghost the nick "mynick":
+2017-10-03 11:11:25		    /alias add ghost /eval /msg -server freenode nickserv ghost mynick ${sec.data.freenode}
+2017-10-03 11:11:35	=!=	Error with command "/secure Royal10??" (help on command: /help secure)
+2017-10-03 11:11:38		[core]  /secure  passphrase <passphrase>|-delete
+2017-10-03 11:11:38		                 decrypt <passphrase>|-discard
+2017-10-03 11:11:38		                 set <name> <value>
+2017-10-03 11:11:38		                 del <name>
+2017-10-03 11:11:38		manage secured data (passwords or private data encrypted in file sec.conf)
+2017-10-03 11:11:38		passphrase: change the passphrase (without passphrase, data is stored as plain text in file sec.conf)
+2017-10-03 11:11:38		   -delete: delete passphrase
+2017-10-03 11:11:38		   decrypt: decrypt data still encrypted (it happens only if passphrase was not given on startup)
+2017-10-03 11:11:38		  -discard: discard all data still encrypted
+2017-10-03 11:11:38		       set: add or change secured data
+2017-10-03 11:11:38		       del: delete secured data
+2017-10-03 11:11:38		Without argument, this command displays secured data in a new buffer.
+2017-10-03 11:11:38		Keys on secure buffer:
+2017-10-03 11:11:38		  alt+v  toggle values
+2017-10-03 11:11:38		When a passphrase is used (data encrypted), it is asked by WeeChat on startup.
+2017-10-03 11:11:38		It is possible to set environment variable "WEECHAT_PASSPHRASE" to prevent the prompt (this same variable is used by WeeChat on /upgrade).
+2017-10-03 11:11:38		Secured data with format ${sec.data.xxx} can be used in:
+2017-10-03 11:11:38		  - command /eval
+2017-10-03 11:11:38		  - command line argument "--run-command"
+2017-10-03 11:11:38		  - options weechat.startup.command_{before|after}_plugins
+2017-10-03 11:11:38		  - other options that may contain a password or sensitive data (for example proxy, irc server and relay); see /help on the options to check if they are evaluated.
+2017-10-03 11:11:38		Examples:
+2017-10-03 11:11:38		  set a passphrase:
+2017-10-03 11:11:38		    /secure passphrase this is my passphrase
+2017-10-03 11:11:38		  encrypt freenode SASL password:
+2017-10-03 11:11:38		    /secure set freenode mypassword
+2017-10-03 11:11:38		    /set irc.server.freenode.sasl_password "${sec.data.freenode}"
+2017-10-03 11:11:38		  encrypt oftc password for nickserv:
+2017-10-03 11:11:38		    /secure set oftc mypassword
+2017-10-03 11:11:38		    /set irc.server.oftc.command "/msg nickserv identify ${sec.data.oftc}"
+2017-10-03 11:11:38		  alias to ghost the nick "mynick":
+2017-10-03 11:11:38		    /alias add ghost /eval /msg -server freenode nickserv ghost mynick ${sec.data.freenode}
+2017-10-03 11:11:47	=!=	No help available, "passphrase" is not a command or an option
+2017-10-03 11:12:03		Passphrase added
+2017-10-03 11:12:17		Secured data "s3slack" set
+2017-10-03 11:12:17		Options saved to sec.conf
+2017-10-03 11:12:22		Options saved to sec.conf
+2017-10-03 11:12:22		Options saved to weechat.conf
+2017-10-03 11:12:22		Options saved to plugins.conf
+2017-10-03 11:12:22		Options saved to charset.conf
+2017-10-03 11:12:22		Options saved to logger.conf
+2017-10-03 11:12:22		Options saved to exec.conf
+2017-10-03 11:12:22		Options saved to trigger.conf
+2017-10-03 11:12:22		Options saved to aspell.conf
+2017-10-03 11:12:22		Options saved to alias.conf
+2017-10-03 11:12:22		Options saved to buflist.conf
+2017-10-03 11:12:22		Options saved to fifo.conf
+2017-10-03 11:12:22		Options saved to xfer.conf
+2017-10-03 11:12:22		Options saved to irc.conf
+2017-10-03 11:12:22		Options saved to relay.conf
+2017-10-03 11:12:22		Options saved to buffers.conf
+2017-10-03 11:12:22		Options saved to iset.conf
+2017-10-03 11:12:22		Options saved to urlgrab.conf
+2017-10-03 11:12:22		Options saved to colorize_nicks.conf
+2017-10-03 11:12:22		Options saved to script.conf
+2017-10-03 11:12:25		[core]  /secure  passphrase <passphrase>|-delete
+2017-10-03 11:12:25		                 decrypt <passphrase>|-discard
+2017-10-03 11:12:25		                 set <name> <value>
+2017-10-03 11:12:25		                 del <name>
+2017-10-03 11:12:25		manage secured data (passwords or private data encrypted in file sec.conf)
+2017-10-03 11:12:25		passphrase: change the passphrase (without passphrase, data is stored as plain text in file sec.conf)
+2017-10-03 11:12:25		   -delete: delete passphrase
+2017-10-03 11:12:25		   decrypt: decrypt data still encrypted (it happens only if passphrase was not given on startup)
+2017-10-03 11:12:25		  -discard: discard all data still encrypted
+2017-10-03 11:12:25		       set: add or change secured data
+2017-10-03 11:12:25		       del: delete secured data
+2017-10-03 11:12:25		Without argument, this command displays secured data in a new buffer.
+2017-10-03 11:12:25		Keys on secure buffer:
+2017-10-03 11:12:25		  alt+v  toggle values
+2017-10-03 11:12:25		When a passphrase is used (data encrypted), it is asked by WeeChat on startup.
+2017-10-03 11:12:25		It is possible to set environment variable "WEECHAT_PASSPHRASE" to prevent the prompt (this same variable is used by WeeChat on /upgrade).
+2017-10-03 11:12:25		Secured data with format ${sec.data.xxx} can be used in:
+2017-10-03 11:12:25		  - command /eval
+2017-10-03 11:12:25		  - command line argument "--run-command"
+2017-10-03 11:12:25		  - options weechat.startup.command_{before|after}_plugins
+2017-10-03 11:12:25		  - other options that may contain a password or sensitive data (for example proxy, irc server and relay); see /help on the options to check if they are evaluated.
+2017-10-03 11:12:25		Examples:
+2017-10-03 11:12:25		  set a passphrase:
+2017-10-03 11:12:25		    /secure passphrase this is my passphrase
+2017-10-03 11:12:25		  encrypt freenode SASL password:
+2017-10-03 11:12:25		    /secure set freenode mypassword
+2017-10-03 11:12:25		    /set irc.server.freenode.sasl_password "${sec.data.freenode}"
+2017-10-03 11:12:25		  encrypt oftc password for nickserv:
+2017-10-03 11:12:25		    /secure set oftc mypassword
+2017-10-03 11:12:25		    /set irc.server.oftc.command "/msg nickserv identify ${sec.data.oftc}"
+2017-10-03 11:12:25		  alias to ghost the nick "mynick":
+2017-10-03 11:12:25		    /alias add ghost /eval /msg -server freenode nickserv ghost mynick ${sec.data.freenode}
+2017-10-03 11:13:10		[server] (irc.conf)
+2017-10-03 11:13:10		  irc.server.s3slack.autoconnect = null -> off
+2017-10-03 11:13:10		1 option (matching with "irc.server.s3slack.autoconnect")
+2017-10-03 11:13:12		Option changed: irc.server.s3slack.autoconnect = on  (default if null: off)
+2017-10-03 11:13:23		Option changed: irc.server.s3slack.autorejoin = on  (default if null: off)
+2017-10-03 11:13:38		Option changed: irc.server.s3slack.nicks = "barkerdb"  (default if null: "eleventh,eleventh1,eleventh2,eleventh3,eleventh4")
+2017-10-03 11:13:48		Option changed: irc.server.s3slack.ssl = on  (default if null: off)
+2017-10-03 11:14:13		Option changed: irc.server.s3slack.ssl_dhkey_size = 512  (default if null: 2048)
+2017-10-03 11:15:04		Options saved to sec.conf
+2017-10-03 11:15:04		Options saved to weechat.conf
+2017-10-03 11:15:04		Options saved to plugins.conf
+2017-10-03 11:15:04		Options saved to charset.conf
+2017-10-03 11:15:04		Options saved to logger.conf
+2017-10-03 11:15:04		Options saved to exec.conf
+2017-10-03 11:15:04		Options saved to trigger.conf
+2017-10-03 11:15:04		Options saved to aspell.conf
+2017-10-03 11:15:04		Options saved to alias.conf
+2017-10-03 11:15:04		Options saved to buflist.conf
+2017-10-03 11:15:04		Options saved to fifo.conf
+2017-10-03 11:15:04		Options saved to xfer.conf
+2017-10-03 11:15:04		Options saved to irc.conf
+2017-10-03 11:15:04		Options saved to relay.conf
+2017-10-03 11:15:04		Options saved to buffers.conf
+2017-10-03 11:15:04		Options saved to iset.conf
+2017-10-03 11:15:04		Options saved to urlgrab.conf
+2017-10-03 11:15:04		Options saved to colorize_nicks.conf
+2017-10-03 11:15:04		Options saved to script.conf
+2017-10-03 11:15:07	=!=	Error: unknown command "/art" (type /help for help)
+2017-10-03 11:15:09	=!=	irc: command "part" must be executed on connected irc server
+2017-10-03 11:15:13		fifo: pipe closed
+2017-10-03 11:15:21	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 11:15:21		perl scripts loaded: buffers, iset
+2017-10-03 11:15:21		python scripts loaded: colorize_nicks, notification, urlgrab
+2017-10-03 11:15:21		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 11:15:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 11:18:16		Option changed: irc.server.s3slack.password = "${sec.data.s3slack}"  (default if null: "")
+2017-10-03 11:18:21		Options saved to sec.conf
+2017-10-03 11:18:21		Options saved to weechat.conf
+2017-10-03 11:18:21		Options saved to plugins.conf
+2017-10-03 11:18:21		Options saved to charset.conf
+2017-10-03 11:18:21		Options saved to logger.conf
+2017-10-03 11:18:21		Options saved to exec.conf
+2017-10-03 11:18:21		Options saved to trigger.conf
+2017-10-03 11:18:21		Options saved to aspell.conf
+2017-10-03 11:18:21		Options saved to alias.conf
+2017-10-03 11:18:21		Options saved to buflist.conf
+2017-10-03 11:18:21		Options saved to fifo.conf
+2017-10-03 11:18:21		Options saved to xfer.conf
+2017-10-03 11:18:21		Options saved to irc.conf
+2017-10-03 11:18:21		Options saved to relay.conf
+2017-10-03 11:18:21		Options saved to buffers.conf
+2017-10-03 11:18:21		Options saved to iset.conf
+2017-10-03 11:18:21		Options saved to urlgrab.conf
+2017-10-03 11:18:21		Options saved to colorize_nicks.conf
+2017-10-03 11:18:21		Options saved to script.conf
+2017-10-03 11:18:55	=!=	irc: command "part" must be executed on connected irc server
+2017-10-03 11:19:41		Secured data "s3slack" deleted
+2017-10-03 11:19:41		Options saved to sec.conf
+2017-10-03 11:20:27		Secured data "s3slack" set
+2017-10-03 11:20:27		Options saved to sec.conf
+2017-10-03 11:20:30		Options saved to sec.conf
+2017-10-03 11:20:30		Options saved to weechat.conf
+2017-10-03 11:20:30		Options saved to plugins.conf
+2017-10-03 11:20:30		Options saved to charset.conf
+2017-10-03 11:20:30		Options saved to logger.conf
+2017-10-03 11:20:30		Options saved to exec.conf
+2017-10-03 11:20:30		Options saved to trigger.conf
+2017-10-03 11:20:30		Options saved to aspell.conf
+2017-10-03 11:20:30		Options saved to alias.conf
+2017-10-03 11:20:30		Options saved to buflist.conf
+2017-10-03 11:20:30		Options saved to fifo.conf
+2017-10-03 11:20:30		Options saved to xfer.conf
+2017-10-03 11:20:30		Options saved to irc.conf
+2017-10-03 11:20:30		Options saved to relay.conf
+2017-10-03 11:20:30		Options saved to buffers.conf
+2017-10-03 11:20:30		Options saved to iset.conf
+2017-10-03 11:20:30		Options saved to urlgrab.conf
+2017-10-03 11:20:30		Options saved to colorize_nicks.conf
+2017-10-03 11:20:30		Options saved to script.conf
+2017-10-03 11:21:49		There is no encrypted data
+2017-10-03 11:23:43		fifo: pipe closed
+2017-10-03 11:23:48	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 11:23:48		perl scripts loaded: buffers, iset
+2017-10-03 11:23:48		python scripts loaded: colorize_nicks, notification, urlgrab
+2017-10-03 11:23:48		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 11:23:48		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 11:25:44	=!=	Error with command "/python autoload notify_send.py" (help on command: /help python)
+2017-10-03 11:26:31		fifo: pipe closed
+2017-10-03 11:26:37	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 11:26:37		perl scripts loaded: buffers, iset
+2017-10-03 11:26:37		python scripts loaded: colorize_nicks, notification, notify_send, urlgrab
+2017-10-03 11:26:37		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 11:26:37		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 11:27:22		python: unloading script "notification"
+2017-10-03 11:27:22		python: script removed: /home/eleventh/.weechat/python/autoload/notification.py
+2017-10-03 11:27:22		python: script removed: /home/eleventh/.weechat/python/notification.py
+2017-10-03 11:27:25		Options saved to sec.conf
+2017-10-03 11:27:25		Options saved to weechat.conf
+2017-10-03 11:27:25		Options saved to plugins.conf
+2017-10-03 11:27:25		Options saved to charset.conf
+2017-10-03 11:27:25		Options saved to logger.conf
+2017-10-03 11:27:25		Options saved to exec.conf
+2017-10-03 11:27:25		Options saved to trigger.conf
+2017-10-03 11:27:25		Options saved to aspell.conf
+2017-10-03 11:27:25		Options saved to alias.conf
+2017-10-03 11:27:25		Options saved to buflist.conf
+2017-10-03 11:27:25		Options saved to fifo.conf
+2017-10-03 11:27:25		Options saved to xfer.conf
+2017-10-03 11:27:25		Options saved to irc.conf
+2017-10-03 11:27:25		Options saved to relay.conf
+2017-10-03 11:27:25		Options saved to buffers.conf
+2017-10-03 11:27:25		Options saved to iset.conf
+2017-10-03 11:27:25		Options saved to urlgrab.conf
+2017-10-03 11:27:25		Options saved to colorize_nicks.conf
+2017-10-03 11:27:25		Options saved to script.conf
+2017-10-03 11:27:31		Notify list for all servers:
+2017-10-03 11:27:31		  Kam @ Bitlbee: unknown
+2017-10-03 11:28:43		Options saved to sec.conf
+2017-10-03 11:28:43		Options saved to weechat.conf
+2017-10-03 11:28:43		Options saved to plugins.conf
+2017-10-03 11:28:43		Options saved to charset.conf
+2017-10-03 11:28:43		Options saved to logger.conf
+2017-10-03 11:28:43		Options saved to exec.conf
+2017-10-03 11:28:43		Options saved to trigger.conf
+2017-10-03 11:28:43		Options saved to aspell.conf
+2017-10-03 11:28:43		Options saved to alias.conf
+2017-10-03 11:28:43		Options saved to buflist.conf
+2017-10-03 11:28:43		Options saved to fifo.conf
+2017-10-03 11:28:43		Options saved to xfer.conf
+2017-10-03 11:28:43		Options saved to irc.conf
+2017-10-03 11:28:43		Options saved to relay.conf
+2017-10-03 11:28:43		Options saved to buffers.conf
+2017-10-03 11:28:43		Options saved to iset.conf
+2017-10-03 11:28:43		Options saved to urlgrab.conf
+2017-10-03 11:28:43		Options saved to colorize_nicks.conf
+2017-10-03 11:28:43		Options saved to script.conf
+2017-10-03 14:31:17		Secured data "parahumans" set
+2017-10-03 14:31:17		Options saved to sec.conf
+2017-10-03 14:32:06		Option changed: irc.server.parahumans.command = "/msg NickServ IDENTIFY ${sec.data.parahumans}"  (default if null: "")
+2017-10-03 14:33:13		Option changed: irc.server.parahumans.autojoin = "#parahumans"  (default if null: "")
+2017-10-03 14:33:26		Option changed: irc.server.parahumans.autorejoin = on  (default if null: off)
+2017-10-03 15:05:01		python: loading script "/home/eleventh/.weechat/python/autoload/notify_send.py"
+2017-10-03 15:05:01	=!=	python: unable to register script "notify_send" (another script already exists with this name)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_desc_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "config_set_plugin", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: unable to call function "hook_print", script is not initialized (script: -)
+2017-10-03 15:05:01	=!=	python: function "register" not found (or failed) in file "/home/eleventh/.weechat/python/autoload/notify_send.py"
+2017-10-03 15:08:46		Trigger "greentext" created
+2017-10-03 15:09:00		Options saved to sec.conf
+2017-10-03 15:09:00		Options saved to weechat.conf
+2017-10-03 15:09:00		Options saved to plugins.conf
+2017-10-03 15:09:00		Options saved to charset.conf
+2017-10-03 15:09:00		Options saved to logger.conf
+2017-10-03 15:09:00		Options saved to exec.conf
+2017-10-03 15:09:00		Options saved to trigger.conf
+2017-10-03 15:09:00		Options saved to aspell.conf
+2017-10-03 15:09:00		Options saved to alias.conf
+2017-10-03 15:09:00		Options saved to buflist.conf
+2017-10-03 15:09:00		Options saved to fifo.conf
+2017-10-03 15:09:00		Options saved to xfer.conf
+2017-10-03 15:09:00		Options saved to irc.conf
+2017-10-03 15:09:00		Options saved to relay.conf
+2017-10-03 15:09:00		Options saved to buffers.conf
+2017-10-03 15:09:00		Options saved to iset.conf
+2017-10-03 15:09:00		Options saved to urlgrab.conf
+2017-10-03 15:09:00		Options saved to colorize_nicks.conf
+2017-10-03 15:09:00		Options saved to script.conf
+2017-10-03 15:12:43	=!=	You can not write text in this buffer
+2017-10-03 15:13:13	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/trigger.so": a plugin with same name already exists
+2017-10-03 15:13:44		script: downloading list of scripts...
+2017-10-03 15:13:50		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 15:15:41		perl: loading script "/home/eleventh/.weechat/perl/notify_send.pl"
+2017-10-03 15:15:41		perl: registered script "notify_send", version 1.5 (execute a user-definedsystem command upon highlight or private message (with smart delays toavoid spam))
+2017-10-03 15:16:10		script: autoload enabled for script "notify_send.pl"
+2017-10-03 15:16:46	=!=	irc: server must be specified because you are not on an irc server or channel
+2017-10-03 15:16:49		Options saved to sec.conf
+2017-10-03 15:16:50		Options saved to weechat.conf
+2017-10-03 15:16:50		Options saved to plugins.conf
+2017-10-03 15:16:50		Options saved to charset.conf
+2017-10-03 15:16:50		Options saved to logger.conf
+2017-10-03 15:16:50		Options saved to exec.conf
+2017-10-03 15:16:50		Options saved to trigger.conf
+2017-10-03 15:16:50		Options saved to aspell.conf
+2017-10-03 15:16:50		Options saved to alias.conf
+2017-10-03 15:16:50		Options saved to buflist.conf
+2017-10-03 15:16:50		Options saved to fifo.conf
+2017-10-03 15:16:50		Options saved to xfer.conf
+2017-10-03 15:16:50		Options saved to irc.conf
+2017-10-03 15:16:50		Options saved to relay.conf
+2017-10-03 15:16:50		Options saved to buffers.conf
+2017-10-03 15:16:50		Options saved to iset.conf
+2017-10-03 15:16:50		Options saved to urlgrab.conf
+2017-10-03 15:16:50		Options saved to colorize_nicks.conf
+2017-10-03 15:16:50		Options saved to script.conf
+2017-10-03 15:17:05	=!=	irc: server must be specified because you are not on an irc server or channel
+2017-10-03 15:17:13	=!=	irc: server must be specified because you are not on an irc server or channel
+2017-10-03 15:19:00		Options saved to sec.conf
+2017-10-03 15:19:00		Options saved to weechat.conf
+2017-10-03 15:19:00		Options saved to plugins.conf
+2017-10-03 15:19:00		Options saved to charset.conf
+2017-10-03 15:19:00		Options saved to logger.conf
+2017-10-03 15:19:00		Options saved to exec.conf
+2017-10-03 15:19:00		Options saved to trigger.conf
+2017-10-03 15:19:00		Options saved to aspell.conf
+2017-10-03 15:19:00		Options saved to alias.conf
+2017-10-03 15:19:00		Options saved to buflist.conf
+2017-10-03 15:19:00		Options saved to fifo.conf
+2017-10-03 15:19:00		Options saved to xfer.conf
+2017-10-03 15:19:00		Options saved to irc.conf
+2017-10-03 15:19:00		Options saved to relay.conf
+2017-10-03 15:19:00		Options saved to buffers.conf
+2017-10-03 15:19:00		Options saved to iset.conf
+2017-10-03 15:19:00		Options saved to urlgrab.conf
+2017-10-03 15:19:00		Options saved to colorize_nicks.conf
+2017-10-03 15:19:00		Options saved to script.conf
+2017-10-03 15:19:17	=!=	Error: unknown command "/Huggles" (type /help for help)
+2017-10-03 15:25:06		fifo: pipe closed
+2017-10-03 15:25:11	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 15:25:11		perl scripts loaded: buffers, iset, notify_send
+2017-10-03 15:25:11		python scripts loaded: colorize_nicks, urlgrab
+2017-10-03 15:25:11		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 15:25:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 15:32:38	=!=	Error: unknown command "/kam" (type /help for help)
+2017-10-03 15:34:33	=!=	Error with command "/secure add bitlbee Royal10??" (help on command: /help secure)
+2017-10-03 15:34:59		Option changed: irc.server.Bitlbee.password = "${sec.data.bitlbee}"  (default if null: "")
+2017-10-03 16:00:20		Alias "sv" => "/splitv" created
+2017-10-03 16:00:34		Alias "sv" removed
+2017-10-03 16:00:44		Alias "sv" => "/window splitv" created
+2017-10-03 16:00:47		Options saved to sec.conf
+2017-10-03 16:00:47		Options saved to weechat.conf
+2017-10-03 16:00:47		Options saved to plugins.conf
+2017-10-03 16:00:47		Options saved to charset.conf
+2017-10-03 16:00:47		Options saved to logger.conf
+2017-10-03 16:00:47		Options saved to exec.conf
+2017-10-03 16:00:47		Options saved to trigger.conf
+2017-10-03 16:00:47		Options saved to aspell.conf
+2017-10-03 16:00:47		Options saved to alias.conf
+2017-10-03 16:00:47		Options saved to buflist.conf
+2017-10-03 16:00:47		Options saved to fifo.conf
+2017-10-03 16:00:47		Options saved to xfer.conf
+2017-10-03 16:00:47		Options saved to irc.conf
+2017-10-03 16:00:47		Options saved to relay.conf
+2017-10-03 16:00:47		Options saved to buffers.conf
+2017-10-03 16:00:47		Options saved to iset.conf
+2017-10-03 16:00:47		Options saved to urlgrab.conf
+2017-10-03 16:00:47		Options saved to colorize_nicks.conf
+2017-10-03 16:00:47		Options saved to script.conf
+2017-10-03 16:40:42		[server] (irc.conf)
+2017-10-03 16:40:42		  irc.server.Bitlbee.autoconnect = on  (default if null: off)
+2017-10-03 16:40:42		1 option (matching with "irc.server.Bitlbee.autoconnect")
+2017-10-03 16:44:52		Option changed: irc.server.Bitlbee.autoconnect = null -> off
+2017-10-03 16:45:38		Options saved to sec.conf
+2017-10-03 16:45:38		Options saved to weechat.conf
+2017-10-03 16:45:38		Options saved to plugins.conf
+2017-10-03 16:45:38		Options saved to charset.conf
+2017-10-03 16:45:38		Options saved to logger.conf
+2017-10-03 16:45:38		Options saved to exec.conf
+2017-10-03 16:45:38		Options saved to trigger.conf
+2017-10-03 16:45:38		Options saved to aspell.conf
+2017-10-03 16:45:38		Options saved to alias.conf
+2017-10-03 16:45:38		Options saved to buflist.conf
+2017-10-03 16:45:38		Options saved to fifo.conf
+2017-10-03 16:45:38		Options saved to xfer.conf
+2017-10-03 16:45:38		Options saved to irc.conf
+2017-10-03 16:45:38		Options saved to relay.conf
+2017-10-03 16:45:38		Options saved to buffers.conf
+2017-10-03 16:45:38		Options saved to iset.conf
+2017-10-03 16:45:38		Options saved to urlgrab.conf
+2017-10-03 16:45:38		Options saved to colorize_nicks.conf
+2017-10-03 16:45:38		Options saved to script.conf
+2017-10-03 16:46:57		fifo: pipe closed
+2017-10-03 16:47:06	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 16:47:06		perl scripts loaded: buffers, iset, notify_send
+2017-10-03 16:47:06		python scripts loaded: colorize_nicks, urlgrab
+2017-10-03 16:47:06		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 16:47:06		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 16:49:36		Option changed: irc.server.Bitlbee.autoreconnect = on  (default if null: on)
+2017-10-03 16:50:29		Option changed: irc.server.Bitlbee.command = "identify ${sec.data.bitlbee}"  (default if null: "")
+2017-10-03 16:50:45		Options saved to sec.conf
+2017-10-03 16:50:45		Options saved to weechat.conf
+2017-10-03 16:50:45		Options saved to plugins.conf
+2017-10-03 16:50:45		Options saved to charset.conf
+2017-10-03 16:50:45		Options saved to logger.conf
+2017-10-03 16:50:45		Options saved to exec.conf
+2017-10-03 16:50:45		Options saved to trigger.conf
+2017-10-03 16:50:45		Options saved to aspell.conf
+2017-10-03 16:50:45		Options saved to alias.conf
+2017-10-03 16:50:45		Options saved to buflist.conf
+2017-10-03 16:50:45		Options saved to fifo.conf
+2017-10-03 16:50:45		Options saved to xfer.conf
+2017-10-03 16:50:45		Options saved to irc.conf
+2017-10-03 16:50:45		Options saved to relay.conf
+2017-10-03 16:50:45		Options saved to buffers.conf
+2017-10-03 16:50:45		Options saved to iset.conf
+2017-10-03 16:50:45		Options saved to urlgrab.conf
+2017-10-03 16:50:45		Options saved to colorize_nicks.conf
+2017-10-03 16:50:45		Options saved to script.conf
+2017-10-03 16:51:13		[urlgrab] No URL found - Invalid index
+2017-10-03 16:51:35		[urlgrab] Unknown command 'https://t.co/ft0EiXu6rC'.  Try '/help url' for usage
+2017-10-03 16:54:59		Option changed: plugins.var.perl.notify_send.command = "notify-send $type: $name &>/dev/null"
+2017-10-03 16:55:55		Option changed: plugins.var.perl.notify_send.command = "notify-send $name &>/dev/null"
+2017-10-03 16:56:08		Option changed: irc.server.Bitlbee.notify = "Kam"  (default if null: "")
+2017-10-03 16:56:09		Options saved to sec.conf
+2017-10-03 16:56:09		Options saved to weechat.conf
+2017-10-03 16:56:09		Options saved to plugins.conf
+2017-10-03 16:56:09		Options saved to charset.conf
+2017-10-03 16:56:09		Options saved to logger.conf
+2017-10-03 16:56:09		Options saved to exec.conf
+2017-10-03 16:56:09		Options saved to trigger.conf
+2017-10-03 16:56:09		Options saved to aspell.conf
+2017-10-03 16:56:09		Options saved to alias.conf
+2017-10-03 16:56:09		Options saved to buflist.conf
+2017-10-03 16:56:09		Options saved to fifo.conf
+2017-10-03 16:56:09		Options saved to xfer.conf
+2017-10-03 16:56:09		Options saved to irc.conf
+2017-10-03 16:56:09		Options saved to relay.conf
+2017-10-03 16:56:09		Options saved to buffers.conf
+2017-10-03 16:56:09		Options saved to iset.conf
+2017-10-03 16:56:09		Options saved to urlgrab.conf
+2017-10-03 16:56:09		Options saved to colorize_nicks.conf
+2017-10-03 16:56:09		Options saved to script.conf
+2017-10-03 16:56:14		fifo: pipe closed
+2017-10-03 16:56:19	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 16:56:19		perl scripts loaded: buffers, iset, notify_send
+2017-10-03 16:56:19		python scripts loaded: colorize_nicks, urlgrab
+2017-10-03 16:56:19		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 16:56:19		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 17:00:01		Option changed: irc.server.Bitlbee.autoconnect = on  (default if null: off)
+2017-10-03 17:00:44		Options saved to sec.conf
+2017-10-03 17:00:44		Options saved to weechat.conf
+2017-10-03 17:00:44		Options saved to plugins.conf
+2017-10-03 17:00:44		Options saved to charset.conf
+2017-10-03 17:00:44		Options saved to logger.conf
+2017-10-03 17:00:44		Options saved to exec.conf
+2017-10-03 17:00:44		Options saved to trigger.conf
+2017-10-03 17:00:44		Options saved to aspell.conf
+2017-10-03 17:00:44		Options saved to alias.conf
+2017-10-03 17:00:44		Options saved to buflist.conf
+2017-10-03 17:00:44		Options saved to fifo.conf
+2017-10-03 17:00:44		Options saved to xfer.conf
+2017-10-03 17:00:44		Options saved to irc.conf
+2017-10-03 17:00:44		Options saved to relay.conf
+2017-10-03 17:00:44		Options saved to buffers.conf
+2017-10-03 17:00:44		Options saved to iset.conf
+2017-10-03 17:00:44		Options saved to urlgrab.conf
+2017-10-03 17:00:44		Options saved to colorize_nicks.conf
+2017-10-03 17:00:44		Options saved to script.conf
+2017-10-03 17:13:34		[urlgrab] Unknown command 'https://lh3.googleusercontent.com/-Xa2grMntd5U/WdOobS3Cs_I/AAAAAAAAA7M/rfrog96JDt80GiDCRRF8PhVdp0WLdxzmgCK8BGAs/s0/2017-10-03.jpg'.  Try '/help url' for usage
+2017-10-03 17:16:13		Plugins loaded:
+2017-10-03 17:16:13		  script: Scripts manager
+2017-10-03 17:16:13		  irc: IRC (Internet Relay Chat) protocol
+2017-10-03 17:16:13		  ruby: Support of ruby scripts
+2017-10-03 17:16:13		  perl: Support of perl scripts
+2017-10-03 17:16:13		  exec: Execution of external commands in WeeChat
+2017-10-03 17:16:13		  buflist: Buffers list
+2017-10-03 17:16:13		  alias: Alias commands
+2017-10-03 17:16:13		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2017-10-03 17:16:13		  aspell: Spell checker for input (with Aspell)
+2017-10-03 17:16:13		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2017-10-03 17:16:13		  charset: Charset conversions
+2017-10-03 17:16:13		  python: Support of python scripts
+2017-10-03 17:16:13		  xfer: DCC file transfer and direct chat
+2017-10-03 17:16:13		  tcl: Support of tcl scripts
+2017-10-03 17:16:13		  lua: Support of lua scripts
+2017-10-03 17:16:13		  logger: Log buffers to files
+2017-10-03 17:16:13		  fifo: FIFO pipe for remote control
+2017-10-03 17:16:42		Scripts loaded:
+2017-10-03 17:16:42		 * ia   buffers.pl 5.6 (Sidebar with list of buffers)
+2017-10-03 17:16:42		 * ia   iset.pl 4.3 (Interactive Set for configuration options)
+2017-10-03 17:16:42		   ia   notify_send.pl 1.5 (execute a user-definedsystem command upon highlight or private message (with smart delays toavoid spam))
+2017-10-03 17:16:42		   ia   colorize_nicks.py 23 (Use the weechat nick colors in the chat area)
+2017-10-03 17:16:42		   ia   urlgrab.py 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-03 17:22:20		Options saved to sec.conf
+2017-10-03 17:22:20		Options saved to weechat.conf
+2017-10-03 17:22:20		Options saved to plugins.conf
+2017-10-03 17:22:20		Options saved to charset.conf
+2017-10-03 17:22:20		Options saved to logger.conf
+2017-10-03 17:22:20		Options saved to exec.conf
+2017-10-03 17:22:20		Options saved to trigger.conf
+2017-10-03 17:22:20		Options saved to aspell.conf
+2017-10-03 17:22:20		Options saved to alias.conf
+2017-10-03 17:22:20		Options saved to buflist.conf
+2017-10-03 17:22:20		Options saved to fifo.conf
+2017-10-03 17:22:20		Options saved to xfer.conf
+2017-10-03 17:22:20		Options saved to irc.conf
+2017-10-03 17:22:20		Options saved to relay.conf
+2017-10-03 17:22:20		Options saved to buffers.conf
+2017-10-03 17:22:20		Options saved to iset.conf
+2017-10-03 17:22:20		Options saved to urlgrab.conf
+2017-10-03 17:22:20		Options saved to colorize_nicks.conf
+2017-10-03 17:22:20		Options saved to script.conf
+2017-10-03 17:23:51		Option changed: plugins.var.perl.notify_send.command = "notify-send "$title: $name &>/dev/null""
+2017-10-03 17:24:13		Options saved to sec.conf
+2017-10-03 17:24:13		Options saved to weechat.conf
+2017-10-03 17:24:13		Options saved to plugins.conf
+2017-10-03 17:24:13		Options saved to charset.conf
+2017-10-03 17:24:13		Options saved to logger.conf
+2017-10-03 17:24:13		Options saved to exec.conf
+2017-10-03 17:24:13		Options saved to trigger.conf
+2017-10-03 17:24:13		Options saved to aspell.conf
+2017-10-03 17:24:13		Options saved to alias.conf
+2017-10-03 17:24:13		Options saved to buflist.conf
+2017-10-03 17:24:13		Options saved to fifo.conf
+2017-10-03 17:24:13		Options saved to xfer.conf
+2017-10-03 17:24:13		Options saved to irc.conf
+2017-10-03 17:24:13		Options saved to relay.conf
+2017-10-03 17:24:13		Options saved to buffers.conf
+2017-10-03 17:24:13		Options saved to iset.conf
+2017-10-03 17:24:13		Options saved to urlgrab.conf
+2017-10-03 17:24:13		Options saved to colorize_nicks.conf
+2017-10-03 17:24:13		Options saved to script.conf
+2017-10-03 17:55:04		fifo: pipe closed
+2017-10-03 17:56:12	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-03 17:56:12		perl scripts loaded: buffers, iset, notify_send
+2017-10-03 17:56:12		python scripts loaded: colorize_nicks, urlgrab
+2017-10-03 17:56:12		script: 349 scripts for WeeChat 1.9.1
+2017-10-03 17:56:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-03 17:58:17		perl: unloading script "notify_send"
+2017-10-03 17:58:17		perl: script removed: /home/eleventh/.weechat/perl/autoload/notify_send.pl
+2017-10-03 17:58:17		perl: script removed: /home/eleventh/.weechat/perl/notify_send.pl
+2017-10-03 17:58:47		Scripts loaded:
+2017-10-03 17:58:47		 * ia   buffers.pl 5.6 (Sidebar with list of buffers)
+2017-10-03 17:58:47		 * ia   iset.pl 4.3 (Interactive Set for configuration options)
+2017-10-03 17:58:47		   ia   colorize_nicks.py 23 (Use the weechat nick colors in the chat area)
+2017-10-03 17:58:47		   ia   urlgrab.py 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-03 17:59:15		Scripts loaded:
+2017-10-03 17:59:15		 * ia   buffers.pl 5.6 (Sidebar with list of buffers)
+2017-10-03 17:59:15		 * ia   iset.pl 4.3 (Interactive Set for configuration options)
+2017-10-03 17:59:15		   ia   colorize_nicks.py 23 (Use the weechat nick colors in the chat area)
+2017-10-03 17:59:15		   ia   urlgrab.py 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-03 17:59:37		Scripts loaded:
+2017-10-03 17:59:37		 * ia   buffers.pl 5.6 (Sidebar with list of buffers)
+2017-10-03 17:59:37		 * ia   iset.pl 4.3 (Interactive Set for configuration options)
+2017-10-03 17:59:37		   ia   colorize_nicks.py 23 (Use the weechat nick colors in the chat area)
+2017-10-03 17:59:37		   ia   urlgrab.py 2.8 (Url functionality Loggin, opening of browser, selectable links)
+2017-10-03 18:06:13		python: loading script "/home/eleventh/.weechat/python/notify.py"
+2017-10-03 18:06:13		python: stdout/stderr: Missing package(s) for notify: No module named notify2
+2017-10-03 18:06:13		python: stdout/stderr: You must have notify2 installed.
+2017-10-03 18:06:13		python: stdout/stderr: Traceback (most recent call last):
+2017-10-03 18:06:13		python: stdout/stderr:   File "/home/eleventh/.weechat/python/notify.py", line 74, in <module>
+2017-10-03 18:06:13		python: stdout/stderr:     "low"      : notify2.URGENCY_LOW,
+2017-10-03 18:06:13		python: stdout/stderr: NameError: name 'notify2' is not defined
+2017-10-03 18:06:13	=!=	python: unable to parse file "/home/eleventh/.weechat/python/notify.py"
+2017-10-03 18:06:58		script: script "notify.py" is already installed and up-to-date
+2017-10-03 18:07:19		perl: loading script "/home/eleventh/.weechat/perl/notifym.pl"
+2017-10-03 18:07:19		perl: registered script "notifym", version 1.1 (Script which uses libnotify to alert the user about certain events.)
+2017-10-03 18:09:12		python: script removed: /home/eleventh/.weechat/python/autoload/notify.py
+2017-10-03 18:09:12		python: script removed: /home/eleventh/.weechat/python/notify.py
+2017-10-03 19:07:22	=!=	Error: unknown command "/merge" (type /help for help)
+2017-10-03 19:09:26		Option changed: weechat.bar.buffers.position = bottom  (default: top)
+2017-10-03 19:10:41		Option changed: weechat.bar.buffers.size = 10  (default: 0)
+2017-10-03 19:10:50		Option changed: weechat.bar.buffers.size_max = 10  (default: 0)
+2017-10-03 19:15:53		Option changed: weechat.bar.buffers.size = 0
+2017-10-03 19:17:29		Option changed: weechat.bar.buffers.filling_top_bottom = horizontal  (default: columns_vertical)
+2017-10-03 19:17:39		Options saved to sec.conf
+2017-10-03 19:17:39		Options saved to weechat.conf
+2017-10-03 19:17:39		Options saved to plugins.conf
+2017-10-03 19:17:39		Options saved to charset.conf
+2017-10-03 19:17:39		Options saved to logger.conf
+2017-10-03 19:17:39		Options saved to exec.conf
+2017-10-03 19:17:39		Options saved to trigger.conf
+2017-10-03 19:17:39		Options saved to aspell.conf
+2017-10-03 19:17:39		Options saved to alias.conf
+2017-10-03 19:17:39		Options saved to buflist.conf
+2017-10-03 19:17:39		Options saved to fifo.conf
+2017-10-03 19:17:39		Options saved to xfer.conf
+2017-10-03 19:17:39		Options saved to irc.conf
+2017-10-03 19:17:39		Options saved to relay.conf
+2017-10-03 19:17:39		Options saved to buffers.conf
+2017-10-03 19:17:39		Options saved to iset.conf
+2017-10-03 19:17:39		Options saved to urlgrab.conf
+2017-10-03 19:17:39		Options saved to colorize_nicks.conf
+2017-10-03 19:17:39		Options saved to script.conf
+2017-10-04 07:50:51		fifo: pipe closed
+2017-10-04 08:30:12	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-04 08:30:12		perl scripts loaded: buffers, iset, notifym
+2017-10-04 08:30:12		python scripts loaded: colorize_nicks, urlgrab
+2017-10-04 08:30:12		script: 349 scripts for WeeChat 1.9.1
+2017-10-04 08:30:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-04 12:02:04		Alias "aho" => "account hangouts on" created
+2017-10-04 12:02:08	=!=	Error: unknown command "/account" (type /help for help)
+2017-10-04 12:02:33		Alias "ato" => "account twitter on" created
+2017-10-04 12:02:36	=!=	Error: unknown command "/account" (type /help for help)
+2017-10-04 12:02:52	=!=	Error: unknown command "/account" (type /help for help)
+2017-10-04 12:03:02	=!=	Error: unknown command "/account" (type /help for help)
+2017-10-04 13:31:01	=!=	Error: unknown command "/account" (type /help for help)
+2017-10-04 14:15:50		fifo: pipe closed
+2017-10-04 14:18:55	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-04 14:18:55		perl scripts loaded: buffers, iset, notifym
+2017-10-04 14:18:55		python scripts loaded: colorize_nicks, urlgrab
+2017-10-04 14:18:55		script: 349 scripts for WeeChat 1.9.1
+2017-10-04 14:18:55		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-04 14:30:02		Option changed: weechat.completion.partial_completion_command = on  (default: off)
+2017-10-04 14:30:15		Option changed: weechat.completion.partial_completion_command_arg = on  (default: off)
+2017-10-04 14:30:24		Options saved to sec.conf
+2017-10-04 14:30:24		Options saved to weechat.conf
+2017-10-04 14:30:24		Options saved to plugins.conf
+2017-10-04 14:30:24		Options saved to charset.conf
+2017-10-04 14:30:24		Options saved to logger.conf
+2017-10-04 14:30:24		Options saved to exec.conf
+2017-10-04 14:30:24		Options saved to trigger.conf
+2017-10-04 14:30:24		Options saved to aspell.conf
+2017-10-04 14:30:24		Options saved to alias.conf
+2017-10-04 14:30:24		Options saved to buflist.conf
+2017-10-04 14:30:24		Options saved to fifo.conf
+2017-10-04 14:30:24		Options saved to xfer.conf
+2017-10-04 14:30:24		Options saved to irc.conf
+2017-10-04 14:30:24		Options saved to relay.conf
+2017-10-04 14:30:24		Options saved to buffers.conf
+2017-10-04 14:30:24		Options saved to iset.conf
+2017-10-04 14:30:24		Options saved to urlgrab.conf
+2017-10-04 14:30:24		Options saved to colorize_nicks.conf
+2017-10-04 14:30:24		Options saved to script.conf
+2017-10-04 14:31:21		Option changed: irc.server.parahumans.autoconnect = on  (default if null: off)
+2017-10-04 14:31:34		Option changed: irc.server.parahumans.autojoin = "#parahumans"  (default if null: "")
+2017-10-04 14:31:36		Options saved to sec.conf
+2017-10-04 14:31:36		Options saved to weechat.conf
+2017-10-04 14:31:36		Options saved to plugins.conf
+2017-10-04 14:31:36		Options saved to charset.conf
+2017-10-04 14:31:36		Options saved to logger.conf
+2017-10-04 14:31:36		Options saved to exec.conf
+2017-10-04 14:31:36		Options saved to trigger.conf
+2017-10-04 14:31:36		Options saved to aspell.conf
+2017-10-04 14:31:36		Options saved to alias.conf
+2017-10-04 14:31:36		Options saved to buflist.conf
+2017-10-04 14:31:36		Options saved to fifo.conf
+2017-10-04 14:31:36		Options saved to xfer.conf
+2017-10-04 14:31:36		Options saved to irc.conf
+2017-10-04 14:31:36		Options saved to relay.conf
+2017-10-04 14:31:36		Options saved to buffers.conf
+2017-10-04 14:31:36		Options saved to iset.conf
+2017-10-04 14:31:36		Options saved to urlgrab.conf
+2017-10-04 14:31:36		Options saved to colorize_nicks.conf
+2017-10-04 14:31:36		Options saved to script.conf
+2017-10-04 15:25:01		script: downloading list of scripts...
+2017-10-04 15:25:01		script: 349 scripts for WeeChat 1.9.1
+2017-10-04 15:25:41		perl: loading script "/home/eleventh/.weechat/perl/colorize_lines.pl"
+2017-10-04 15:25:41		perl: registered script "colorize_lines", version 3.4 (Colorize users' text in chat area with their nick color, including highlights)
+2017-10-04 15:25:46		perl: loading script "/home/eleventh/.weechat/perl/autoload/colorize_lines.pl"
+2017-10-04 15:25:46	=!=	perl: unable to register script "colorize_lines" (another script already exists with this name)
+2017-10-04 15:25:46	=!=	perl: function "register" not found (or failed) in file "/home/eleventh/.weechat/perl/autoload/colorize_lines.pl"
+2017-10-04 15:25:54		script: autoload enabled for script "colorize_lines.pl"
+2017-10-04 15:27:44		perl: loading script "/home/eleventh/.weechat/perl/ncmpcpp.pl"
+2017-10-04 15:27:44		perl: registered script "ncmpcpp", version 0.2 (Control and "now playing" script for ncmpcpp)
+2017-10-04 15:28:50		Option changed: plugins.var.perl.ncmpcpp.format = "/me np: {%a "%b" (%y) - %t}|{%a - %t}|{%f}"
+2017-10-04 15:29:52		script: autoload enabled for script "ncmpcpp.pl"
+2017-10-04 15:30:27		Option changed: irc.look.color_nicks_in_nicklist = on  (default: off)
+2017-10-04 15:30:33		Options saved to sec.conf
+2017-10-04 15:30:33		Options saved to weechat.conf
+2017-10-04 15:30:33		Options saved to plugins.conf
+2017-10-04 15:30:33		Options saved to charset.conf
+2017-10-04 15:30:33		Options saved to logger.conf
+2017-10-04 15:30:33		Options saved to exec.conf
+2017-10-04 15:30:33		Options saved to trigger.conf
+2017-10-04 15:30:33		Options saved to aspell.conf
+2017-10-04 15:30:33		Options saved to alias.conf
+2017-10-04 15:30:33		Options saved to buflist.conf
+2017-10-04 15:30:33		Options saved to fifo.conf
+2017-10-04 15:30:33		Options saved to xfer.conf
+2017-10-04 15:30:33		Options saved to irc.conf
+2017-10-04 15:30:33		Options saved to relay.conf
+2017-10-04 15:30:33		Options saved to buffers.conf
+2017-10-04 15:30:33		Options saved to iset.conf
+2017-10-04 15:30:33		Options saved to urlgrab.conf
+2017-10-04 15:30:33		Options saved to colorize_nicks.conf
+2017-10-04 15:30:33		Options saved to script.conf
+2017-10-04 15:33:17		Option changed: weechat.color.chat_nick_colors = "red,green,brown,blue,magenta,cyan,white,lightred,lightgreen,yellow,lightblue,lightmagenta,lightcyan"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2017-10-04 15:33:38	=!=	Error: unknown command "/scripti" (type /help for help)
+2017-10-04 15:36:36		Option changed: weechat.look.buffer_time_format = "[%H%M]"  (default: "%H:%M:%S")
+2017-10-04 15:37:16		Options saved to sec.conf
+2017-10-04 15:37:16		Options saved to weechat.conf
+2017-10-04 15:37:16		Options saved to plugins.conf
+2017-10-04 15:37:16		Options saved to charset.conf
+2017-10-04 15:37:16		Options saved to logger.conf
+2017-10-04 15:37:16		Options saved to exec.conf
+2017-10-04 15:37:16		Options saved to trigger.conf
+2017-10-04 15:37:16		Options saved to aspell.conf
+2017-10-04 15:37:16		Options saved to alias.conf
+2017-10-04 15:37:16		Options saved to buflist.conf
+2017-10-04 15:37:16		Options saved to fifo.conf
+2017-10-04 15:37:16		Options saved to xfer.conf
+2017-10-04 15:37:16		Options saved to irc.conf
+2017-10-04 15:37:16		Options saved to relay.conf
+2017-10-04 15:37:16		Options saved to buffers.conf
+2017-10-04 15:37:16		Options saved to iset.conf
+2017-10-04 15:37:16		Options saved to urlgrab.conf
+2017-10-04 15:37:16		Options saved to colorize_nicks.conf
+2017-10-04 15:37:16		Options saved to script.conf
+2017-10-04 15:39:51		Option changed: colorize_nicks.look.colorize_input = on  (default: off)
+2017-10-04 15:40:24		Option changed: plugins.var.perl.colorize_lines.nicks = "Kam"
+2017-10-04 15:40:37		Options saved to sec.conf
+2017-10-04 15:40:37		Options saved to weechat.conf
+2017-10-04 15:40:37		Options saved to plugins.conf
+2017-10-04 15:40:37		Options saved to charset.conf
+2017-10-04 15:40:37		Options saved to logger.conf
+2017-10-04 15:40:37		Options saved to exec.conf
+2017-10-04 15:40:37		Options saved to trigger.conf
+2017-10-04 15:40:37		Options saved to aspell.conf
+2017-10-04 15:40:37		Options saved to alias.conf
+2017-10-04 15:40:37		Options saved to buflist.conf
+2017-10-04 15:40:37		Options saved to fifo.conf
+2017-10-04 15:40:37		Options saved to xfer.conf
+2017-10-04 15:40:37		Options saved to irc.conf
+2017-10-04 15:40:37		Options saved to relay.conf
+2017-10-04 15:40:37		Options saved to buffers.conf
+2017-10-04 15:40:37		Options saved to iset.conf
+2017-10-04 15:40:37		Options saved to urlgrab.conf
+2017-10-04 15:40:37		Options saved to colorize_nicks.conf
+2017-10-04 15:40:37		Options saved to script.conf
+2017-10-04 15:41:37		python: loading script "/home/eleventh/.weechat/python/autosort.py"
+2017-10-04 15:41:37		python: registered script "autosort", version 2.8 (Automatically or manually keep your buffers sorted and grouped by server.)
+2017-10-04 15:41:53		script: autoload enabled for script "autosort.py"
+2017-10-04 15:44:50		Option changed: irc.server.Bitlbee.command = "/msg &bitlbee identify ${sec.data.bitlbee}"  (default if null: "")
+2017-10-04 15:45:11	=!=	Alias "ano" not found
+2017-10-04 15:45:19		All aliases:
+2017-10-04 15:45:19		  AAWAY => allserv /away
+2017-10-04 15:45:19		  aho => account hangouts on
+2017-10-04 15:45:19		  AME => allchan /me
+2017-10-04 15:45:19		  AMSG => allchan /msg *
+2017-10-04 15:45:19		  ANICK => allserv /nick
+2017-10-04 15:45:19		  ato => account twitter on
+2017-10-04 15:45:19		  b => /buffer
+2017-10-04 15:45:19		  BEEP => print -beep
+2017-10-04 15:45:19		  BYE => quit
+2017-10-04 15:45:19		  C => buffer clear
+2017-10-04 15:45:19		  CHAT => dcc chat
+2017-10-04 15:45:19		  CL => buffer clear
+2017-10-04 15:45:19		  CLOSE => buffer close
+2017-10-04 15:45:19		  EXIT => quit
+2017-10-04 15:45:19		  F => /url_hinter
+2017-10-04 15:45:19		  IG => ignore
+2017-10-04 15:45:19		  J => join
+2017-10-04 15:45:19		  K => kick
+2017-10-04 15:45:19		  KB => kickban
+2017-10-04 15:45:19		  LEAVE => part
+2017-10-04 15:45:19		  M => msg
+2017-10-04 15:45:19		  MSGBUF => command -buffer $1 * /input send $2-  (completion: %(buffers_plugins_names))
+2017-10-04 15:45:19		  MUB => unban *
+2017-10-04 15:45:19		  N => names
+2017-10-04 15:45:19		  Q => query
+2017-10-04 15:45:19		  REDRAW => window refresh
+2017-10-04 15:45:19		  SAY => msg *
+2017-10-04 15:45:19		  SIGNOFF => quit
+2017-10-04 15:45:19		  sv => /window splitv
+2017-10-04 15:45:19		  T => topic
+2017-10-04 15:45:19		  topen => /url show 1 #twitter_11eleventh11#
+2017-10-04 15:45:19		  UB => unban
+2017-10-04 15:45:19		  UMODE => mode $nick
+2017-10-04 15:45:19		  V => command core version
+2017-10-04 15:45:19		  W => who
+2017-10-04 15:45:19		  WC => window merge
+2017-10-04 15:45:19		  WI => whois
+2017-10-04 15:45:19		  WII => whois $1 $1
+2017-10-04 15:45:19		  WW => whowas
+2017-10-04 15:45:46		Alias "aho" removed
+2017-10-04 15:47:02		Alias "aho" => "/msg &bitlbee account Hangouts on" created
+2017-10-04 15:47:16		Alias "ato" => "/msg &bitlbee account twitter on" created
+2017-10-04 15:47:21		Alias "aho" => "/msg &bitlbee account hangouts on" created
+2017-10-04 15:47:41		Options saved to sec.conf
+2017-10-04 15:47:41		Options saved to weechat.conf
+2017-10-04 15:47:41		Options saved to plugins.conf
+2017-10-04 15:47:41		Options saved to charset.conf
+2017-10-04 15:47:41		Options saved to logger.conf
+2017-10-04 15:47:41		Options saved to exec.conf
+2017-10-04 15:47:41		Options saved to trigger.conf
+2017-10-04 15:47:41		Options saved to aspell.conf
+2017-10-04 15:47:41		Options saved to alias.conf
+2017-10-04 15:47:41		Options saved to buflist.conf
+2017-10-04 15:47:41		Options saved to fifo.conf
+2017-10-04 15:47:41		Options saved to xfer.conf
+2017-10-04 15:47:41		Options saved to irc.conf
+2017-10-04 15:47:41		Options saved to relay.conf
+2017-10-04 15:47:41		Options saved to buffers.conf
+2017-10-04 15:47:41		Options saved to iset.conf
+2017-10-04 15:47:41		Options saved to urlgrab.conf
+2017-10-04 15:47:41		Options saved to colorize_nicks.conf
+2017-10-04 15:47:41		Options saved to script.conf
+2017-10-04 15:47:41		Options saved to autosort.conf
+2017-10-04 15:53:28		Option changed: weechat.bar.nicklist.hidden = on  (default: off)
+2017-10-04 15:53:33		Options saved to sec.conf
+2017-10-04 15:53:33		Options saved to weechat.conf
+2017-10-04 15:53:33		Options saved to plugins.conf
+2017-10-04 15:53:33		Options saved to charset.conf
+2017-10-04 15:53:33		Options saved to logger.conf
+2017-10-04 15:53:33		Options saved to exec.conf
+2017-10-04 15:53:33		Options saved to trigger.conf
+2017-10-04 15:53:33		Options saved to aspell.conf
+2017-10-04 15:53:33		Options saved to alias.conf
+2017-10-04 15:53:33		Options saved to buflist.conf
+2017-10-04 15:53:33		Options saved to fifo.conf
+2017-10-04 15:53:33		Options saved to xfer.conf
+2017-10-04 15:53:33		Options saved to irc.conf
+2017-10-04 15:53:33		Options saved to relay.conf
+2017-10-04 15:53:33		Options saved to buffers.conf
+2017-10-04 15:53:33		Options saved to iset.conf
+2017-10-04 15:53:33		Options saved to urlgrab.conf
+2017-10-04 15:53:33		Options saved to colorize_nicks.conf
+2017-10-04 15:53:33		Options saved to script.conf
+2017-10-04 15:53:33		Options saved to autosort.conf
+2017-10-04 15:54:57		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2017-10-04 15:55:23		Option changed: buffers.look.indenting = on  (default: off)
+2017-10-04 15:55:36		Option changed: buffers.look.show_number = off  (default: on)
+2017-10-04 15:56:36		Option changed: weechat.bar.buffers.filling_top_bottom = columns_vertical  (default: horizontal)
+2017-10-04 15:56:49		Option changed: weechat.bar.buffers.filling_top_bottom = columns_horizontal  (default: horizontal)
+2017-10-04 15:57:01		Option changed: weechat.bar.buffers.filling_top_bottom = horizontal
+2017-10-04 15:57:11		Option changed: weechat.bar.buffers.filling_left_right = columns_horizontal  (default: horizontal)
+2017-10-04 15:57:23		Option changed: weechat.bar.buffers.filling_left_right = columns_vertical  (default: horizontal)
+2017-10-04 15:57:31		Options saved to sec.conf
+2017-10-04 15:57:31		Options saved to weechat.conf
+2017-10-04 15:57:31		Options saved to plugins.conf
+2017-10-04 15:57:31		Options saved to charset.conf
+2017-10-04 15:57:31		Options saved to logger.conf
+2017-10-04 15:57:31		Options saved to exec.conf
+2017-10-04 15:57:31		Options saved to trigger.conf
+2017-10-04 15:57:31		Options saved to aspell.conf
+2017-10-04 15:57:31		Options saved to alias.conf
+2017-10-04 15:57:31		Options saved to buflist.conf
+2017-10-04 15:57:31		Options saved to fifo.conf
+2017-10-04 15:57:31		Options saved to xfer.conf
+2017-10-04 15:57:31		Options saved to irc.conf
+2017-10-04 15:57:31		Options saved to relay.conf
+2017-10-04 15:57:31		Options saved to buffers.conf
+2017-10-04 15:57:31		Options saved to iset.conf
+2017-10-04 15:57:31		Options saved to urlgrab.conf
+2017-10-04 15:57:31		Options saved to colorize_nicks.conf
+2017-10-04 15:57:31		Options saved to script.conf
+2017-10-04 15:57:31		Options saved to autosort.conf
+2017-10-04 15:58:09		Option changed: weechat.bar.nicklist.hidden = off
+2017-10-04 15:58:20		Option changed: weechat.bar.nicklist.position = top  (default: right)
+2017-10-04 15:58:44		Option changed: weechat.bar.nicklist.position = right
+2017-10-04 15:58:46		Options saved to sec.conf
+2017-10-04 15:58:46		Options saved to weechat.conf
+2017-10-04 15:58:46		Options saved to plugins.conf
+2017-10-04 15:58:46		Options saved to charset.conf
+2017-10-04 15:58:46		Options saved to logger.conf
+2017-10-04 15:58:46		Options saved to exec.conf
+2017-10-04 15:58:46		Options saved to trigger.conf
+2017-10-04 15:58:46		Options saved to aspell.conf
+2017-10-04 15:58:46		Options saved to alias.conf
+2017-10-04 15:58:46		Options saved to buflist.conf
+2017-10-04 15:58:46		Options saved to fifo.conf
+2017-10-04 15:58:46		Options saved to xfer.conf
+2017-10-04 15:58:46		Options saved to irc.conf
+2017-10-04 15:58:46		Options saved to relay.conf
+2017-10-04 15:58:46		Options saved to buffers.conf
+2017-10-04 15:58:46		Options saved to iset.conf
+2017-10-04 15:58:46		Options saved to urlgrab.conf
+2017-10-04 15:58:46		Options saved to colorize_nicks.conf
+2017-10-04 15:58:46		Options saved to script.conf
+2017-10-04 15:58:46		Options saved to autosort.conf
+2017-10-04 15:59:10		Option changed: weechat.bar.nicklist.size_max = 10  (default: 0)
+2017-10-04 15:59:15		Options saved to sec.conf
+2017-10-04 15:59:15		Options saved to weechat.conf
+2017-10-04 15:59:15		Options saved to plugins.conf
+2017-10-04 15:59:15		Options saved to charset.conf
+2017-10-04 15:59:15		Options saved to logger.conf
+2017-10-04 15:59:15		Options saved to exec.conf
+2017-10-04 15:59:15		Options saved to trigger.conf
+2017-10-04 15:59:15		Options saved to aspell.conf
+2017-10-04 15:59:15		Options saved to alias.conf
+2017-10-04 15:59:15		Options saved to buflist.conf
+2017-10-04 15:59:15		Options saved to fifo.conf
+2017-10-04 15:59:15		Options saved to xfer.conf
+2017-10-04 15:59:15		Options saved to irc.conf
+2017-10-04 15:59:15		Options saved to relay.conf
+2017-10-04 15:59:15		Options saved to buffers.conf
+2017-10-04 15:59:15		Options saved to iset.conf
+2017-10-04 15:59:15		Options saved to urlgrab.conf
+2017-10-04 15:59:15		Options saved to colorize_nicks.conf
+2017-10-04 15:59:15		Options saved to script.conf
+2017-10-04 15:59:15		Options saved to autosort.conf
+2017-10-04 16:00:13		[python/autosort]  /autosort  
+2017-10-04 16:00:13		NOTE: For the best effect, you may want to consider setting the option irc.look.server_buffer to independent and buffers.look.indenting to on.
+2017-10-04 16:00:13		# Commands
+2017-10-04 16:00:13		## Miscellaneous
+2017-10-04 16:00:13		/autosort sort
+2017-10-04 16:00:13		Manually trigger the buffer sorting.
+2017-10-04 16:00:13		## Sorting rules
+2017-10-04 16:00:13		/autosort rules list
+2017-10-04 16:00:13		Print the list of sort rules.
+2017-10-04 16:00:13		/autosort rules add <pattern> = <score>
+2017-10-04 16:00:13		Add a new rule at the end of the list.
+2017-10-04 16:00:13		/autosort rules insert <index> <pattern> = <score>
+2017-10-04 16:00:13		Insert a new rule at the given index in the list.
+2017-10-04 16:00:13		/autosort rules update <index> <pattern> = <score>
+2017-10-04 16:00:13		Update a rule in the list with a new pattern and score.
+2017-10-04 16:00:13		/autosort rules delete <index>
+2017-10-04 16:00:13		Delete a rule from the list.
+2017-10-04 16:00:13		/autosort rules move <index_from> <index_to>
+2017-10-04 16:00:13		Move a rule from one position in the list to another.
+2017-10-04 16:00:13		/autosort rules swap <index_a> <index_b>
+2017-10-04 16:00:13		Swap two rules in the list
+2017-10-04 16:00:13		## Replacement patterns
+2017-10-04 16:00:13		/autosort replacements list
+2017-10-04 16:00:13		Print the list of replacement patterns.
+2017-10-04 16:00:13		/autosort replacements add <pattern> <replacement>
+2017-10-04 16:00:13		Add a new replacement pattern at the end of the list.
+2017-10-04 16:00:13		/autosort replacements insert <index> <pattern> <replacement>
+2017-10-04 16:00:13		Insert a new replacement pattern at the given index in the list.
+2017-10-04 16:00:13		/autosort replacements update <index> <pattern> <replacement>
+2017-10-04 16:00:13		Update a replacement pattern in the list.
+2017-10-04 16:00:13		/autosort replacements delete <index>
+2017-10-04 16:00:13		Delete a replacement pattern from the list.
+2017-10-04 16:00:13		/autosort replacements move <index_from> <index_to>
+2017-10-04 16:00:13		Move a replacement pattern from one position in the list to another.
+2017-10-04 16:00:13		/autosort replacements swap <index_a> <index_b>
+2017-10-04 16:00:13		Swap two replacement pattern in the list
+2017-10-04 16:00:13		# Introduction
+2017-10-04 16:00:13		Autosort is a weechat script to automatically keep your buffers sorted.
+2017-10-04 16:00:13		The sort order can be customized by defining your own sort rules,
+2017-10-04 16:00:13		but the default should be sane enough for most people.
+2017-10-04 16:00:13		It can also group IRC channel/private buffers under their server buffer if you like.
+2017-10-04 16:00:13		Autosort first turns buffer names into a list of their components by splitting on them on the period character.
+2017-10-04 16:00:13		For example, the buffer name "irc.server.freenode" is turned into ['irc', 'server', 'freenode'].
+2017-10-04 16:00:13		The list of buffers is then lexicographically sorted.
+2017-10-04 16:00:13		To facilitate custom sort orders, it is possible to assign a score to each component individually before the sorting is done.
+2017-10-04 16:00:13		Any name component that did not get a score assigned will be sorted after those that did receive a score.
+2017-10-04 16:00:13		Components are always sorted on their score first and on their name second.
+2017-10-04 16:00:13		Lower scores are sorted first.
+2017-10-04 16:00:13		## Automatic or manual sorting
+2017-10-04 16:00:13		By default, autosort will automatically sort your buffer list whenever a buffer is opened, merged, unmerged or renamed.
+2017-10-04 16:00:13		This should keep your buffers sorted in almost all situations.
+2017-10-04 16:00:13		However, you may wish to change the list of signals that cause your buffer list to be sorted.
+2017-10-04 16:00:13		Simply edit the "autosort.sorting.signals" option to add or remove any signal you like.
+2017-10-04 16:00:13		If you remove all signals you can still sort your buffers manually with the "/autosort sort" command.
+2017-10-04 16:00:13		To prevent all automatic sorting, "autosort.sorting.sort_on_config_change" should also be set to off.
+2017-10-04 16:00:13		## Grouping IRC buffers
+2017-10-04 16:00:13		In weechat, IRC channel/private buffers are named "irc.<network>.<#channel>",
+2017-10-04 16:00:13		and IRC server buffers are named "irc.server.<network>".
+2017-10-04 16:00:13		This does not work very well with lexicographical sorting if you want all buffers for one network grouped together.
+2017-10-04 16:00:13		That is why autosort comes with the "autosort.sorting.group_irc" option,
+2017-10-04 16:00:13		which secretly pretends IRC channel/private buffers are called "irc.server.<network>.<#channel>".
+2017-10-04 16:00:13		The buffers are not actually renamed, autosort simply pretends they are for sorting purposes.
+2017-10-04 16:00:13		## Replacement patterns
+2017-10-04 16:00:13		Sometimes you may want to ignore some characters for sorting purposes.
+2017-10-04 16:00:13		On Freenode for example, you may wish to ignore the difference between channels starting with a double or a single hash sign.
+2017-10-04 16:00:13		To do so, simply add a replacement pattern that replaces ## with # with the following command:
+2017-10-04 16:00:13		/autosort replacements add ## #
+2017-10-04 16:00:13		Replacement patterns do not support wildcards or special characters at the moment.
+2017-10-04 16:00:13		## Sort rules
+2017-10-04 16:00:13		You can assign scores to name components by defining sort rules.
+2017-10-04 16:00:13		The first rule that matches a component decides the score.
+2017-10-04 16:00:13		Further rules are not examined.
+2017-10-04 16:00:13		Sort rules use the following syntax:
+2017-10-04 16:00:13		<glob-pattern> = <score>
+2017-10-04 16:00:13		You can use the "/autosort rules" command to show and manipulate the list of sort rules.
+2017-10-04 16:00:13		Allowed special characters in the glob patterns are:
+2017-10-04 16:00:13		Pattern | Meaning
+2017-10-04 16:00:13		--------|--------
+2017-10-04 16:00:13		*       | Matches a sequence of any characters except for periods.
+2017-10-04 16:00:13		?       | Matches a single character, but not a period.
+2017-10-04 16:00:13		[a-z]   | Matches a single character in the given regex-like character class.
+2017-10-04 16:00:13		[^ab]   | A negated regex-like character class.
+2017-10-04 16:00:13		\*      | A backslash escapes the next characters and removes its special meaning.
+2017-10-04 16:00:13		\\      | A literal backslash.
+2017-10-04 16:00:13		## Example
+2017-10-04 16:00:13		As an example, consider the following rule list:
+2017-10-04 16:00:13		0: core            = 0
+2017-10-04 16:00:13		1: irc             = 2
+2017-10-04 16:00:13		2: *               = 1
+2017-10-04 16:00:13		3: irc.server.*.#* = 1
+2017-10-04 16:00:13		4: irc.server.*.*  = 0
+2017-10-04 16:00:13		Rule 0 ensures the core buffer is always sorted first.
+2017-10-04 16:00:13		Rule 1 sorts IRC buffers last and rule 2 puts all remaining buffers in between the two.
+2017-10-04 16:00:13		Rule 3 and 4 would make no sense with the group_irc option off.
+2017-10-04 16:00:13		With the option on though, these rules will sort private buffers before regular channel buffers.
+2017-10-04 16:00:13		Rule 3 matches channel buffers and assigns them a higher score,
+2017-10-04 16:00:13		while rule 4 matches the buffers that remain and assigns them a lower score.
+2017-10-04 16:00:13		The same effect could also be achieved with a single rule:
+2017-10-04 16:00:13		irc.server.*.[^#]* = 0
+2017-10-04 16:01:05		Option changed: autosort.sorting.rules = "[["core", 3], ["irc", 1], ["*", 0], ["irc.irc_raw", 0], ["irc.server", 1]]"  (default: "[["core", 0], ["irc", 2], ["*", 1], ["irc.irc_raw", 0], ["irc.server", 1]]")
+2017-10-04 16:01:46		Option changed: autosort.sorting.rules = "[["core", 3], ["irc", 1], ["*", 0], ["irc.irc_raw", 0], ["irc.server", 1]]"  (default: "[["core", 0], ["irc", 2], ["*", 1], ["irc.irc_raw", 0], ["irc.server", 1]]")
+2017-10-04 16:03:15		Option changed: autosort.sorting.rules = "[["core", 3], ["irc", 3], ["*", 1], ["irc.irc_raw", 0], ["irc.server", 1]]"  (default: "[["core", 0], ["irc", 2], ["*", 1], ["irc.irc_raw", 0], ["irc.server", 1]]")
+2017-10-04 16:03:51		Option changed: autosort.sorting.rules = "[["core", 3], ["irc", 2], ["*", 1], ["irc.irc_raw", 2], ["irc.server", 1]]"  (default: "[["core", 0], ["irc", 2], ["*", 1], ["irc.irc_raw", 0], ["irc.server", 1]]")
+2017-10-04 16:30:48		python: loading script "/home/eleventh/.weechat/python/go.py"
+2017-10-04 16:30:48		python: registered script "go", version 2.5 (Quick jump to buffers)
+2017-10-04 16:31:00		script: autoload enabled for script "go.py"
+2017-10-04 16:32:47	=!=	Too few arguments for command "/key bind" (help on command: /help key)
+2017-10-04 16:33:02		New key binding (context "default"): meta-j => /go
+2017-10-04 16:33:25		Options saved to sec.conf
+2017-10-04 16:33:25		Options saved to weechat.conf
+2017-10-04 16:33:25		Options saved to plugins.conf
+2017-10-04 16:33:25		Options saved to charset.conf
+2017-10-04 16:33:25		Options saved to logger.conf
+2017-10-04 16:33:25		Options saved to exec.conf
+2017-10-04 16:33:25		Options saved to trigger.conf
+2017-10-04 16:33:25		Options saved to aspell.conf
+2017-10-04 16:33:25		Options saved to alias.conf
+2017-10-04 16:33:25		Options saved to buflist.conf
+2017-10-04 16:33:25		Options saved to fifo.conf
+2017-10-04 16:33:25		Options saved to xfer.conf
+2017-10-04 16:33:25		Options saved to irc.conf
+2017-10-04 16:33:25		Options saved to relay.conf
+2017-10-04 16:33:25		Options saved to buffers.conf
+2017-10-04 16:33:25		Options saved to iset.conf
+2017-10-04 16:33:25		Options saved to urlgrab.conf
+2017-10-04 16:33:25		Options saved to colorize_nicks.conf
+2017-10-04 16:33:25		Options saved to script.conf
+2017-10-04 16:33:25		Options saved to autosort.conf
+2017-10-04 16:34:31		fifo: pipe closed
+2017-10-04 16:35:21	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-04 16:35:21		perl scripts loaded: buffers, colorize_lines, iset, ncmpcpp, notifym
+2017-10-04 16:35:21		python scripts loaded: autosort, colorize_nicks, go, urlgrab
+2017-10-04 16:35:21		script: 349 scripts for WeeChat 1.9.1
+2017-10-04 16:35:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
