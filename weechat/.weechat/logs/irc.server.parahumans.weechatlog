@@ -284,3 +284,337 @@
 2017-10-04 16:35:23	--	User mode [+x] by eleventh
 2017-10-04 16:35:24	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
 2017-10-04 16:35:24	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-04 18:09:32	--	irc: lag is high, reconnecting to server parahumans
+2017-10-04 18:09:32	--	irc: disconnected from server
+2017-10-04 18:09:32	--	irc: reconnecting to server in 10 seconds
+2017-10-04 18:09:42	--	irc: reconnecting to server...
+2017-10-04 18:09:42	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 18:09:43	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-04 18:09:43	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-04 18:09:43	--	irc.parahumans.net: *** Found your hostname (ip-109-43-0-25.web.vodafone.de)
+2017-10-04 18:09:44	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-04 18:09:44	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-0-25.web.vodafone.de
+2017-10-04 18:09:44	--	MSG(NickServ): IDENTIFY *********
+2017-10-04 18:09:44	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-04 18:09:44	--	This server was created 00:13:17 Oct  6 2015
+2017-10-04 18:09:44	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-04 18:09:44	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-04 18:09:44	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-04 18:09:44	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-04 18:09:44	--	557AAAEN8 :your unique ID
+2017-10-04 18:09:44	--	irc.parahumans.net message of the day
+2017-10-04 18:09:44	--	-   _____                _
+2017-10-04 18:09:44	--	-  |  __ \              | |
+2017-10-04 18:09:44	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-04 18:09:44	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-04 18:09:44	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-04 18:09:44	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-04 18:09:44	--	- _____________________________________________________________
+2017-10-04 18:09:44	--	-
+2017-10-04 18:09:44	--	- A network for fans of Wildbow's works.
+2017-10-04 18:09:44	--	-
+2017-10-04 18:09:44	--	- The rules of this network are available through /rules
+2017-10-04 18:09:44	--	- For network help (including against abuse), please see #help
+2017-10-04 18:09:44	--	End of message of the day.
+2017-10-04 18:09:44	--	There are 93 users and 20 invisible on 2 servers
+2017-10-04 18:09:44	--	3 :operator(s) online
+2017-10-04 18:09:44	--	167 :channels formed
+2017-10-04 18:09:44	--	I have 105 clients and 1 servers
+2017-10-04 18:09:44	--	Current Local Users: 105  Max: 127
+2017-10-04 18:09:44	--	Current Global Users: 113  Max: 135
+2017-10-04 18:09:44	--	net-40b5rk.web.vodafone.de :is now your displayed host
+2017-10-04 18:09:44	--	User mode [+x] by eleventh
+2017-10-04 18:09:45	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-04 18:09:45	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-04 19:59:47	--	irc: lag is high, reconnecting to server parahumans
+2017-10-04 19:59:47	--	irc: disconnected from server
+2017-10-04 19:59:47	--	irc: reconnecting to server in 10 seconds
+2017-10-04 19:59:57	--	irc: reconnecting to server...
+2017-10-04 19:59:57	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 19:59:58	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-04 19:59:58	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-04 19:59:58	--	irc.parahumans.net: *** Found your hostname (ip-109-43-0-25.web.vodafone.de)
+2017-10-04 19:59:59	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-04 19:59:59	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-0-25.web.vodafone.de
+2017-10-04 19:59:59	--	MSG(NickServ): IDENTIFY *********
+2017-10-04 19:59:59	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-04 19:59:59	--	This server was created 00:13:17 Oct  6 2015
+2017-10-04 19:59:59	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-04 19:59:59	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-04 19:59:59	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-04 20:00:00	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-04 20:00:00	--	557AAAEOO :your unique ID
+2017-10-04 20:00:00	--	irc.parahumans.net message of the day
+2017-10-04 20:00:00	--	-   _____                _
+2017-10-04 20:00:00	--	-  |  __ \              | |
+2017-10-04 20:00:00	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-04 20:00:00	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-04 20:00:00	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-04 20:00:00	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-04 20:00:00	--	- _____________________________________________________________
+2017-10-04 20:00:00	--	-
+2017-10-04 20:00:00	--	- A network for fans of Wildbow's works.
+2017-10-04 20:00:00	--	-
+2017-10-04 20:00:00	--	- The rules of this network are available through /rules
+2017-10-04 20:00:00	--	- For network help (including against abuse), please see #help
+2017-10-04 20:00:00	--	End of message of the day.
+2017-10-04 20:00:00	--	There are 99 users and 20 invisible on 2 servers
+2017-10-04 20:00:00	--	3 :operator(s) online
+2017-10-04 20:00:00	--	169 :channels formed
+2017-10-04 20:00:00	--	I have 111 clients and 1 servers
+2017-10-04 20:00:00	--	Current Local Users: 111  Max: 127
+2017-10-04 20:00:00	--	Current Global Users: 119  Max: 135
+2017-10-04 20:00:00	--	net-40b5rk.web.vodafone.de :is now your displayed host
+2017-10-04 20:00:00	--	User mode [+x] by eleventh
+2017-10-04 20:00:00	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-04 20:00:00	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-04 20:51:02	--	irc: lag is high, reconnecting to server parahumans
+2017-10-04 20:51:02	--	irc: disconnected from server
+2017-10-04 20:51:02	--	irc: reconnecting to server in 10 seconds
+2017-10-04 20:51:12	--	irc: reconnecting to server...
+2017-10-04 20:51:12	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 20:51:12	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 20:51:12	⚠	irc: error: Name or service not known
+2017-10-04 20:51:12	--	irc: reconnecting to server in 20 seconds
+2017-10-04 20:51:32	--	irc: reconnecting to server...
+2017-10-04 20:51:32	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 20:51:32	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 20:51:32	⚠	irc: error: Name or service not known
+2017-10-04 20:51:32	--	irc: reconnecting to server in 40 seconds
+2017-10-04 20:52:12	--	irc: reconnecting to server...
+2017-10-04 20:52:12	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 20:52:12	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 20:52:12	⚠	irc: error: Name or service not known
+2017-10-04 20:52:12	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-04 20:53:32	--	irc: reconnecting to server...
+2017-10-04 20:53:32	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 20:53:32	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 20:53:32	⚠	irc: error: Name or service not known
+2017-10-04 20:53:32	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-04 20:56:12	--	irc: reconnecting to server...
+2017-10-04 20:56:12	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 20:56:12	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 20:56:12	⚠	irc: error: Name or service not known
+2017-10-04 20:56:12	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-10-04 21:01:32	--	irc: reconnecting to server...
+2017-10-04 21:01:32	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 21:01:32	⚠	irc: address "irc.parahumans.net" not found
+2017-10-04 21:01:32	⚠	irc: error: Name or service not known
+2017-10-04 21:01:32	--	irc: reconnecting to server in 10 minutes
+2017-10-04 21:11:32	--	irc: reconnecting to server...
+2017-10-04 21:11:32	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-04 21:11:33	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-04 21:11:33	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-04 21:11:34	--	irc.parahumans.net: *** Found your hostname (ip-109-43-0-25.web.vodafone.de)
+2017-10-04 21:11:34	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-04 21:11:34	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-0-25.web.vodafone.de
+2017-10-04 21:11:34	--	MSG(NickServ): IDENTIFY *********
+2017-10-04 21:11:34	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-04 21:11:34	--	This server was created 00:13:17 Oct  6 2015
+2017-10-04 21:11:34	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-04 21:11:34	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-04 21:11:34	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-04 21:11:34	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-04 21:11:34	--	557AAAEOX :your unique ID
+2017-10-04 21:11:34	--	irc.parahumans.net message of the day
+2017-10-04 21:11:34	--	-   _____                _
+2017-10-04 21:11:34	--	-  |  __ \              | |
+2017-10-04 21:11:34	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-04 21:11:34	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-04 21:11:34	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-04 21:11:34	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-04 21:11:34	--	- _____________________________________________________________
+2017-10-04 21:11:34	--	-
+2017-10-04 21:11:34	--	- A network for fans of Wildbow's works.
+2017-10-04 21:11:34	--	-
+2017-10-04 21:11:34	--	- The rules of this network are available through /rules
+2017-10-04 21:11:34	--	- For network help (including against abuse), please see #help
+2017-10-04 21:11:34	--	End of message of the day.
+2017-10-04 21:11:34	--	There are 98 users and 21 invisible on 2 servers
+2017-10-04 21:11:34	--	3 :operator(s) online
+2017-10-04 21:11:34	--	170 :channels formed
+2017-10-04 21:11:34	--	I have 111 clients and 1 servers
+2017-10-04 21:11:34	--	Current Local Users: 111  Max: 127
+2017-10-04 21:11:34	--	Current Global Users: 119  Max: 135
+2017-10-04 21:11:34	--	net-40b5rk.web.vodafone.de :is now your displayed host
+2017-10-04 21:11:34	--	User mode [+x] by eleventh
+2017-10-04 21:11:34	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-04 21:11:34	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-05 06:50:35	--	irc: lag is high, reconnecting to server parahumans
+2017-10-05 06:50:35	--	irc: disconnected from server
+2017-10-05 06:50:35	--	irc: reconnecting to server in 10 seconds
+2017-10-05 06:50:45	--	irc: reconnecting to server...
+2017-10-05 06:50:45	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 06:50:46	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-05 06:50:46	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-05 06:50:46	--	irc.parahumans.net: *** Found your hostname (ip-109-43-0-25.web.vodafone.de)
+2017-10-05 06:50:46	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-05 06:50:46	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-0-25.web.vodafone.de
+2017-10-05 06:50:46	--	MSG(NickServ): IDENTIFY *********
+2017-10-05 06:50:46	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-05 06:50:46	--	This server was created 00:13:17 Oct  6 2015
+2017-10-05 06:50:46	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-05 06:50:46	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-05 06:50:46	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-05 06:50:46	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-05 06:50:46	--	557AAAEQM :your unique ID
+2017-10-05 06:50:46	--	irc.parahumans.net message of the day
+2017-10-05 06:50:46	--	-   _____                _
+2017-10-05 06:50:46	--	-  |  __ \              | |
+2017-10-05 06:50:46	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-05 06:50:46	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-05 06:50:46	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-05 06:50:46	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-05 06:50:46	--	- _____________________________________________________________
+2017-10-05 06:50:46	--	-
+2017-10-05 06:50:46	--	- A network for fans of Wildbow's works.
+2017-10-05 06:50:46	--	-
+2017-10-05 06:50:46	--	- The rules of this network are available through /rules
+2017-10-05 06:50:46	--	- For network help (including against abuse), please see #help
+2017-10-05 06:50:46	--	End of message of the day.
+2017-10-05 06:50:46	--	There are 96 users and 21 invisible on 2 servers
+2017-10-05 06:50:46	--	3 :operator(s) online
+2017-10-05 06:50:46	--	167 :channels formed
+2017-10-05 06:50:46	--	I have 109 clients and 1 servers
+2017-10-05 06:50:46	--	Current Local Users: 109  Max: 127
+2017-10-05 06:50:46	--	Current Global Users: 117  Max: 135
+2017-10-05 06:50:46	--	net-40b5rk.web.vodafone.de :is now your displayed host
+2017-10-05 06:50:46	--	User mode [+x] by eleventh
+2017-10-05 06:50:46	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-05 06:50:47	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-05 08:25:35	--	irc: lag is high, reconnecting to server parahumans
+2017-10-05 08:25:35	--	irc: disconnected from server
+2017-10-05 08:25:35	--	irc: reconnecting to server in 10 seconds
+2017-10-05 08:25:45	--	irc: reconnecting to server...
+2017-10-05 08:25:45	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 08:26:02	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-05 08:26:03	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-05 08:26:03	--	irc.parahumans.net: *** Found your hostname (ip-109-43-0-25.web.vodafone.de)
+2017-10-05 08:26:04	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-05 08:26:04	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-0-25.web.vodafone.de
+2017-10-05 08:26:04	--	MSG(NickServ): IDENTIFY *********
+2017-10-05 08:26:04	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-05 08:26:04	--	This server was created 00:13:17 Oct  6 2015
+2017-10-05 08:26:04	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-05 08:26:04	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-05 08:26:04	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-05 08:26:04	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-05 08:26:04	--	557AAAEQU :your unique ID
+2017-10-05 08:26:04	--	irc.parahumans.net message of the day
+2017-10-05 08:26:04	--	-   _____                _
+2017-10-05 08:26:04	--	-  |  __ \              | |
+2017-10-05 08:26:04	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-05 08:26:04	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-05 08:26:04	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-05 08:26:04	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-05 08:26:04	--	- _____________________________________________________________
+2017-10-05 08:26:04	--	-
+2017-10-05 08:26:04	--	- A network for fans of Wildbow's works.
+2017-10-05 08:26:04	--	-
+2017-10-05 08:26:04	--	- The rules of this network are available through /rules
+2017-10-05 08:26:04	--	- For network help (including against abuse), please see #help
+2017-10-05 08:26:04	--	End of message of the day.
+2017-10-05 08:26:04	--	There are 95 users and 21 invisible on 2 servers
+2017-10-05 08:26:04	--	3 :operator(s) online
+2017-10-05 08:26:04	--	165 :channels formed
+2017-10-05 08:26:04	--	I have 108 clients and 1 servers
+2017-10-05 08:26:04	--	Current Local Users: 108  Max: 127
+2017-10-05 08:26:04	--	Current Global Users: 116  Max: 135
+2017-10-05 08:26:04	--	net-40b5rk.web.vodafone.de :is now your displayed host
+2017-10-05 08:26:04	--	User mode [+x] by eleventh
+2017-10-05 08:26:04	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-05 08:26:04	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-05 08:53:26	--	irc: lag is high, reconnecting to server parahumans
+2017-10-05 08:53:26	--	irc: disconnected from server
+2017-10-05 08:53:26	--	irc: reconnecting to server in 10 seconds
+2017-10-05 08:53:36	--	irc: reconnecting to server...
+2017-10-05 08:53:36	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 08:53:37	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-05 08:53:37	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-05 08:53:37	--	irc.parahumans.net: *** Found your hostname (ip-109-43-3-152.web.vodafone.de)
+2017-10-05 08:53:38	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-05 08:53:38	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-3-152.web.vodafone.de
+2017-10-05 08:53:38	--	MSG(NickServ): IDENTIFY *********
+2017-10-05 08:53:38	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-05 08:53:38	--	This server was created 00:13:17 Oct  6 2015
+2017-10-05 08:53:38	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-05 08:53:38	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-05 08:53:38	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-05 08:53:38	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-05 08:53:38	--	557AAAEQW :your unique ID
+2017-10-05 08:53:38	--	irc.parahumans.net message of the day
+2017-10-05 08:53:38	--	-   _____                _
+2017-10-05 08:53:38	--	-  |  __ \              | |
+2017-10-05 08:53:38	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-05 08:53:38	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-05 08:53:38	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-05 08:53:38	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-05 08:53:38	--	- _____________________________________________________________
+2017-10-05 08:53:38	--	-
+2017-10-05 08:53:38	--	- A network for fans of Wildbow's works.
+2017-10-05 08:53:38	--	-
+2017-10-05 08:53:38	--	- The rules of this network are available through /rules
+2017-10-05 08:53:38	--	- For network help (including against abuse), please see #help
+2017-10-05 08:53:38	--	End of message of the day.
+2017-10-05 08:53:38	--	There are 93 users and 21 invisible on 2 servers
+2017-10-05 08:53:38	--	3 :operator(s) online
+2017-10-05 08:53:38	--	164 :channels formed
+2017-10-05 08:53:38	--	I have 106 clients and 1 servers
+2017-10-05 08:53:38	--	Current Local Users: 106  Max: 127
+2017-10-05 08:53:38	--	Current Global Users: 114  Max: 135
+2017-10-05 08:53:38	--	net-4m2uef.web.vodafone.de :is now your displayed host
+2017-10-05 08:53:38	--	User mode [+x] by eleventh
+2017-10-05 08:53:38	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-05 08:53:38	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.
+2017-10-05 11:07:23	--	irc: lag is high, reconnecting to server parahumans
+2017-10-05 11:07:23	--	irc: disconnected from server
+2017-10-05 11:07:23	--	irc: reconnecting to server in 10 seconds
+2017-10-05 11:07:33	--	irc: reconnecting to server...
+2017-10-05 11:07:33	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 11:07:33	⚠	irc: address "irc.parahumans.net" not found
+2017-10-05 11:07:33	⚠	irc: error: Name or service not known
+2017-10-05 11:07:33	--	irc: reconnecting to server in 20 seconds
+2017-10-05 11:07:53	--	irc: reconnecting to server...
+2017-10-05 11:07:53	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 11:07:53	⚠	irc: address "irc.parahumans.net" not found
+2017-10-05 11:07:53	⚠	irc: error: Name or service not known
+2017-10-05 11:07:53	--	irc: reconnecting to server in 40 seconds
+2017-10-05 11:08:33	--	irc: reconnecting to server...
+2017-10-05 11:08:33	--	irc: connecting to server irc.parahumans.net/6667...
+2017-10-05 11:08:34	--	irc: connected to irc.parahumans.net/6667 (52.88.244.186)
+2017-10-05 11:08:34	--	irc.parahumans.net: *** Looking up your hostname...
+2017-10-05 11:08:34	--	irc.parahumans.net: *** Found your hostname (ip-109-43-2-233.web.vodafone.de)
+2017-10-05 11:08:36	--	irc.parahumans.net: Welcome to Parahumans!
+2017-10-05 11:08:36	--	Welcome to the Parahumans IRC Network eleventh!eleventh@ip-109-43-2-233.web.vodafone.de
+2017-10-05 11:08:36	--	MSG(NickServ): IDENTIFY *********
+2017-10-05 11:08:36	--	Your host is irc.parahumans.net, running version InspIRCd-2.0
+2017-10-05 11:08:36	--	This server was created 00:13:17 Oct  6 2015
+2017-10-05 11:08:36	--	irc.parahumans.net InspIRCd-2.0 GHIRWdgiorswx GMORabcehiklmnopqrstvz abehkloqv
+2017-10-05 11:08:36	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=be,k,l,GMORcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ORUcmz FNC KICKLEN=255 MAP :are supported by this server
+2017-10-05 11:08:36	--	MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Parahumans NICKLEN=14 OPERLOG PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 :are supported by this server
+2017-10-05 11:08:36	--	VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2017-10-05 11:08:36	--	557AAAERA :your unique ID
+2017-10-05 11:08:36	--	irc.parahumans.net message of the day
+2017-10-05 11:08:36	--	-   _____                _
+2017-10-05 11:08:36	--	-  |  __ \              | |
+2017-10-05 11:08:36	--	-  | |__) |_ _ _ __ __ _| |__  _   _ _ __ ___   __ _ _ __  ___
+2017-10-05 11:08:36	--	-  |  ___/ _` | '__/ _` | '_ \| | | | '_ ` _ \ / _` | '_ \/ __|
+2017-10-05 11:08:36	--	-  | |  | (_| | | | (_| | | | | |_| | | | | | | (_| | | | \__ \
+2017-10-05 11:08:36	--	-  |_|   \__,_|_|  \__,_|_| |_|\__,_|_| |_| |_|\__,_|_| |_|___/
+2017-10-05 11:08:36	--	- _____________________________________________________________
+2017-10-05 11:08:36	--	-
+2017-10-05 11:08:36	--	- A network for fans of Wildbow's works.
+2017-10-05 11:08:36	--	-
+2017-10-05 11:08:36	--	- The rules of this network are available through /rules
+2017-10-05 11:08:36	--	- For network help (including against abuse), please see #help
+2017-10-05 11:08:36	--	End of message of the day.
+2017-10-05 11:08:36	--	There are 88 users and 20 invisible on 2 servers
+2017-10-05 11:08:36	--	3 :operator(s) online
+2017-10-05 11:08:36	--	164 :channels formed
+2017-10-05 11:08:36	--	I have 100 clients and 1 servers
+2017-10-05 11:08:36	--	Current Local Users: 100  Max: 127
+2017-10-05 11:08:36	--	Current Global Users: 108  Max: 135
+2017-10-05 11:08:36	--	net-2pvmlc.web.vodafone.de :is now your displayed host
+2017-10-05 11:08:36	--	User mode [+x] by eleventh
+2017-10-05 11:08:36	--	NickServ (services@services.parahumans.net): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2017-10-05 11:08:37	--	NickServ (services@services.parahumans.net): Nick eleventh isn't registered.

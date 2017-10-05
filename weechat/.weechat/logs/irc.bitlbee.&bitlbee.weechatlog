@@ -3917,3 +3917,740 @@
 2017-10-04 16:35:56	--	Teague is now known as _17819105993
 2017-10-04 16:35:56	--	Haynsworth is now known as jonathanhaynsworth
 2017-10-04 16:35:56	--	_1910-286-6013 is now known as _19102866013
+2017-10-04 17:18:52	@root	twitter - Error: Connection timeout
+2017-10-04 17:18:52	@root	twitter - Signing off..
+2017-10-04 17:18:52	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 17:18:52	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-04 17:19:07	@root	twitter - Logging in: Connecting
+2017-10-04 17:19:07	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 17:19:07	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 17:19:07	@root	twitter - Logging in: Getting contact list
+2017-10-04 17:19:08	@root	twitter - Logging in: Getting initial statuses
+2017-10-04 17:19:08	@root	twitter - Logging in: Logged in
+2017-10-04 18:04:30	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-04 18:04:30	@root	hangouts - Error: Unknown HTTP error
+2017-10-04 18:04:30	@root	hangouts - Signing off..
+2017-10-04 18:04:30	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 18:04:30	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-04 18:04:35	@root	hangouts - Logging in: Authenticating
+2017-10-04 18:04:37	@root	hangouts - Logging in: Logged in
+2017-10-04 18:04:39	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-04 18:04:39	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-04 18:04:39	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-04 18:04:41	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-04 18:04:41	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-04 18:04:41	--	_1910-286-6013 is now known as _19102866013
+2017-10-04 18:04:41	--	Teague is now known as _17819105993
+2017-10-04 18:04:41	--	CST16MsLearFinance is now known as _15027993128
+2017-10-04 18:04:41	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-04 18:05:23	--	irc: disconnected from server
+2017-10-04 18:05:33	eleventh	identify
+2017-10-04 18:05:33	-->	eleventh (eleventh@localhost.localdomain) has joined &bitlbee
+2017-10-04 18:05:33	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2017-10-04 18:05:33	--	Topic set by root (root@localhost.localdomain) on Wed, 04 Oct 2017 18:05:33
+2017-10-04 18:05:33	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2017-10-04 18:05:33	@root	Welcome to the BitlBee gateway!
+2017-10-04 18:05:33	@root	 
+2017-10-04 18:05:33	@root	Running BitlBee-LIBPURPLE 3.5.1
+2017-10-04 18:05:33	@root	 
+2017-10-04 18:05:33	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2017-10-04 18:05:33	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2017-10-04 18:05:33	@root	About to identify, use /OPER to enter the password
+2017-10-04 18:09:56	@eleventh	account hangouts on
+2017-10-04 18:09:56	@root	Could not find account `hangouts'.
+2017-10-04 18:10:23	@eleventh	alias del aho
+2017-10-04 18:10:23	@root	Unknown command: alias. Please use help commands to get a list of available commands.
+2017-10-04 18:10:48	@eleventh	account hangouts on
+2017-10-04 18:10:48	@root	Could not find account `hangouts'.
+2017-10-04 18:10:53	@eleventh	account hangout on
+2017-10-04 18:10:53	@root	Could not find account `hangout'.
+2017-10-04 18:10:57	@eleventh	account list
+2017-10-04 18:10:57	@root	End of account list
+2017-10-04 18:11:28	@eleventh	identify Royal10??
+2017-10-04 18:11:28	@root	otr: gocyclic249@gmail.com/hangouts ready
+2017-10-04 18:11:28	@root	Password accepted, settings and accounts loaded
+2017-10-04 18:11:28	@root	Trying to get all accounts connected...
+2017-10-04 18:11:28	@root	hangouts - Logging in: Authenticating
+2017-10-04 18:11:28	@root	twitter - Logging in: Connecting
+2017-10-04 18:11:28	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 18:11:28	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 18:11:28	@root	twitter - Logging in: Getting contact list
+2017-10-04 18:11:30	@root	twitter - Logging in: Getting initial statuses
+2017-10-04 18:11:30	@root	hangouts - Logging in: Logged in
+2017-10-04 18:11:30	@root	twitter - Logging in: Logged in
+2017-10-04 18:11:33	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-04 18:11:33	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-04 18:11:33	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-04 18:11:34	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-04 18:11:34	--	CST16MsLearFinance is now known as _15027993128
+2017-10-04 18:11:34	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-04 18:11:34	--	Teague is now known as _17819105993
+2017-10-04 18:11:34	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-04 18:11:34	--	_1910-286-6013 is now known as _19102866013
+2017-10-04 19:54:46	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-04 19:54:46	@root	hangouts - Error: Unknown HTTP error
+2017-10-04 19:54:46	@root	hangouts - Signing off..
+2017-10-04 19:54:46	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 19:54:46	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-04 19:54:51	@root	hangouts - Logging in: Authenticating
+2017-10-04 19:54:53	@root	hangouts - Logging in: Logged in
+2017-10-04 19:54:56	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-04 19:54:56	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-04 19:54:56	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-04 19:54:57	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-04 19:54:57	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-04 19:54:57	--	_1910-286-6013 is now known as _19102866013
+2017-10-04 19:54:57	--	Teague is now known as _17819105993
+2017-10-04 19:54:57	--	CST16MsLearFinance is now known as _15027993128
+2017-10-04 19:54:57	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-04 19:55:50	@root	twitter - Error: Connection timeout
+2017-10-04 19:55:50	@root	twitter - Signing off..
+2017-10-04 19:55:50	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 19:55:50	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-04 19:55:53	--	irc: disconnected from server
+2017-10-04 19:56:03	eleventh	identify
+2017-10-04 19:56:03	-->	eleventh (eleventh@localhost.localdomain) has joined &bitlbee
+2017-10-04 19:56:03	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2017-10-04 19:56:03	--	Topic set by root (root@localhost.localdomain) on Wed, 04 Oct 2017 19:56:03
+2017-10-04 19:56:03	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2017-10-04 19:56:03	@root	Welcome to the BitlBee gateway!
+2017-10-04 19:56:03	@root	 
+2017-10-04 19:56:03	@root	Running BitlBee-LIBPURPLE 3.5.1
+2017-10-04 19:56:03	@root	 
+2017-10-04 19:56:03	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2017-10-04 19:56:03	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2017-10-04 19:56:03	@root	About to identify, use /OPER to enter the password
+2017-10-04 20:18:54	@eleventh	identify Royal10??
+2017-10-04 20:18:54	@root	otr: gocyclic249@gmail.com/hangouts ready
+2017-10-04 20:18:54	@root	Password accepted, settings and accounts loaded
+2017-10-04 20:19:03	@root	Trying to get all accounts connected...
+2017-10-04 20:19:03	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:19:03	@root	twitter - Logging in: Connecting
+2017-10-04 20:19:03	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 20:19:03	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 20:19:03	@root	twitter - Logging in: Getting contact list
+2017-10-04 20:19:04	@root	twitter - Logging in: Getting initial statuses
+2017-10-04 20:19:04	@root	hangouts - Logging in: Logged in
+2017-10-04 20:19:04	@root	twitter - Logging in: Logged in
+2017-10-04 20:19:08	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-04 20:19:08	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-04 20:19:08	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-04 20:19:09	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-04 20:19:09	--	CST16MsLearFinance is now known as _15027993128
+2017-10-04 20:19:09	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-04 20:19:09	--	Teague is now known as _17819105993
+2017-10-04 20:19:09	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-04 20:19:09	--	_1910-286-6013 is now known as _19102866013
+2017-10-04 20:46:40	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-04 20:46:40	@root	hangouts - Error: Unknown HTTP error
+2017-10-04 20:46:40	@root	hangouts - Signing off..
+2017-10-04 20:46:40	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-04 20:46:40	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-04 20:46:45	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:46:45	@root	hangouts - Login error: Invalid response
+2017-10-04 20:46:45	@root	hangouts - Logging in: Signing off..
+2017-10-04 20:46:45	@root	hangouts - Logging in: Reconnecting in 15 seconds..
+2017-10-04 20:47:00	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:47:00	@root	hangouts - Login error: Invalid response
+2017-10-04 20:47:00	@root	hangouts - Logging in: Signing off..
+2017-10-04 20:47:00	@root	hangouts - Logging in: Reconnecting in 45 seconds..
+2017-10-04 20:47:05	@root	twitter - Error: Connection timeout
+2017-10-04 20:47:05	@root	twitter - Signing off..
+2017-10-04 20:47:05	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 20:47:05	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-04 20:47:10	@root	twitter - Logging in: Connecting
+2017-10-04 20:47:10	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 20:47:10	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 20:47:10	@root	twitter - Logging in: Getting contact list
+2017-10-04 20:47:45	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:47:45	@root	hangouts - Login error: Invalid response
+2017-10-04 20:47:45	@root	hangouts - Logging in: Signing off..
+2017-10-04 20:47:45	@root	hangouts - Logging in: Reconnecting in 135 seconds..
+2017-10-04 20:49:10	@root	twitter - Login error: Connection timeout
+2017-10-04 20:49:10	@root	twitter - Logging in: Signing off..
+2017-10-04 20:49:10	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 20:49:10	@root	twitter - Logging in: Reconnecting in 15 seconds..
+2017-10-04 20:49:25	@root	twitter - Logging in: Connecting
+2017-10-04 20:49:25	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 20:49:25	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 20:49:25	@root	twitter - Logging in: Getting contact list
+2017-10-04 20:50:00	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:50:00	@root	hangouts - Login error: Invalid response
+2017-10-04 20:50:00	@root	hangouts - Logging in: Signing off..
+2017-10-04 20:50:00	@root	hangouts - Logging in: Reconnecting in 405 seconds..
+2017-10-04 20:51:25	@root	twitter - Login error: Connection timeout
+2017-10-04 20:51:25	@root	twitter - Logging in: Signing off..
+2017-10-04 20:51:25	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 20:51:25	@root	twitter - Logging in: Reconnecting in 45 seconds..
+2017-10-04 20:52:10	@root	twitter - Logging in: Connecting
+2017-10-04 20:52:10	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 20:52:10	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 20:52:10	@root	twitter - Logging in: Getting contact list
+2017-10-04 20:54:10	@root	twitter - Login error: Connection timeout
+2017-10-04 20:54:10	@root	twitter - Logging in: Signing off..
+2017-10-04 20:54:10	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 20:54:10	@root	twitter - Logging in: Reconnecting in 135 seconds..
+2017-10-04 20:56:25	@root	twitter - Logging in: Connecting
+2017-10-04 20:56:25	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 20:56:25	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 20:56:25	@root	twitter - Logging in: Getting contact list
+2017-10-04 20:56:45	@root	hangouts - Logging in: Authenticating
+2017-10-04 20:56:45	@root	hangouts - Login error: Invalid response
+2017-10-04 20:56:45	@root	hangouts - Logging in: Signing off..
+2017-10-04 20:56:45	@root	hangouts - Logging in: Reconnecting in 900 seconds..
+2017-10-04 20:58:25	@root	twitter - Login error: Connection timeout
+2017-10-04 20:58:25	@root	twitter - Logging in: Signing off..
+2017-10-04 20:58:25	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-04 20:58:25	@root	twitter - Logging in: Reconnecting in 405 seconds..
+2017-10-04 21:04:17	@eleventh	identify Royal10??
+2017-10-04 21:04:17	@root	You're already logged in.
+2017-10-04 21:05:10	@root	twitter - Logging in: Connecting
+2017-10-04 21:05:10	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-04 21:05:10	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-04 21:05:10	@root	twitter - Logging in: Getting contact list
+2017-10-04 21:05:11	@root	twitter - Logging in: Getting initial statuses
+2017-10-04 21:05:12	@root	twitter - Logging in: Logged in
+2017-10-04 21:11:45	@root	hangouts - Logging in: Authenticating
+2017-10-04 21:11:46	@root	hangouts - Logging in: Logged in
+2017-10-04 21:11:49	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-04 21:11:49	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-04 21:11:49	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-04 21:11:51	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-04 21:11:51	--	CST16MsLearFinance is now known as _15027993128
+2017-10-04 21:11:51	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-04 21:11:51	--	Teague is now known as _17819105993
+2017-10-04 21:11:51	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-04 21:11:51	--	_1910-286-6013 is now known as _19102866013
+2017-10-05 06:45:33	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-05 06:45:33	@root	hangouts - Error: Unknown HTTP error
+2017-10-05 06:45:33	@root	hangouts - Signing off..
+2017-10-05 06:45:33	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 06:45:33	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-05 06:45:38	@root	hangouts - Logging in: Authenticating
+2017-10-05 06:45:38	@root	hangouts - Login error: Invalid response
+2017-10-05 06:45:38	@root	hangouts - Logging in: Signing off..
+2017-10-05 06:45:38	@root	hangouts - Logging in: Reconnecting in 15 seconds..
+2017-10-05 06:45:53	--	irc: disconnected from server
+2017-10-05 06:46:03	eleventh	identify
+2017-10-05 06:46:03	-->	eleventh (eleventh@localhost.localdomain) has joined &bitlbee
+2017-10-05 06:46:03	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2017-10-05 06:46:03	--	Topic set by root (root@localhost.localdomain) on Thu, 05 Oct 2017 06:46:03
+2017-10-05 06:46:03	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2017-10-05 06:46:03	@root	Welcome to the BitlBee gateway!
+2017-10-05 06:46:03	@root	 
+2017-10-05 06:46:03	@root	Running BitlBee-LIBPURPLE 3.5.1
+2017-10-05 06:46:03	@root	 
+2017-10-05 06:46:03	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2017-10-05 06:46:03	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2017-10-05 06:46:03	@root	About to identify, use /OPER to enter the password
+2017-10-05 06:47:00	@eleventh	identify Royal10??
+2017-10-05 06:47:00	@root	otr: gocyclic249@gmail.com/hangouts ready
+2017-10-05 06:47:00	@root	Password accepted, settings and accounts loaded
+2017-10-05 06:47:01	@root	Trying to get all accounts connected...
+2017-10-05 06:47:01	@root	hangouts - Logging in: Authenticating
+2017-10-05 06:47:01	@root	twitter - Logging in: Connecting
+2017-10-05 06:47:01	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 06:47:01	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 06:47:01	@root	twitter - Logging in: Getting contact list
+2017-10-05 06:47:02	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 06:47:02	@root	hangouts - Logging in: Logged in
+2017-10-05 06:47:02	@root	twitter - Logging in: Logged in
+2017-10-05 06:47:04	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-05 06:47:04	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-05 06:47:04	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-05 06:47:05	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-05 06:47:05	--	CST16MsLearFinance is now known as _15027993128
+2017-10-05 06:47:05	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-05 06:47:05	--	Teague is now known as _17819105993
+2017-10-05 06:47:05	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-05 06:47:05	--	_1910-286-6013 is now known as _19102866013
+2017-10-05 08:20:34	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-05 08:20:34	@root	hangouts - Signing off..
+2017-10-05 08:20:34	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 08:20:34	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-05 08:20:38	--	irc: disconnected from server
+2017-10-05 08:20:48	eleventh	identify
+2017-10-05 08:20:48	-->	eleventh (eleventh@localhost.localdomain) has joined &bitlbee
+2017-10-05 08:20:48	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2017-10-05 08:20:48	--	Topic set by root (root@localhost.localdomain) on Thu, 05 Oct 2017 08:20:48
+2017-10-05 08:20:48	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2017-10-05 08:20:48	@root	Welcome to the BitlBee gateway!
+2017-10-05 08:20:48	@root	 
+2017-10-05 08:20:48	@root	Running BitlBee-LIBPURPLE 3.5.1
+2017-10-05 08:20:48	@root	 
+2017-10-05 08:20:48	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2017-10-05 08:20:48	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2017-10-05 08:20:48	@root	About to identify, use /OPER to enter the password
+2017-10-05 08:28:49	@eleventh	identify Royal10??
+2017-10-05 08:28:49	@root	otr: gocyclic249@gmail.com/hangouts ready
+2017-10-05 08:28:49	@root	Password accepted, settings and accounts loaded
+2017-10-05 08:28:50	@root	Trying to get all accounts connected...
+2017-10-05 08:28:50	@root	hangouts - Logging in: Authenticating
+2017-10-05 08:28:50	@root	twitter - Logging in: Connecting
+2017-10-05 08:28:50	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 08:28:50	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 08:28:50	@root	twitter - Logging in: Getting contact list
+2017-10-05 08:28:51	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 08:28:51	@root	hangouts - Logging in: Logged in
+2017-10-05 08:28:51	@root	twitter - Logging in: Logged in
+2017-10-05 08:28:54	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-05 08:28:54	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-05 08:28:54	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-05 08:28:57	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-05 08:28:57	--	CST16MsLearFinance is now known as _15027993128
+2017-10-05 08:28:57	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-05 08:28:57	--	Teague is now known as _17819105993
+2017-10-05 08:28:57	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-05 08:28:57	--	_1910-286-6013 is now known as _19102866013
+2017-10-05 08:49:51	@root	twitter - Error: Connection timeout
+2017-10-05 08:49:51	@root	twitter - Signing off..
+2017-10-05 08:49:51	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-05 08:49:51	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-05 08:49:56	@root	twitter - Logging in: Connecting
+2017-10-05 08:49:56	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 08:49:56	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 08:49:56	@root	twitter - Logging in: Getting contact list
+2017-10-05 08:49:57	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 08:49:57	@root	twitter - Logging in: Logged in
+2017-10-05 08:51:57	@root	twitter - Error: Connection timeout
+2017-10-05 08:51:57	@root	twitter - Signing off..
+2017-10-05 08:51:57	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-05 08:51:57	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-05 08:52:03	@root	twitter - Logging in: Connecting
+2017-10-05 08:52:03	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 08:52:03	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 08:52:03	@root	twitter - Logging in: Getting contact list
+2017-10-05 08:52:12	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 08:52:12	@root	twitter - Logging in: Logged in
+2017-10-05 09:41:12	@root	twitter - Error: Connection timeout
+2017-10-05 09:41:12	@root	twitter - Signing off..
+2017-10-05 09:41:12	<--	twitter_11eleventh11 (twitter_11eleventh11@twitter) has quit (localhost.localdomain twitter.localhost.localdomain)
+2017-10-05 09:41:12	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2017-10-05 09:41:18	@root	twitter - Logging in: Connecting
+2017-10-05 09:41:18	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 09:41:18	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 09:41:18	@root	twitter - Logging in: Getting contact list
+2017-10-05 09:41:19	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 09:41:20	@root	twitter - Logging in: Logged in
+2017-10-05 11:07:22	@root	hangouts - Error: Unable to connect to 0.client-channel.google.com: SSL Connection Failed
+2017-10-05 11:07:22	@root	hangouts - Error: Unknown HTTP error
+2017-10-05 11:07:22	@root	hangouts - Signing off..
+2017-10-05 11:07:22	<--	_13477493291 (115458374033512849746@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_1776836 (101506737714677785998@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	Kam (103388800593938428618@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17819101827 (106362731064669757965@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_182149 (112242495116664584706@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_124639 (103409442861960831028@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	jonathanhaynsworth (100375190258999044985@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17819105993 (117814078585356784325@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17038107041 (112633910286565037738@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_491737462451 (116077361673078795216@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19109878452 (117593606703491183233@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19253230883 (110205508066312116451@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_12039471089 (100765659106083659648@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17742597420 (110755897902070161144@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17194009029 (104811817115647740565@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17813444532 (105268976271452896644@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17193328372 (101957160332825086866@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_14158814394 (114755148005899123718@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_108326883704247214407 (108326883704247214407@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_16095625164 (100962577316553873292@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19789444584 (104065184284647096112@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_17192105789 (105215476693524719433@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19734521726 (113864024284457633454@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19786719000 (113669517484557085943@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	VinceMullen (100991700511997238473@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_15027993128 (111346841179550106722@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_19102866013 (111480580564802095385@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	DanB (108876778767138500908@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	<--	_16037597547 (115968535614533889164@hangouts) has quit (localhost.localdomain gmail.com)
+2017-10-05 11:07:22	@root	hangouts - Reconnecting in 5 seconds..
+2017-10-05 11:07:27	--	irc: disconnected from server
+2017-10-05 11:07:37	eleventh	identify
+2017-10-05 11:07:37	-->	eleventh (eleventh@localhost.localdomain) has joined &bitlbee
+2017-10-05 11:07:37	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2017-10-05 11:07:37	--	Topic set by root (root@localhost.localdomain) on Thu, 05 Oct 2017 11:07:37
+2017-10-05 11:07:37	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2017-10-05 11:07:37	@root	Welcome to the BitlBee gateway!
+2017-10-05 11:07:37	@root	 
+2017-10-05 11:07:37	@root	Running BitlBee-LIBPURPLE 3.5.1
+2017-10-05 11:07:37	@root	 
+2017-10-05 11:07:37	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2017-10-05 11:07:37	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2017-10-05 11:07:37	@root	About to identify, use /OPER to enter the password
+2017-10-05 11:11:53	@eleventh	identify ${sec.data.bitlbee}
+2017-10-05 11:11:53	@root	Incorrect password
+2017-10-05 11:12:22	@eleventh	identify ${sec.data.bitlbee}
+2017-10-05 11:12:22	@root	Incorrect password
+2017-10-05 11:13:29	@eleventh	identify "${sec.data.bitlbee}"
+2017-10-05 11:13:29	@root	Incorrect password
+2017-10-05 11:15:38	@eleventh	identify "${sec.data.bitlbee}"
+2017-10-05 11:15:38	@root	Incorrect password
+2017-10-05 11:17:04	@eleventh	identify ${sec.data.bitlbee}
+2017-10-05 11:17:04	@root	Incorrect password
+2017-10-05 11:18:30	@eleventh	identify "${sec.data.bitlbee}"
+2017-10-05 11:18:30	@root	Incorrect password
+2017-10-05 11:19:25	@root	Incorrect password
+2017-10-05 11:20:41	@eleventh	identify Royal10??
+2017-10-05 11:20:41	@root	otr: gocyclic249@gmail.com/hangouts ready
+2017-10-05 11:20:41	@root	Password accepted, settings and accounts loaded
+2017-10-05 11:20:42	@root	Trying to get all accounts connected...
+2017-10-05 11:20:42	@root	hangouts - Logging in: Authenticating
+2017-10-05 11:20:42	@root	twitter - Logging in: Connecting
+2017-10-05 11:20:42	-->	twitter_11eleventh11 (twitter_11eleventh11@twitter) has joined &bitlbee
+2017-10-05 11:20:42	--	Mode &bitlbee [+v twitter_11eleventh11] by localhost.localdomain
+2017-10-05 11:20:42	@root	twitter - Logging in: Getting contact list
+2017-10-05 11:20:43	@root	twitter - Logging in: Getting initial statuses
+2017-10-05 11:20:43	@root	twitter - Logging in: Logged in
+2017-10-05 11:20:43	@root	hangouts - Logging in: Logged in
+2017-10-05 11:20:46	-->	_17742597420 (110755897902070161144@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	CST16MsLearFinance (111346841179550106722@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_19734521726 (113864024284457633454@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_16037597547 (115968535614533889164@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_17819101827 (106362731064669757965@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_14158814394 (114755148005899123718@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_1776836 (101506737714677785998@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	Teague (117814078585356784325@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_12039471089 (100765659106083659648@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	Haynsworth (100375190258999044985@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_1910-286-6013 (111480580564802095385@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_17193328372 (101957160332825086866@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_182149 (112242495116664584706@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_16095625164 (100962577316553873292@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	DanB (108876778767138500908@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	--	Mode &bitlbee [+v DanB] by localhost.localdomain
+2017-10-05 11:20:46	-->	_124639 (103409442861960831028@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_17813444532 (105268976271452896644@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_19109878452 (117593606703491183233@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	Kam (103388800593938428618@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	VinceMullen (100991700511997238473@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_491737462451 (116077361673078795216@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_108326883704247214407 (108326883704247214407@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_17038107041 (112633910286565037738@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_13477493291 (115458374033512849746@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_17192105789 (105215476693524719433@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_19786719000 (113669517484557085943@hangouts) has joined &bitlbee
+2017-10-05 11:20:46	-->	_19253230883 (110205508066312116451@hangouts) has joined &bitlbee
+2017-10-05 11:20:47	-->	_17194009029 (104811817115647740565@hangouts) has joined &bitlbee
+2017-10-05 11:20:47	--	CST16MsLearFinance is now known as _15027993128
+2017-10-05 11:20:47	-->	_19789444584 (104065184284647096112@hangouts) has joined &bitlbee
+2017-10-05 11:20:47	--	Teague is now known as _17819105993
+2017-10-05 11:20:47	--	Haynsworth is now known as jonathanhaynsworth
+2017-10-05 11:20:47	--	_1910-286-6013 is now known as _19102866013
+2017-10-05 11:26:53	@eleventh	identify "${sec.data.bitlbee}"
+2017-10-05 11:26:53	@root	You're already logged in.

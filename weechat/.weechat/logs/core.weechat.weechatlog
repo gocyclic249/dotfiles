@@ -1800,3 +1800,128 @@
 2017-10-04 16:35:21		python scripts loaded: autosort, colorize_nicks, go, urlgrab
 2017-10-04 16:35:21		script: 349 scripts for WeeChat 1.9.1
 2017-10-04 16:35:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-04 16:38:29		Alias "sh" => "/window splith" created
+2017-10-04 16:39:05		Options saved to sec.conf
+2017-10-04 16:39:05		Options saved to weechat.conf
+2017-10-04 16:39:05		Options saved to plugins.conf
+2017-10-04 16:39:05		Options saved to charset.conf
+2017-10-04 16:39:05		Options saved to logger.conf
+2017-10-04 16:39:05		Options saved to exec.conf
+2017-10-04 16:39:05		Options saved to trigger.conf
+2017-10-04 16:39:05		Options saved to aspell.conf
+2017-10-04 16:39:05		Options saved to alias.conf
+2017-10-04 16:39:05		Options saved to buflist.conf
+2017-10-04 16:39:05		Options saved to fifo.conf
+2017-10-04 16:39:05		Options saved to xfer.conf
+2017-10-04 16:39:05		Options saved to irc.conf
+2017-10-04 16:39:05		Options saved to relay.conf
+2017-10-04 16:39:05		Options saved to buffers.conf
+2017-10-04 16:39:05		Options saved to iset.conf
+2017-10-04 16:39:05		Options saved to urlgrab.conf
+2017-10-04 16:39:05		Options saved to autosort.conf
+2017-10-04 16:39:05		Options saved to colorize_nicks.conf
+2017-10-04 16:39:05		Options saved to script.conf
+2017-10-04 16:43:20		Option changed: weechat.look.prefix_same_nick = "⤷"  (default: "")
+2017-10-04 16:43:34		Option changed: weechat.look.prefix_error = "⚠"  (default: "=!=")
+2017-10-04 16:43:54		Option changed: weechat.look.prefix_action = "⚡"  (default: " *")
+2017-10-04 16:44:05		Option changed: weechat.look.prefix_suffix = "╡"  (default: "|")
+2017-10-04 16:44:20		Option changed: weechat.look.bar_more_down = "▼▼"  (default: "++")
+2017-10-04 16:44:32		Option changed: weechat.look.bar_more_left = "◀◀"  (default: "<<")
+2017-10-04 16:44:50		Option changed: weechat.look.bar_more_right = "▶▶"  (default: ">>")
+2017-10-04 16:45:04		Option changed: weechat.look.bar_more_up = "▲▲"  (default: "--")
+2017-10-04 16:45:06		Options saved to sec.conf
+2017-10-04 16:45:06		Options saved to weechat.conf
+2017-10-04 16:45:06		Options saved to plugins.conf
+2017-10-04 16:45:06		Options saved to charset.conf
+2017-10-04 16:45:06		Options saved to logger.conf
+2017-10-04 16:45:06		Options saved to exec.conf
+2017-10-04 16:45:06		Options saved to trigger.conf
+2017-10-04 16:45:06		Options saved to aspell.conf
+2017-10-04 16:45:06		Options saved to alias.conf
+2017-10-04 16:45:06		Options saved to buflist.conf
+2017-10-04 16:45:06		Options saved to fifo.conf
+2017-10-04 16:45:06		Options saved to xfer.conf
+2017-10-04 16:45:06		Options saved to irc.conf
+2017-10-04 16:45:06		Options saved to relay.conf
+2017-10-04 16:45:06		Options saved to buffers.conf
+2017-10-04 16:45:06		Options saved to iset.conf
+2017-10-04 16:45:06		Options saved to urlgrab.conf
+2017-10-04 16:45:06		Options saved to autosort.conf
+2017-10-04 16:45:06		Options saved to colorize_nicks.conf
+2017-10-04 16:45:06		Options saved to script.conf
+2017-10-04 16:46:28		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/bitlbee_completion.py"
+2017-10-04 16:46:28		python: registered script "bitlbee_completion", version 0.2 (Add tab completion to bitlbee commands)
+2017-10-04 16:46:33		script: autoload enabled for script "bitlbee_completion.py"
+2017-10-04 16:46:35		Options saved to sec.conf
+2017-10-04 16:46:35		Options saved to weechat.conf
+2017-10-04 16:46:35		Options saved to plugins.conf
+2017-10-04 16:46:35		Options saved to charset.conf
+2017-10-04 16:46:35		Options saved to logger.conf
+2017-10-04 16:46:35		Options saved to exec.conf
+2017-10-04 16:46:35		Options saved to trigger.conf
+2017-10-04 16:46:35		Options saved to aspell.conf
+2017-10-04 16:46:35		Options saved to alias.conf
+2017-10-04 16:46:35		Options saved to buflist.conf
+2017-10-04 16:46:35		Options saved to fifo.conf
+2017-10-04 16:46:35		Options saved to xfer.conf
+2017-10-04 16:46:35		Options saved to irc.conf
+2017-10-04 16:46:35		Options saved to relay.conf
+2017-10-04 16:46:35		Options saved to buffers.conf
+2017-10-04 16:46:35		Options saved to iset.conf
+2017-10-04 16:46:35		Options saved to urlgrab.conf
+2017-10-04 16:46:35		Options saved to autosort.conf
+2017-10-04 16:46:35		Options saved to colorize_nicks.conf
+2017-10-04 16:46:35		Options saved to script.conf
+2017-10-04 17:04:41		[urlgrab] --> 1 : https://lh3.googleusercontent.com/-DIHVbb_igbM/WdT3RlGumBI/AAAAAAAAA78/Jsdv_75EL3oEQobBNdYm9dgOEFJ_VgAOwCK8BGAs/s0/2017-10-04.jpg
+2017-10-04 17:04:47		[urlgrab] Unknown command 'https://lh3.googleusercontent.com/-DIHVbb_igbM/WdT3RlGumBI/AAAAAAAAA78/Jsdv_75EL3oEQobBNdYm9dgOEFJ_VgAOwCK8BGAs/s0/2017-10-04.jpg'.  Try '/help url' for usage
+2017-10-04 18:10:28		Alias "aho" removed
+2017-10-04 19:55:11	⚠	Error: unknown command "/aho" (type /help for help)
+2017-10-04 21:03:55	⚠	Error: unknown command "/aho" (type /help for help)
+2017-10-05 06:46:49	⚠	Too few arguments for command "/oper" (help on command: /help oper)
+2017-10-05 06:48:10	⚠	Error: unknown command "/scripts" (type /help for help)
+2017-10-05 06:49:04		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/automerge.py"
+2017-10-05 06:49:04		python: registered script "automerge", version 0.1 (Merge new irc buffers according to defined rules.)
+2017-10-05 06:49:10		script: autoload enabled for script "automerge.py"
+2017-10-05 06:49:46		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/buffer_autoclose.py"
+2017-10-05 06:49:46		python: registered script "buffer_autoclose", version 0.4 (Automatically close inactive private message buffers)
+2017-10-05 11:10:03		Alias "bid" => "/msg &bitlbee identify ${sec.data.bitlbee}" created
+2017-10-05 11:11:49	⚠	irc: command "msg" must be executed on irc buffer (server or channel)
+2017-10-05 11:12:19	⚠	Error with command "/secure add bitlbee Royal10??" (help on command: /help secure)
+2017-10-05 11:12:39		Alias "bid" removed
+2017-10-05 11:13:24		Alias "bid" => "/msg &bitlbee identify "${sec.data.bitlbee}"" created
+2017-10-05 11:13:28	⚠	Error: unknown command "/bidf" (type /help for help)
+2017-10-05 11:15:36		Secured data "bitlbee" set
+2017-10-05 11:15:36		Options saved to sec.conf
+2017-10-05 11:16:17	⚠	irc: command "msg" must be executed on irc buffer (server or channel)
+2017-10-05 11:18:50	⚠	Too few arguments for command "/oper" (help on command: /help oper)
+2017-10-05 11:19:05		[irc]  /oper  <user> <password>
+2017-10-05 11:19:05		get operator privileges
+2017-10-05 11:19:05		    user: user
+2017-10-05 11:19:05		password: password
+2017-10-05 11:22:24		Option changed: irc.look.smart_filter = on
+2017-10-05 11:22:40		Filter "irc_smart" added:
+2017-10-05 11:22:40		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2017-10-05 11:22:48	⚠	Error adding filter "irc_smart": a filter with same name already exists
+2017-10-05 11:22:50		Options saved to sec.conf
+2017-10-05 11:22:50		Options saved to weechat.conf
+2017-10-05 11:22:50		Options saved to plugins.conf
+2017-10-05 11:22:50		Options saved to charset.conf
+2017-10-05 11:22:50		Options saved to logger.conf
+2017-10-05 11:22:50		Options saved to exec.conf
+2017-10-05 11:22:50		Options saved to trigger.conf
+2017-10-05 11:22:50		Options saved to aspell.conf
+2017-10-05 11:22:50		Options saved to alias.conf
+2017-10-05 11:22:50		Options saved to buflist.conf
+2017-10-05 11:22:50		Options saved to fifo.conf
+2017-10-05 11:22:50		Options saved to xfer.conf
+2017-10-05 11:22:50		Options saved to irc.conf
+2017-10-05 11:22:50		Options saved to relay.conf
+2017-10-05 11:22:50		Options saved to buffers.conf
+2017-10-05 11:22:50		Options saved to iset.conf
+2017-10-05 11:22:50		Options saved to urlgrab.conf
+2017-10-05 11:22:50		Options saved to autosort.conf
+2017-10-05 11:22:50		Options saved to colorize_nicks.conf
+2017-10-05 11:22:50		Options saved to script.conf
+2017-10-05 11:25:54		Option changed: irc.server.Bitlbee.password = "eleventh/bitlbee:${sec.data.bitlbee}"  (default if null: "")
+2017-10-05 11:26:34		Option changed: irc.server.Bitlbee.command = "/msg &bitlbee identify;/oper eleventh ${sec.data.bitlbee}"  (default if null: "")
+2017-10-05 11:26:52	⚠	Error with command "/alias bid /msg &bitlbee identify;/oper eleventh ${sec.data.bitlbee}" (help on command: /help alias)
