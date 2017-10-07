@@ -1925,3 +1925,343 @@
 2017-10-05 11:25:54		Option changed: irc.server.Bitlbee.password = "eleventh/bitlbee:${sec.data.bitlbee}"  (default if null: "")
 2017-10-05 11:26:34		Option changed: irc.server.Bitlbee.command = "/msg &bitlbee identify;/oper eleventh ${sec.data.bitlbee}"  (default if null: "")
 2017-10-05 11:26:52	⚠	Error with command "/alias bid /msg &bitlbee identify;/oper eleventh ${sec.data.bitlbee}" (help on command: /help alias)
+2017-10-05 12:28:58		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:28:58		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:28:58		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:28:58		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:28:58		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:28:58	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:29:08		script: autoload enabled for script "mpc.py"
+2017-10-05 12:29:34	⚠	Error: unknown command "/mpc" (type /help for help)
+2017-10-05 12:30:17		script: script "mpd" not found
+2017-10-05 12:31:33	⚠	Error: unknown command "/mpc" (type /help for help)
+2017-10-05 12:31:42	⚠	Error: unknown command "/mpc" (type /help for help)
+2017-10-05 12:31:45	⚠	Error: unknown command "/mpd" (type /help for help)
+2017-10-05 12:31:54		script: script "mpc" not found
+2017-10-05 12:31:58		script: script "mpc.py" is already installed and up-to-date
+2017-10-05 12:32:09		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:32:09		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:32:09		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py", line 79, in <module>
+2017-10-05 12:32:09		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:32:09		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:32:09	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:32:23		script: script "mpc" not found
+2017-10-05 12:32:27		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py
+2017-10-05 12:32:27		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/mpc.py
+2017-10-05 12:36:20		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:36:20		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:36:20		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:36:20		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:36:20		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:36:20	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:36:45		script: script "mpc" not found
+2017-10-05 12:36:49		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py
+2017-10-05 12:36:49		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/mpc.py
+2017-10-05 12:36:58		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:36:58		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:36:58		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:36:58		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:36:58		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:36:58	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:37:09	⚠	Error: unknown command "/mpc" (type /help for help)
+2017-10-05 12:37:15		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:37:15		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:37:15		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py", line 79, in <module>
+2017-10-05 12:37:15		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:37:15		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:37:15	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:39:27		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:39:27		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:39:27		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py", line 79, in <module>
+2017-10-05 12:39:27		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:39:27		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:39:27	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:41:25	⚠	Error: unknown command "/mpc" (type /help for help)
+2017-10-05 12:41:53		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py
+2017-10-05 12:41:53		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/mpc.py
+2017-10-05 12:42:19		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:42:19		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:42:19		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:42:19		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:42:19		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:42:19	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:42:40		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py
+2017-10-05 12:42:40		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/mpc.py
+2017-10-05 12:44:10		script: script "mpc.py" is not installed
+2017-10-05 12:44:17		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:44:17		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:44:17		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:44:17		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:44:17		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:44:17	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:48:12		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:48:12		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:48:12		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py", line 79, in <module>
+2017-10-05 12:48:12		python: stdout/stderr:     from mpd import MpdClient, CommandError
+2017-10-05 12:48:12		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:48:12	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py"
+2017-10-05 12:48:30		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/mpc.py
+2017-10-05 12:48:30		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/mpc.py
+2017-10-05 12:51:19		python: loading script "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:51:20		python: stdout/stderr: Traceback (most recent call last):
+2017-10-05 12:51:20		python: stdout/stderr:   File "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py", line 79, in <module>
+2017-10-05 12:51:20		python: stdout/stderr:     from mpd import MPDClient, CommandError
+2017-10-05 12:51:20		python: stdout/stderr: ImportError: No module named mpd
+2017-10-05 12:51:20	⚠	python: unable to parse file "/home/eleventh/dotfiles/weechat/.weechat/python/mpc.py"
+2017-10-05 12:54:11	⚠	Error: unknown command "/scripts" (type /help for help)
+2017-10-05 12:54:43	⚠	Error: unknown command "/r" (type /help for help)
+2017-10-05 12:54:57	⚠	lua: unable to load file "/home/eleventh/dotfiles/weechat/.weechat/lua/mpdbitl.lua"
+2017-10-05 12:54:57	⚠	lua: error: /home/eleventh/dotfiles/weechat/.weechat/lua/mpdbitl.lua:281: invalid escape sequence near '"^ACK %[(%d+)@(%d+)%] {([^}]+)\}'
+2017-10-05 13:12:39	⚠	Error: unknown command "/aho" (type /help for help)
+2017-10-05 13:13:17		Option changed: alias.cmd.ato = "/msg &bitlbee account twitter on"
+2017-10-05 13:13:59		Alias "aho" => "/msg &bitlbee account hangouts on" created
+2017-10-05 13:14:01	⚠	irc: command "msg" must be executed on irc buffer (server or channel)
+2017-10-05 13:14:50		Options saved to sec.conf
+2017-10-05 13:14:50		Options saved to weechat.conf
+2017-10-05 13:14:50		Options saved to plugins.conf
+2017-10-05 13:14:50		Options saved to charset.conf
+2017-10-05 13:14:50		Options saved to logger.conf
+2017-10-05 13:14:50		Options saved to exec.conf
+2017-10-05 13:14:50		Options saved to trigger.conf
+2017-10-05 13:14:50		Options saved to aspell.conf
+2017-10-05 13:14:50		Options saved to alias.conf
+2017-10-05 13:14:50		Options saved to buflist.conf
+2017-10-05 13:14:50		Options saved to fifo.conf
+2017-10-05 13:14:50		Options saved to xfer.conf
+2017-10-05 13:14:50		Options saved to irc.conf
+2017-10-05 13:14:50		Options saved to relay.conf
+2017-10-05 13:14:50		Options saved to buffers.conf
+2017-10-05 13:14:50		Options saved to iset.conf
+2017-10-05 13:14:50		Options saved to urlgrab.conf
+2017-10-05 13:14:50		Options saved to autosort.conf
+2017-10-05 13:14:50		Options saved to colorize_nicks.conf
+2017-10-05 13:14:50		Options saved to script.conf
+2017-10-05 13:17:09	⚠	Error with command "/alias mp /shell mpc toggle" (help on command: /help alias)
+2017-10-05 13:17:10	⚠	Error: unknown command "/mp" (type /help for help)
+2017-10-05 13:17:43		Alias "mp" => "/shell mpc toggle" created
+2017-10-05 13:17:45		[shell] Command "mpc toggle" (rc 0), stdout:
+2017-10-05 13:17:45		Amon Amarth - Cry of the Black Birds
+2017-10-05 13:17:45		[paused]  #15/17   2:54/3:50 (75%)
+2017-10-05 13:17:45		volume:100%   repeat: on    random: off   single: off   consume: off
+2017-10-05 13:18:11		Alias "mn" => "/shell mpc next" created
+2017-10-05 13:18:18		[shell] Command "mpc next" (rc 0), stdout:
+2017-10-05 13:18:18		Amon Amarth - Under the Northern Star
+2017-10-05 13:18:18		[playing] #16/17   0:00/4:17 (0%)
+2017-10-05 13:18:18		volume:100%   repeat: on    random: off   single: off   consume: off
+2017-10-05 13:18:21		[shell] Command "mpc toggle" (rc 0), stdout:
+2017-10-05 13:18:21		Amon Amarth - Under the Northern Star
+2017-10-05 13:18:21		[paused]  #16/17   0:03/4:17 (1%)
+2017-10-05 13:18:21		volume:100%   repeat: on    random: off   single: off   consume: off
+2017-10-05 13:18:52	⚠	Error: ambiguous command "/me": it exists in many plugins and not in "script" plugin
+2017-10-05 13:19:07	⚠	Error: ambiguous command "/me": it exists in many plugins and not in "core" plugin
+2017-10-05 13:19:17		python: unloading script "weempd"
+2017-10-05 13:19:17		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/autoload/weempd.py
+2017-10-05 13:19:17		python: script removed: /home/eleventh/dotfiles/weechat/.weechat/python/weempd.py
+2017-10-05 13:20:43		All aliases:
+2017-10-05 13:20:43		  AAWAY => allserv /away
+2017-10-05 13:20:43		  aho => /msg &bitlbee account hangouts on
+2017-10-05 13:20:43		  AME => allchan /me
+2017-10-05 13:20:43		  AMSG => allchan /msg *
+2017-10-05 13:20:43		  ANICK => allserv /nick
+2017-10-05 13:20:43		  ato => /msg &bitlbee account twitter on
+2017-10-05 13:20:43		  b => /buffer
+2017-10-05 13:20:43		  BEEP => print -beep
+2017-10-05 13:20:43		  bid => /msg &bitlbee identify "${sec.data.bitlbee}"
+2017-10-05 13:20:43		  BYE => quit
+2017-10-05 13:20:43		  C => buffer clear
+2017-10-05 13:20:43		  CHAT => dcc chat
+2017-10-05 13:20:43		  CL => buffer clear
+2017-10-05 13:20:43		  CLOSE => buffer close
+2017-10-05 13:20:43		  EXIT => quit
+2017-10-05 13:20:43		  F => /url_hinter
+2017-10-05 13:20:43		  IG => ignore
+2017-10-05 13:20:43		  J => join
+2017-10-05 13:20:43		  K => kick
+2017-10-05 13:20:43		  KB => kickban
+2017-10-05 13:20:43		  LEAVE => part
+2017-10-05 13:20:43		  M => msg
+2017-10-05 13:20:43		  mn => /shell mpc next
+2017-10-05 13:20:43		  mp => /shell mpc toggle
+2017-10-05 13:20:43		  MSGBUF => command -buffer $1 * /input send $2-  (completion: %(buffers_plugins_names))
+2017-10-05 13:20:43		  MUB => unban *
+2017-10-05 13:20:43		  N => names
+2017-10-05 13:20:43		  Q => query
+2017-10-05 13:20:43		  REDRAW => window refresh
+2017-10-05 13:20:43		  SAY => msg *
+2017-10-05 13:20:43		  sh => /window splith
+2017-10-05 13:20:43		  SIGNOFF => quit
+2017-10-05 13:20:43		  sv => /window splitv
+2017-10-05 13:20:43		  T => topic
+2017-10-05 13:20:43		  topen => /url show 1 #twitter_11eleventh11#
+2017-10-05 13:20:43		  UB => unban
+2017-10-05 13:20:43		  UMODE => mode $nick
+2017-10-05 13:20:43		  V => command core version
+2017-10-05 13:20:43		  W => who
+2017-10-05 13:20:43		  WC => window merge
+2017-10-05 13:20:43		  WI => whois
+2017-10-05 13:20:43		  WII => whois $1 $1
+2017-10-05 13:20:43		  WW => whowas
+2017-10-05 13:21:03		Option created: alias.cmd.ms = "/shell mpc toggle"
+2017-10-05 13:21:20		Alias "mp" => "/shell mpc previous" created
+2017-10-05 13:21:50		Option changed: alias.cmd.mp = "/shell mpc prev"  (default: "/shell mpc previous")
+2017-10-05 13:21:54		Options saved to sec.conf
+2017-10-05 13:21:54		Options saved to weechat.conf
+2017-10-05 13:21:54		Options saved to plugins.conf
+2017-10-05 13:21:54		Options saved to charset.conf
+2017-10-05 13:21:54		Options saved to logger.conf
+2017-10-05 13:21:54		Options saved to exec.conf
+2017-10-05 13:21:54		Options saved to trigger.conf
+2017-10-05 13:21:54		Options saved to aspell.conf
+2017-10-05 13:21:54		Options saved to alias.conf
+2017-10-05 13:21:54		Options saved to buflist.conf
+2017-10-05 13:21:54		Options saved to fifo.conf
+2017-10-05 13:21:54		Options saved to xfer.conf
+2017-10-05 13:21:54		Options saved to irc.conf
+2017-10-05 13:21:54		Options saved to relay.conf
+2017-10-05 13:21:54		Options saved to buffers.conf
+2017-10-05 13:21:54		Options saved to iset.conf
+2017-10-05 13:21:54		Options saved to urlgrab.conf
+2017-10-05 13:21:54		Options saved to autosort.conf
+2017-10-05 13:21:54		Options saved to colorize_nicks.conf
+2017-10-05 13:21:54		Options saved to script.conf
+2017-10-05 13:25:48		Options saved to sec.conf
+2017-10-05 13:25:48		Options saved to weechat.conf
+2017-10-05 13:25:48		Options saved to plugins.conf
+2017-10-05 13:25:48		Options saved to charset.conf
+2017-10-05 13:25:48		Options saved to logger.conf
+2017-10-05 13:25:48		Options saved to exec.conf
+2017-10-05 13:25:48		Options saved to trigger.conf
+2017-10-05 13:25:48		Options saved to aspell.conf
+2017-10-05 13:25:48		Options saved to alias.conf
+2017-10-05 13:25:48		Options saved to buflist.conf
+2017-10-05 13:25:48		Options saved to fifo.conf
+2017-10-05 13:25:48		Options saved to xfer.conf
+2017-10-05 13:25:48		Options saved to irc.conf
+2017-10-05 13:25:48		Options saved to relay.conf
+2017-10-05 13:25:48		Options saved to buffers.conf
+2017-10-05 13:25:48		Options saved to iset.conf
+2017-10-05 13:25:48		Options saved to urlgrab.conf
+2017-10-05 13:25:48		Options saved to autosort.conf
+2017-10-05 13:25:48		Options saved to colorize_nicks.conf
+2017-10-05 13:25:48		Options saved to script.conf
+2017-10-05 16:01:50		[urlgrab] Unknown command 'https://lh3.googleusercontent.com/-pcn43Qbmq9U/WdY7LXd4o1I/AAAAAAAAA8c/kDIgzOBXPH8BpFYmUI9nM8kiJg4Xab-lgCK8BGAs/s0/2017-10-05.jpg'.  Try '/help url' for usage
+2017-10-05 16:12:05		Option changed: plugins.var.python.notify_send.timeout = "500"
+2017-10-05 16:12:08	⚠	Error: unknown command "/svae" (type /help for help)
+2017-10-05 16:12:11		Options saved to sec.conf
+2017-10-05 16:12:11		Options saved to weechat.conf
+2017-10-05 16:12:11		Options saved to plugins.conf
+2017-10-05 16:12:11		Options saved to charset.conf
+2017-10-05 16:12:11		Options saved to logger.conf
+2017-10-05 16:12:11		Options saved to exec.conf
+2017-10-05 16:12:11		Options saved to trigger.conf
+2017-10-05 16:12:11		Options saved to aspell.conf
+2017-10-05 16:12:11		Options saved to alias.conf
+2017-10-05 16:12:11		Options saved to buflist.conf
+2017-10-05 16:12:11		Options saved to fifo.conf
+2017-10-05 16:12:11		Options saved to xfer.conf
+2017-10-05 16:12:11		Options saved to irc.conf
+2017-10-05 16:12:11		Options saved to relay.conf
+2017-10-05 16:12:11		Options saved to buffers.conf
+2017-10-05 16:12:11		Options saved to iset.conf
+2017-10-05 16:12:11		Options saved to urlgrab.conf
+2017-10-05 16:12:11		Options saved to autosort.conf
+2017-10-05 16:12:11		Options saved to colorize_nicks.conf
+2017-10-05 16:12:11		Options saved to script.conf
+2017-10-05 16:41:47		buffer_autoclose: Closing buffer: Bitlbee.Kam
+2017-10-05 17:50:35		Alias "h" => "♥" created
+2017-10-05 17:50:49	⚠	Error: unknown command "/♥" (type /help for help)
+2017-10-05 17:53:22		New key binding (context "default"): meta-H => ♥♥♥♥♥♥
+2017-10-05 17:56:43		script: downloading list of scripts...
+2017-10-05 17:56:46		script: 349 scripts for WeeChat 1.9.1
+2017-10-05 17:57:15		lua: loading script "/home/eleventh/dotfiles/weechat/.weechat/lua/emoji.lua"
+2017-10-05 17:57:15		lua: registered script "emoji", version 3 (Emoji output helper)
+2017-10-05 18:02:19	⚠	python: failed to move script /home/eleventh/.weechat/script/emoji_aliases.py to /home/eleventh/dotfiles/weechat/.weechat/python/emoji_aliases.py (No such file or directory)
+2017-10-05 18:25:37		Option changed: weechat.completion.partial_completion_command = off
+2017-10-05 18:25:42		Options saved to sec.conf
+2017-10-05 18:25:42		Options saved to weechat.conf
+2017-10-05 18:25:42		Options saved to plugins.conf
+2017-10-05 18:25:42		Options saved to charset.conf
+2017-10-05 18:25:42		Options saved to logger.conf
+2017-10-05 18:25:42		Options saved to exec.conf
+2017-10-05 18:25:42		Options saved to trigger.conf
+2017-10-05 18:25:42		Options saved to aspell.conf
+2017-10-05 18:25:42		Options saved to alias.conf
+2017-10-05 18:25:42		Options saved to buflist.conf
+2017-10-05 18:25:42		Options saved to fifo.conf
+2017-10-05 18:25:42		Options saved to xfer.conf
+2017-10-05 18:25:42		Options saved to irc.conf
+2017-10-05 18:25:42		Options saved to relay.conf
+2017-10-05 18:25:42		Options saved to buffers.conf
+2017-10-05 18:25:42		Options saved to iset.conf
+2017-10-05 18:25:42		Options saved to urlgrab.conf
+2017-10-05 18:25:42		Options saved to autosort.conf
+2017-10-05 18:25:42		Options saved to colorize_nicks.conf
+2017-10-05 18:25:42		Options saved to script.conf
+2017-10-05 18:26:14		Option changed: plugins.var.lua.emoji.incoming = "off"
+2017-10-05 18:26:18		Options saved to sec.conf
+2017-10-05 18:26:18		Options saved to weechat.conf
+2017-10-05 18:26:18		Options saved to plugins.conf
+2017-10-05 18:26:18		Options saved to charset.conf
+2017-10-05 18:26:18		Options saved to logger.conf
+2017-10-05 18:26:18		Options saved to exec.conf
+2017-10-05 18:26:18		Options saved to trigger.conf
+2017-10-05 18:26:18		Options saved to aspell.conf
+2017-10-05 18:26:18		Options saved to alias.conf
+2017-10-05 18:26:18		Options saved to buflist.conf
+2017-10-05 18:26:18		Options saved to fifo.conf
+2017-10-05 18:26:18		Options saved to xfer.conf
+2017-10-05 18:26:18		Options saved to irc.conf
+2017-10-05 18:26:18		Options saved to relay.conf
+2017-10-05 18:26:18		Options saved to buffers.conf
+2017-10-05 18:26:18		Options saved to iset.conf
+2017-10-05 18:26:18		Options saved to urlgrab.conf
+2017-10-05 18:26:18		Options saved to autosort.conf
+2017-10-05 18:26:18		Options saved to colorize_nicks.conf
+2017-10-05 18:26:18		Options saved to script.conf
+2017-10-05 18:30:05		Option changed: alias.cmd.h = "/input insert :heart:"  (default: "♥")
+2017-10-05 18:33:01		Key "meta-H" unbound (context: "default")
+2017-10-05 18:33:35		New key binding (context "default"): meta-H => /input insert ❤
+2017-10-05 18:35:07		New key binding (context "default"): meta-K => /input insert 😘
+2017-10-05 18:35:15		Options saved to sec.conf
+2017-10-05 18:35:15		Options saved to weechat.conf
+2017-10-05 18:35:15		Options saved to plugins.conf
+2017-10-05 18:35:15		Options saved to charset.conf
+2017-10-05 18:35:15		Options saved to logger.conf
+2017-10-05 18:35:15		Options saved to exec.conf
+2017-10-05 18:35:15		Options saved to trigger.conf
+2017-10-05 18:35:15		Options saved to aspell.conf
+2017-10-05 18:35:15		Options saved to alias.conf
+2017-10-05 18:35:15		Options saved to buflist.conf
+2017-10-05 18:35:15		Options saved to fifo.conf
+2017-10-05 18:35:15		Options saved to xfer.conf
+2017-10-05 18:35:15		Options saved to irc.conf
+2017-10-05 18:35:15		Options saved to relay.conf
+2017-10-05 18:35:15		Options saved to buffers.conf
+2017-10-05 18:35:15		Options saved to iset.conf
+2017-10-05 18:35:15		Options saved to urlgrab.conf
+2017-10-05 18:35:15		Options saved to autosort.conf
+2017-10-05 18:35:15		Options saved to colorize_nicks.conf
+2017-10-05 18:35:15		Options saved to script.conf
+2017-10-05 19:00:41		Alias "xo" => "/input insert xoxoxoxooxxooxoxxoxox" created
+2017-10-05 19:00:44		Options saved to sec.conf
+2017-10-05 19:00:44		Options saved to weechat.conf
+2017-10-05 19:00:44		Options saved to plugins.conf
+2017-10-05 19:00:44		Options saved to charset.conf
+2017-10-05 19:00:44		Options saved to logger.conf
+2017-10-05 19:00:44		Options saved to exec.conf
+2017-10-05 19:00:44		Options saved to trigger.conf
+2017-10-05 19:00:44		Options saved to aspell.conf
+2017-10-05 19:00:44		Options saved to alias.conf
+2017-10-05 19:00:44		Options saved to buflist.conf
+2017-10-05 19:00:44		Options saved to fifo.conf
+2017-10-05 19:00:44		Options saved to xfer.conf
+2017-10-05 19:00:44		Options saved to irc.conf
+2017-10-05 19:00:44		Options saved to relay.conf
+2017-10-05 19:00:44		Options saved to buffers.conf
+2017-10-05 19:00:44		Options saved to iset.conf
+2017-10-05 19:00:44		Options saved to urlgrab.conf
+2017-10-05 19:00:44		Options saved to autosort.conf
+2017-10-05 19:00:44		Options saved to colorize_nicks.conf
+2017-10-05 19:00:44		Options saved to script.conf
+2017-10-06 07:43:43		New key binding (context "default"): meta-X => /input insert xoxoxooxooxxooxxoox
+2017-10-06 19:08:09		fifo: pipe closed

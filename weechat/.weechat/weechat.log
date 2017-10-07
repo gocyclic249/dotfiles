@@ -139,3 +139,236 @@
 [2017-10-05 11:22:50] Writing configuration file autosort.conf
 [2017-10-05 11:22:50] Writing configuration file colorize_nicks.conf
 [2017-10-05 11:22:50] Writing configuration file script.conf
+[2017-10-05 11:54:37] irc: connecting to server localhost.localdomain/6667...
+[2017-10-05 11:58:20] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 11:58:20] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:03:52] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:04:00] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:04:12] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:04:20] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:04:52] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:05:00] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:06:12] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:06:20] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:08:52] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:09:00] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:14:12] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:14:20] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:14:50] Writing configuration file sec.conf
+[2017-10-05 13:14:50] Writing configuration file weechat.conf
+[2017-10-05 13:14:50] Writing configuration file plugins.conf
+[2017-10-05 13:14:50] Writing configuration file charset.conf
+[2017-10-05 13:14:50] Writing configuration file logger.conf
+[2017-10-05 13:14:50] Writing configuration file exec.conf
+[2017-10-05 13:14:50] Writing configuration file trigger.conf
+[2017-10-05 13:14:50] Writing configuration file aspell.conf
+[2017-10-05 13:14:50] Writing configuration file alias.conf
+[2017-10-05 13:14:50] Writing configuration file buflist.conf
+[2017-10-05 13:14:50] Writing configuration file fifo.conf
+[2017-10-05 13:14:50] Writing configuration file xfer.conf
+[2017-10-05 13:14:50] Writing configuration file irc.conf
+[2017-10-05 13:14:50] Writing configuration file relay.conf
+[2017-10-05 13:14:50] Writing configuration file buffers.conf
+[2017-10-05 13:14:50] Writing configuration file iset.conf
+[2017-10-05 13:14:50] Writing configuration file urlgrab.conf
+[2017-10-05 13:14:50] Writing configuration file autosort.conf
+[2017-10-05 13:14:50] Writing configuration file colorize_nicks.conf
+[2017-10-05 13:14:50] Writing configuration file script.conf
+[2017-10-05 13:20:38] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:20:44] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 13:21:54] Writing configuration file sec.conf
+[2017-10-05 13:21:54] Writing configuration file weechat.conf
+[2017-10-05 13:21:54] Writing configuration file plugins.conf
+[2017-10-05 13:21:54] Writing configuration file charset.conf
+[2017-10-05 13:21:54] Writing configuration file logger.conf
+[2017-10-05 13:21:54] Writing configuration file exec.conf
+[2017-10-05 13:21:54] Writing configuration file trigger.conf
+[2017-10-05 13:21:54] Writing configuration file aspell.conf
+[2017-10-05 13:21:54] Writing configuration file alias.conf
+[2017-10-05 13:21:54] Writing configuration file buflist.conf
+[2017-10-05 13:21:54] Writing configuration file fifo.conf
+[2017-10-05 13:21:54] Writing configuration file xfer.conf
+[2017-10-05 13:21:54] Writing configuration file irc.conf
+[2017-10-05 13:21:54] Writing configuration file relay.conf
+[2017-10-05 13:21:54] Writing configuration file buffers.conf
+[2017-10-05 13:21:54] Writing configuration file iset.conf
+[2017-10-05 13:21:54] Writing configuration file urlgrab.conf
+[2017-10-05 13:21:54] Writing configuration file autosort.conf
+[2017-10-05 13:21:54] Writing configuration file colorize_nicks.conf
+[2017-10-05 13:21:54] Writing configuration file script.conf
+[2017-10-05 13:25:48] Writing configuration file sec.conf
+[2017-10-05 13:25:48] Writing configuration file weechat.conf
+[2017-10-05 13:25:48] Writing configuration file plugins.conf
+[2017-10-05 13:25:48] Writing configuration file charset.conf
+[2017-10-05 13:25:48] Writing configuration file logger.conf
+[2017-10-05 13:25:48] Writing configuration file exec.conf
+[2017-10-05 13:25:48] Writing configuration file trigger.conf
+[2017-10-05 13:25:48] Writing configuration file aspell.conf
+[2017-10-05 13:25:48] Writing configuration file alias.conf
+[2017-10-05 13:25:48] Writing configuration file buflist.conf
+[2017-10-05 13:25:48] Writing configuration file fifo.conf
+[2017-10-05 13:25:48] Writing configuration file xfer.conf
+[2017-10-05 13:25:48] Writing configuration file irc.conf
+[2017-10-05 13:25:48] Writing configuration file relay.conf
+[2017-10-05 13:25:48] Writing configuration file buffers.conf
+[2017-10-05 13:25:48] Writing configuration file iset.conf
+[2017-10-05 13:25:48] Writing configuration file urlgrab.conf
+[2017-10-05 13:25:48] Writing configuration file autosort.conf
+[2017-10-05 13:25:48] Writing configuration file colorize_nicks.conf
+[2017-10-05 13:25:48] Writing configuration file script.conf
+[2017-10-05 13:35:04] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 13:35:08] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 15:56:37] irc: connecting to server localhost.localdomain/6667...
+[2017-10-05 16:00:58] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 16:00:58] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 16:12:11] Writing configuration file sec.conf
+[2017-10-05 16:12:11] Writing configuration file weechat.conf
+[2017-10-05 16:12:11] Writing configuration file plugins.conf
+[2017-10-05 16:12:11] Writing configuration file charset.conf
+[2017-10-05 16:12:11] Writing configuration file logger.conf
+[2017-10-05 16:12:11] Writing configuration file exec.conf
+[2017-10-05 16:12:11] Writing configuration file trigger.conf
+[2017-10-05 16:12:11] Writing configuration file aspell.conf
+[2017-10-05 16:12:11] Writing configuration file alias.conf
+[2017-10-05 16:12:11] Writing configuration file buflist.conf
+[2017-10-05 16:12:11] Writing configuration file fifo.conf
+[2017-10-05 16:12:11] Writing configuration file xfer.conf
+[2017-10-05 16:12:11] Writing configuration file irc.conf
+[2017-10-05 16:12:11] Writing configuration file relay.conf
+[2017-10-05 16:12:11] Writing configuration file buffers.conf
+[2017-10-05 16:12:11] Writing configuration file iset.conf
+[2017-10-05 16:12:11] Writing configuration file urlgrab.conf
+[2017-10-05 16:12:11] Writing configuration file autosort.conf
+[2017-10-05 16:12:11] Writing configuration file colorize_nicks.conf
+[2017-10-05 16:12:11] Writing configuration file script.conf
+[2017-10-05 18:17:24] irc: connecting to server localhost.localdomain/6667...
+[2017-10-05 18:21:54] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-05 18:21:54] irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+[2017-10-05 18:25:42] Writing configuration file sec.conf
+[2017-10-05 18:25:42] Writing configuration file weechat.conf
+[2017-10-05 18:25:42] Writing configuration file plugins.conf
+[2017-10-05 18:25:42] Writing configuration file charset.conf
+[2017-10-05 18:25:42] Writing configuration file logger.conf
+[2017-10-05 18:25:42] Writing configuration file exec.conf
+[2017-10-05 18:25:42] Writing configuration file trigger.conf
+[2017-10-05 18:25:42] Writing configuration file aspell.conf
+[2017-10-05 18:25:42] Writing configuration file alias.conf
+[2017-10-05 18:25:42] Writing configuration file buflist.conf
+[2017-10-05 18:25:42] Writing configuration file fifo.conf
+[2017-10-05 18:25:42] Writing configuration file xfer.conf
+[2017-10-05 18:25:42] Writing configuration file irc.conf
+[2017-10-05 18:25:42] Writing configuration file relay.conf
+[2017-10-05 18:25:42] Writing configuration file buffers.conf
+[2017-10-05 18:25:42] Writing configuration file iset.conf
+[2017-10-05 18:25:42] Writing configuration file urlgrab.conf
+[2017-10-05 18:25:42] Writing configuration file autosort.conf
+[2017-10-05 18:25:42] Writing configuration file colorize_nicks.conf
+[2017-10-05 18:25:42] Writing configuration file script.conf
+[2017-10-05 18:26:18] Writing configuration file sec.conf
+[2017-10-05 18:26:18] Writing configuration file weechat.conf
+[2017-10-05 18:26:18] Writing configuration file plugins.conf
+[2017-10-05 18:26:18] Writing configuration file charset.conf
+[2017-10-05 18:26:18] Writing configuration file logger.conf
+[2017-10-05 18:26:18] Writing configuration file exec.conf
+[2017-10-05 18:26:18] Writing configuration file trigger.conf
+[2017-10-05 18:26:18] Writing configuration file aspell.conf
+[2017-10-05 18:26:18] Writing configuration file alias.conf
+[2017-10-05 18:26:18] Writing configuration file buflist.conf
+[2017-10-05 18:26:18] Writing configuration file fifo.conf
+[2017-10-05 18:26:18] Writing configuration file xfer.conf
+[2017-10-05 18:26:18] Writing configuration file irc.conf
+[2017-10-05 18:26:18] Writing configuration file relay.conf
+[2017-10-05 18:26:18] Writing configuration file buffers.conf
+[2017-10-05 18:26:18] Writing configuration file iset.conf
+[2017-10-05 18:26:18] Writing configuration file urlgrab.conf
+[2017-10-05 18:26:18] Writing configuration file autosort.conf
+[2017-10-05 18:26:18] Writing configuration file colorize_nicks.conf
+[2017-10-05 18:26:18] Writing configuration file script.conf
+[2017-10-05 18:35:15] Writing configuration file sec.conf
+[2017-10-05 18:35:15] Writing configuration file weechat.conf
+[2017-10-05 18:35:15] Writing configuration file plugins.conf
+[2017-10-05 18:35:15] Writing configuration file charset.conf
+[2017-10-05 18:35:15] Writing configuration file logger.conf
+[2017-10-05 18:35:15] Writing configuration file exec.conf
+[2017-10-05 18:35:15] Writing configuration file trigger.conf
+[2017-10-05 18:35:15] Writing configuration file aspell.conf
+[2017-10-05 18:35:15] Writing configuration file alias.conf
+[2017-10-05 18:35:15] Writing configuration file buflist.conf
+[2017-10-05 18:35:15] Writing configuration file fifo.conf
+[2017-10-05 18:35:15] Writing configuration file xfer.conf
+[2017-10-05 18:35:15] Writing configuration file irc.conf
+[2017-10-05 18:35:15] Writing configuration file relay.conf
+[2017-10-05 18:35:15] Writing configuration file buffers.conf
+[2017-10-05 18:35:15] Writing configuration file iset.conf
+[2017-10-05 18:35:15] Writing configuration file urlgrab.conf
+[2017-10-05 18:35:15] Writing configuration file autosort.conf
+[2017-10-05 18:35:15] Writing configuration file colorize_nicks.conf
+[2017-10-05 18:35:15] Writing configuration file script.conf
+[2017-10-05 19:00:44] Writing configuration file sec.conf
+[2017-10-05 19:00:44] Writing configuration file weechat.conf
+[2017-10-05 19:00:44] Writing configuration file plugins.conf
+[2017-10-05 19:00:44] Writing configuration file charset.conf
+[2017-10-05 19:00:44] Writing configuration file logger.conf
+[2017-10-05 19:00:44] Writing configuration file exec.conf
+[2017-10-05 19:00:44] Writing configuration file trigger.conf
+[2017-10-05 19:00:44] Writing configuration file aspell.conf
+[2017-10-05 19:00:44] Writing configuration file alias.conf
+[2017-10-05 19:00:44] Writing configuration file buflist.conf
+[2017-10-05 19:00:44] Writing configuration file fifo.conf
+[2017-10-05 19:00:44] Writing configuration file xfer.conf
+[2017-10-05 19:00:44] Writing configuration file irc.conf
+[2017-10-05 19:00:44] Writing configuration file relay.conf
+[2017-10-05 19:00:44] Writing configuration file buffers.conf
+[2017-10-05 19:00:44] Writing configuration file iset.conf
+[2017-10-05 19:00:44] Writing configuration file urlgrab.conf
+[2017-10-05 19:00:44] Writing configuration file autosort.conf
+[2017-10-05 19:00:44] Writing configuration file colorize_nicks.conf
+[2017-10-05 19:00:44] Writing configuration file script.conf
+[2017-10-06 01:35:14] irc: connecting to server localhost.localdomain/6667...
+[2017-10-06 01:39:00] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 07:40:43] irc: connecting to server localhost.localdomain/6667...
+[2017-10-06 07:44:42] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:04:08] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:04:28] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:05:08] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:06:28] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:09:08] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 08:20:57] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 10:32:06] irc: connecting to server localhost.localdomain/6667...
+[2017-10-06 10:35:07] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:31:11] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:31:31] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:32:11] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:33:31] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:36:11] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 11:41:31] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 14:35:11] irc: connecting to server localhost.localdomain/6667...
+[2017-10-06 14:38:16] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 15:41:09] irc: connecting to server localhost.localdomain/6667...
+[2017-10-06 15:44:49] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 17:03:24] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 17:03:44] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 17:04:24] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 17:05:44] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 17:08:24] irc: connecting to server irc.parahumans.net/6667...
+[2017-10-06 19:08:09] Writing configuration file plugins.conf
+[2017-10-06 19:08:09] Writing configuration file fifo.conf
+[2017-10-06 19:08:09] Writing configuration file logger.conf
+[2017-10-06 19:08:09] Writing configuration file xfer.conf
+[2017-10-06 19:08:09] Writing configuration file autosort.conf
+[2017-10-06 19:08:09] Writing configuration file colorize_nicks.conf
+[2017-10-06 19:08:09] Writing configuration file urlgrab.conf
+[2017-10-06 19:08:09] Writing configuration file urlgrab.conf
+[2017-10-06 19:08:09] Writing configuration file charset.conf
+[2017-10-06 19:08:09] Writing configuration file relay.conf
+[2017-10-06 19:08:09] Writing configuration file aspell.conf
+[2017-10-06 19:08:09] Writing configuration file trigger.conf
+[2017-10-06 19:08:09] Writing configuration file alias.conf
+[2017-10-06 19:08:09] Writing configuration file buflist.conf
+[2017-10-06 19:08:09] Writing configuration file exec.conf
+[2017-10-06 19:08:09] Writing configuration file buffers.conf
+[2017-10-06 19:08:09] Writing configuration file iset.conf
+[2017-10-06 19:08:09] Writing configuration file irc.conf
+[2017-10-06 19:08:09] Writing configuration file script.conf
+[2017-10-06 19:08:09] Writing configuration file weechat.conf
+[2017-10-06 19:08:09] Writing configuration file sec.conf

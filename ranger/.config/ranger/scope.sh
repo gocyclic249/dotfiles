@@ -50,16 +50,16 @@ safepipe() { "$@"; test $? = 0 -o $? = 141; }
 if [ "$preview_images" = "True" ]; then
     case "$mimetype" in
         # Image previews for SVG files, disabled by default.
-        ###image/svg+xml)
-        ###   convert "$path" "$cached" && exit 6 || exit 1;;
+        image/svg+xml)
+           convert "$path" "$cached" && exit 6 || exit 1;;
         # Image previews for image files. w3mimgdisplay will be called for all
         # image files (unless overriden as above), but might fail for
         # unsupported types.
         image/*)
             exit 7;;
         # Image preview for video, disabled by default.:
-        ###video/*)
-        ###    ffmpegthumbnailer -i "$path" -o "$cached" -s 0 && exit 6 || exit 1;;
+        video/*)
+           ffmpegthumbnailer -i "$path" -o "$cached" -s 0 && exit 6 || exit 1;;
     esac
 fi
 
@@ -109,8 +109,8 @@ case "$mimetype" in
         try safepipe pygmentize -f ${pygmentize_format} "$path" && { dump | trim; exit 5; }
         exit 2;;
     # Ascii-previews of images:
-    image/*)
-        img2txt --gamma=0.6 --width="$width" "$path" && exit 4 || exit 1;;
+   # image/*)
+    #    img2txt --gamma=0.6 --width="$width" "$path" && exit 4 || exit 1;;
     # Display information about media files:
     video/* | audio/*)
         exiftool "$path" && exit 5

@@ -1,0 +1,12 @@
+sleep 5s && kalu &
+dbus-launch &
+setxkbmap -option ctrl:nocaps &
+nitrogen --restore &
+volumeicon &
+nm-applet &
+compton --config ~/.config/compton.conf -b &
+tint2 &
+dropbox &
+guake &
+emacs --daemon
+lxpolkit &

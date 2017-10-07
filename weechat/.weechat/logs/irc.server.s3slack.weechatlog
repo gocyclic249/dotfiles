@@ -1143,3 +1143,167 @@
 2017-10-05 11:08:35	--	Message of the day
 2017-10-05 11:08:35	--	WELCOME TO SLACK...
 2017-10-05 11:08:35	--	End of MOTD command
+2017-10-05 11:58:10	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 11:58:10	--	irc: disconnected from server
+2017-10-05 11:58:10	--	irc: reconnecting to server in 10 seconds
+2017-10-05 11:58:20	--	irc: reconnecting to server...
+2017-10-05 11:58:20	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 11:58:35	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 11:58:35	--	gnutls: receiving 2 certificates
+2017-10-05 11:58:35	--	 - certificate[1] info:
+2017-10-05 11:58:35	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 11:58:35	--	 - certificate[2] info:
+2017-10-05 11:58:35	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 11:58:35	--	gnutls: peer's certificate is trusted
+2017-10-05 11:58:36	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.72.199.169)
+2017-10-05 11:58:37	--	CTCP requested by slackbot: VERSION
+2017-10-05 11:58:37	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 11:58:37	--	IRC-SLACK gateway
+2017-10-05 11:58:42	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.17.201
+2017-10-05 11:58:42	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 11:58:42	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 11:58:42	--	there are 2 users
+2017-10-05 11:58:42	--	Message of the day
+2017-10-05 11:58:42	--	WELCOME TO SLACK...
+2017-10-05 11:58:42	--	End of MOTD command
+2017-10-05 13:03:50	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 13:03:50	--	irc: disconnected from server
+2017-10-05 13:03:50	--	irc: reconnecting to server in 10 seconds
+2017-10-05 13:04:00	--	irc: reconnecting to server...
+2017-10-05 13:04:00	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:04:00	⚠	irc: address "thetocroaches.irc.slack.com" not found
+2017-10-05 13:04:00	⚠	irc: error: Name or service not known
+2017-10-05 13:04:00	--	irc: reconnecting to server in 20 seconds
+2017-10-05 13:04:20	--	irc: reconnecting to server...
+2017-10-05 13:04:20	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:04:20	⚠	irc: address "thetocroaches.irc.slack.com" not found
+2017-10-05 13:04:20	⚠	irc: error: Name or service not known
+2017-10-05 13:04:20	--	irc: reconnecting to server in 40 seconds
+2017-10-05 13:05:00	--	irc: reconnecting to server...
+2017-10-05 13:05:00	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:05:00	⚠	irc: address "thetocroaches.irc.slack.com" not found
+2017-10-05 13:05:00	⚠	irc: error: Name or service not known
+2017-10-05 13:05:00	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-05 13:06:20	--	irc: reconnecting to server...
+2017-10-05 13:06:20	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:06:20	⚠	irc: address "thetocroaches.irc.slack.com" not found
+2017-10-05 13:06:20	⚠	irc: error: Name or service not known
+2017-10-05 13:06:20	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-05 13:09:00	--	irc: reconnecting to server...
+2017-10-05 13:09:00	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:09:00	⚠	irc: address "thetocroaches.irc.slack.com" not found
+2017-10-05 13:09:00	⚠	irc: error: Name or service not known
+2017-10-05 13:09:00	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-10-05 13:14:20	--	irc: reconnecting to server...
+2017-10-05 13:14:20	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:14:26	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 13:14:26	--	gnutls: receiving 2 certificates
+2017-10-05 13:14:26	--	 - certificate[1] info:
+2017-10-05 13:14:26	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 13:14:26	--	 - certificate[2] info:
+2017-10-05 13:14:26	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 13:14:26	--	gnutls: peer's certificate is trusted
+2017-10-05 13:14:26	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.6.66.3)
+2017-10-05 13:14:27	--	CTCP requested by slackbot: VERSION
+2017-10-05 13:14:27	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 13:14:27	--	IRC-SLACK gateway
+2017-10-05 13:14:27	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.69.159
+2017-10-05 13:14:27	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 13:14:27	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 13:14:27	--	there are 2 users
+2017-10-05 13:14:27	--	Message of the day
+2017-10-05 13:14:27	--	WELCOME TO SLACK...
+2017-10-05 13:14:27	--	End of MOTD command
+2017-10-05 13:20:28	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 13:20:28	--	irc: disconnected from server
+2017-10-05 13:20:28	--	irc: reconnecting to server in 10 seconds
+2017-10-05 13:20:38	--	irc: reconnecting to server...
+2017-10-05 13:20:38	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:20:40	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 13:20:40	--	gnutls: receiving 2 certificates
+2017-10-05 13:20:40	--	 - certificate[1] info:
+2017-10-05 13:20:40	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 13:20:40	--	 - certificate[2] info:
+2017-10-05 13:20:40	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 13:20:40	--	gnutls: peer's certificate is trusted
+2017-10-05 13:20:40	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.71.207.146)
+2017-10-05 13:20:41	--	CTCP requested by slackbot: VERSION
+2017-10-05 13:20:41	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 13:20:41	--	IRC-SLACK gateway
+2017-10-05 13:20:41	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.128.178
+2017-10-05 13:20:41	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 13:20:41	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 13:20:41	--	there are 2 users
+2017-10-05 13:20:41	--	Message of the day
+2017-10-05 13:20:41	--	WELCOME TO SLACK...
+2017-10-05 13:20:41	--	End of MOTD command
+2017-10-05 13:34:54	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 13:34:54	--	irc: disconnected from server
+2017-10-05 13:34:54	--	irc: reconnecting to server in 10 seconds
+2017-10-05 13:35:04	--	irc: reconnecting to server...
+2017-10-05 13:35:04	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 13:35:10	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 13:35:10	--	gnutls: receiving 2 certificates
+2017-10-05 13:35:10	--	 - certificate[1] info:
+2017-10-05 13:35:10	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 13:35:10	--	 - certificate[2] info:
+2017-10-05 13:35:10	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 13:35:10	--	gnutls: peer's certificate is trusted
+2017-10-05 13:35:10	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.6.66.3)
+2017-10-05 13:35:10	--	CTCP requested by slackbot: VERSION
+2017-10-05 13:35:10	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 13:35:10	--	IRC-SLACK gateway
+2017-10-05 13:35:11	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.69.159
+2017-10-05 13:35:11	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 13:35:11	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 13:35:11	--	there are 2 users
+2017-10-05 13:35:11	--	Message of the day
+2017-10-05 13:35:11	--	WELCOME TO SLACK...
+2017-10-05 13:35:11	--	End of MOTD command
+2017-10-05 16:00:48	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 16:00:48	--	irc: disconnected from server
+2017-10-05 16:00:48	--	irc: reconnecting to server in 10 seconds
+2017-10-05 16:00:58	--	irc: reconnecting to server...
+2017-10-05 16:00:58	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 16:00:59	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 16:00:59	--	gnutls: receiving 2 certificates
+2017-10-05 16:00:59	--	 - certificate[1] info:
+2017-10-05 16:00:59	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 16:00:59	--	 - certificate[2] info:
+2017-10-05 16:00:59	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 16:00:59	--	gnutls: peer's certificate is trusted
+2017-10-05 16:00:59	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.71.207.146)
+2017-10-05 16:00:59	--	CTCP requested by slackbot: VERSION
+2017-10-05 16:00:59	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 16:00:59	--	IRC-SLACK gateway
+2017-10-05 16:01:00	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.128.178
+2017-10-05 16:01:00	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 16:01:00	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 16:01:00	--	there are 2 users
+2017-10-05 16:01:00	--	Message of the day
+2017-10-05 16:01:00	--	WELCOME TO SLACK...
+2017-10-05 16:01:00	--	End of MOTD command
+2017-10-05 18:21:44	--	irc: lag is high, reconnecting to server s3slack
+2017-10-05 18:21:44	--	irc: disconnected from server
+2017-10-05 18:21:44	--	irc: reconnecting to server in 10 seconds
+2017-10-05 18:21:54	--	irc: reconnecting to server...
+2017-10-05 18:21:54	--	irc: connecting to server thetocroaches.irc.slack.com/6667 (SSL)...
+2017-10-05 18:22:03	--	gnutls: connected using 512-bit Diffie-Hellman shared secret exchange
+2017-10-05 18:22:03	--	gnutls: receiving 2 certificates
+2017-10-05 18:22:03	--	 - certificate[1] info:
+2017-10-05 18:22:03	--	   - subject `CN=*.irc.slack.com,O=Tiny Speck,L=San Francisco,ST=California,C=US', issuer `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', serial 0x68548878570c7082df92ad607e8c9ce0, RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-25 00:00:00 UTC', expires `2017-12-02 23:59:59 UTC', pin-sha256="hTc0t+S0L1x0+zubygRQXM4tbRQMZKdPzbuOPr1hDKk="
+2017-10-05 18:22:03	--	 - certificate[2] info:
+2017-10-05 18:22:03	--	   - subject `CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US', issuer `CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US', serial 0x023a6f, RSA key 2048 bits, signed using RSA-SHA256, activated `2013-11-05 21:36:50 UTC', expires `2022-05-20 21:36:50 UTC', pin-sha256="PbNCVpVasMJxps3IqFfLTRKkVnRCLrTlZVc5kspqlkw="
+2017-10-05 18:22:03	--	gnutls: peer's certificate is trusted
+2017-10-05 18:22:03	--	irc: connected to thetocroaches.irc.slack.com/6667 (52.71.207.146)
+2017-10-05 18:22:03	--	CTCP requested by slackbot: VERSION
+2017-10-05 18:22:03	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 23 2017)
+2017-10-05 18:22:04	--	IRC-SLACK gateway
+2017-10-05 18:22:04	--	Welcome to Slack IRC Gateway server barkerdb!~barkerdb@10.0.128.178
+2017-10-05 18:22:04	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-10-05 18:22:04	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-10-05 18:22:04	--	there are 2 users
+2017-10-05 18:22:04	--	Message of the day
+2017-10-05 18:22:04	--	WELCOME TO SLACK...
+2017-10-05 18:22:04	--	End of MOTD command
+2017-10-05 18:22:25	--	irc: disconnected from server
