@@ -43,7 +43,6 @@ values."
      git
      spell-checking
      shell
-     emoji
      erc
      tmux
      latex
@@ -468,11 +467,11 @@ you should place your code here."
                  :host erc-server
                  :user (erc-current-nick)
                  :port "bitlbee"))
-        :secret))
+                 :secret))
        (password (if (functionp secret)
          (funcall secret)
        secret)))
-  (erc-message "PRIVMSG" (concat (erc-default-target) " " "/oper eleventh" " " password) nil))))
+  (erc-message "PRIVMSG" (concat (erc-default-target) " " "identify" " "  password) nil))))
 
   ;; Enable the netrc authentication function for &biblbee channels.
   (add-hook 'erc-join-hook 'bitlbee-netrc-identify)
@@ -510,7 +509,6 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default bold shadow italic underline bold bold-italic bold])
- '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(display-battery-mode t)
  '(display-time-mode t)
@@ -520,28 +518,18 @@ you should place your code here."
  '(emms-setup-default-player-list
    (quote
     (emms-player-mpd emms-player-mpg321 emms-player-ogg123 emms-player-mplayer-playlist emms-player-mplayer emms-player-vlc emms-player-vlc-playlist)))
- '(erc-auto-query (quote window))
- '(erc-autojoin-channels-alist
-   (quote
-    (("irc.parahumans.net" "#parahumans")
-     ("localhost.localdomain" "#twitter_11eleventh11" "&bitlbee"))))
  '(erc-image-images-path "/home/eleventh/Pictures/erc")
  '(erc-image-inline-rescale (quote window))
  '(erc-modules
    (quote
-    (autojoin button capab-identify completion fill log match menu move-to-prompt netsplit networks notify notifications scrolltobottom services smiley spelling truncate image hl-nicks youtube fill match track readonly networks ring noncommands irccontrols stamp menu list)))
+    (autojoin completion fill log move-to-prompt netsplit networks notify notifications scrolltobottom services spelling truncate image hl-nicks youtube track readonly ring noncommands irccontrols stamp list)))
  '(erc-notifications-bus :session)
  '(erc-notifications-icon nil)
  '(erc-notifications-mode t)
  '(erc-notify-list (quote ("Kam")))
  '(erc-notify-mode t)
- '(erc-pals (quote ("Kam")))
- '(erc-server "irc.parahumans.net")
  '(erc-server-reconnect-timeout 60)
- '(evil-ex-search-persistent-highlight nil)
  '(evil-want-Y-yank-to-eol nil)
- '(fci-rule-color "#383838")
- '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
  '(global-evil-search-highlight-persist t)
  '(gnus-use-full-window nil)
  '(helm-fuzzy-matching-highlight-fn (quote helm-flx-fuzzy-highlight-match))
@@ -590,6 +578,7 @@ you should place your code here."
  '(sp-highlight-wrap-overlay nil)
  '(sp-highlight-wrap-tag-overlay nil)
  '(tool-bar-mode nil)
+ '(transient-mark-mode nil)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote
@@ -618,4 +607,4 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((((class color) (min-colors 89)) (:foreground "#d3d3d3" :background "#000000" :family "Hack" :foundry "simp" :slant normal :weight normal :height 105 :width normal)))))
+ '(default ((t (:background nil :family "Hack" :foundry "simp" :slant normal :weight normal :height 105 :width normal)))))
