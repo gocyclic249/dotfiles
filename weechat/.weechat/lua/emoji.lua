@@ -78,130 +78,130 @@ four="4⃣",kiss_ww="👩❤💋👩",maple_leaf="🍁",waxing_gibbous_moon="�
 emoji['slightly_smiling_face'] = ':)'
 
 local function str2emoji(str)
-	if not str then return '' end
-	return (str:gsub(':[a-zA-Z0-9%-_]+:', function(word)
-		return emoji[word:match(':(.+):')] or word
-	end))
+  if not str then return '' end
+  return (str:gsub(':[a-zA-Z0-9%-_]+:', function(word)
+    return emoji[word:match(':(.+):')] or word
+  end))
 end
 
 function emoji_replace_input_string(buffer)
-	-- Get input contents
-	local input_s = w.buffer_get_string(buffer, 'input')
-	-- Skip modification of settings
-	if input_s:match('^/set ') then
-		return w.WEECHAT_RC_OK
-	end
-	w.buffer_set(buffer, 'input', str2emoji(input_s))
-	return w.WEECHAT_RC_OK
+  -- Get input contents
+  local input_s = w.buffer_get_string(buffer, 'input')
+  -- Skip modification of settings
+  if input_s:match('^/set ') then
+    return w.WEECHAT_RC_OK
+  end
+  w.buffer_set(buffer, 'input', str2emoji(input_s))
+  return w.WEECHAT_RC_OK
 end
 
 function emoji_input_replacer(data, buffer, command)
-	if command == '/input return' then
-		return emoji_replace_input_string(buffer)
-	end
-	return w.WEECHAT_RC_OK
+  if command == '/input return' then
+    return emoji_replace_input_string(buffer)
+  end
+  return w.WEECHAT_RC_OK
 end
 
 function emoji_live_input_replace(data, modifier, modifier_data, msg)
-	return str2emoji(msg)
+  return str2emoji(msg)
 end
 
 function emoji_out_replace(data, modifier, modifier_data, msg)
-	return str2emoji(msg)
+  return str2emoji(msg)
 end
 
 function unshortcode_cb(data, modifier, modifier_data, msg)
-	return str2emoji(msg)
+  return str2emoji(msg)
 end
 
 function emoji_complete_next_cb(data, buffer, command)
-	local input_s = w.buffer_get_string(buffer, 'input')
-	-- Require : in word
-	if not input_s:match(':') then
-		return w.WEECHAT_RC_OK
-	end
-	local current_pos = w.buffer_get_integer(buffer, "input_pos") - 1
-	--local input_length = w.buffer_get_integer(buffer, "input_length")
-	while current_pos >= 1 and input_s.sub(current_pos, current_pos) ~= ':' do
-		current_pos = current_pos - 1
-	end
-	if current_pos < 1 then
-		current_pos = 1
-	end
+  local input_s = w.buffer_get_string(buffer, 'input')
+  -- Require : in word
+  if not input_s:match(':') then
+    return w.WEECHAT_RC_OK
+  end
+  local current_pos = w.buffer_get_integer(buffer, "input_pos") - 1
+  --local input_length = w.buffer_get_integer(buffer, "input_length")
+  while current_pos >= 1 and input_s.sub(current_pos, current_pos) ~= ':' do
+    current_pos = current_pos - 1
+  end
+  if current_pos < 1 then
+    current_pos = 1
+  end
 
-	-- TODO: Support non-end-word editing
-	local oword = input_s:sub(current_pos)
-	local word = oword:match(':(.*)')
-	for e, b in pairs(emoji) do
-		if e:match(word) then
-			local new = (input_s:gsub(":"..word, b))
-			w.buffer_set(buffer, 'input', new)
-			--w.buffer_set(buffer, "input_pos", str(w.buffer_get_integer(buffer, "input_pos") + 1))
-			return w.WEECHAT_RC_OK_EAT
-		end
-	end
+  -- TODO: Support non-end-word editing
+  local oword = input_s:sub(current_pos)
+  local word = oword:match(':(.*)')
+  for e, b in pairs(emoji) do
+    if e:match(word) then
+      local new = (input_s:gsub(":"..word, b))
+      w.buffer_set(buffer, 'input', new)
+      --w.buffer_set(buffer, "input_pos", str(w.buffer_get_integer(buffer, "input_pos") + 1))
+      return w.WEECHAT_RC_OK_EAT
+    end
+  end
 
-	return w.WEECHAT_RC_OK
+  return w.WEECHAT_RC_OK
 end
 
 function emoji_completion_cb(data, completion_item, buffer, completion)
-	for k, v in pairs(emoji) do
-		w.hook_completion_list_add(completion, ":"..k..":", 0, w.WEECHAT_LIST_POS_SORT)
-	end
-	return w.WEECHAT_RC_OK
+  for k, v in pairs(emoji) do
+    w.hook_completion_list_add(completion, ":"..k..":", 0, w.WEECHAT_LIST_POS_SORT)
+  end
+  return w.WEECHAT_RC_OK
 end
 
 function incoming_cb(data, modifier, modifier_data, msg)
-	--local plugin, buffer_name, tags = modifier_data:match('^(.-);(.-);(.-)$')
-	-- Only replace in incoming "messages"
-	if modifier_data:match('nick_') then
-		return str2emoji(msg)
-	end
-	return msg
+  --local plugin, buffer_name, tags = modifier_data:match('^(.-);(.-);(.-)$')
+  -- Only replace in incoming "messages"
+  if modifier_data:match('nick_') then
+    return str2emoji(msg)
+  end
+  return msg
 end
 
 function e_init()
-	if w.register(
-		SCRIPT_NAME,
-		SCRIPT_AUTHOR,
-		SCRIPT_VERSION,
-		SCRIPT_LICENSE,
-		SCRIPT_DESC,
-		'',
-		'') then
-		-- Hook input enter
-		w.hook_command_run('/input return', 'emoji_input_replacer', '')
+  if w.register(
+    SCRIPT_NAME,
+    SCRIPT_AUTHOR,
+    SCRIPT_VERSION,
+    SCRIPT_LICENSE,
+    SCRIPT_DESC,
+    '',
+    '') then
+    -- Hook input enter
+    w.hook_command_run('/input return', 'emoji_input_replacer', '')
 
-		-- Hook irc out for relay clients
-		--w.hook_modifier('input_text_for_buffer', 'emoji_out_replace', '')
-		w.hook_modifier('irc_out1_PRIVMSG', 'emoji_out_replace', '')
-		-- Replace while typing
-		w.hook_modifier('input_text_display_with_cursor', 'emoji_live_input_replace', '')
-		-- Hook tab complete
-		w.hook_command_run("/input complete_next", "emoji_complete_next_cb", "")
-		-- Hook for working togheter with other scripts
-		w.hook_modifier('emoji_unshortcode', 'unshortcode_cb', '')
+    -- Hook irc out for relay clients
+    --w.hook_modifier('input_text_for_buffer', 'emoji_out_replace', '')
+    w.hook_modifier('irc_out1_PRIVMSG', 'emoji_out_replace', '')
+    -- Replace while typing
+    w.hook_modifier('input_text_display_with_cursor', 'emoji_live_input_replace', '')
+    -- Hook tab complete
+    w.hook_command_run("/input complete_next", "emoji_complete_next_cb", "")
+    -- Hook for working togheter with other scripts
+    w.hook_modifier('emoji_unshortcode', 'unshortcode_cb', '')
 
-		w.hook_completion("emojis", "complete :emoji:s", "emoji_completion_cb", "")
-		local settings = {
-		    incoming = {'on', 'Also try to replace shortcodes to emoji in incoming messages'}
-		}
-		-- set default settings
-		local version = tonumber(w.info_get('version_number', '') or 0)
-		for option, value in pairs(settings) do
-			if w.config_is_set_plugin(option) ~= 1 then
-				w.config_set_plugin(option, value[1])
-			end
-			if version >= 0x00030500 then
-				w.config_set_desc_plugin(option, ('%s (default: "%s")'):format(
-				value[2], value[1]))
-			end
-		end
-		-- Hook incoming message
-		if w.config_get_plugin('incoming') == 'on' then
-			w.hook_modifier("weechat_print", 'incoming_cb', '')
-		end
-	end
+    w.hook_completion("emojis", "complete :emoji:s", "emoji_completion_cb", "")
+    local settings = {
+        incoming = {'on', 'Also try to replace shortcodes to emoji in incoming messages'}
+    }
+    -- set default settings
+    local version = tonumber(w.info_get('version_number', '') or 0)
+    for option, value in pairs(settings) do
+      if w.config_is_set_plugin(option) ~= 1 then
+        w.config_set_plugin(option, value[1])
+      end
+      if version >= 0x00030500 then
+        w.config_set_desc_plugin(option, ('%s (default: "%s")'):format(
+        value[2], value[1]))
+      end
+    end
+    -- Hook incoming message
+    if w.config_get_plugin('incoming') == 'on' then
+      w.hook_modifier("weechat_print", 'incoming_cb', '')
+    end
+  end
 end
 
 e_init()
