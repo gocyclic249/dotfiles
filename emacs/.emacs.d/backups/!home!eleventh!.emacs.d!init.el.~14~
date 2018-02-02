@@ -1,0 +1,177 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")
+                         ("org" . "http://orgmode.org/elpa/")))
+(require 'package)
+;;backups
+(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+(setq delete-old-versions -1)
+(setq version-control t)
+(setq vc-make-backup-files t)
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
+
+;;end sentence one space
+(setq sentence-end-double-space nil)
+
+
+
+(use-package helm
+  :diminish helm-mode
+  :init
+  (progn
+    (require 'helm-config)
+    (setq helm-candidate-number-limit 100)
+    ;; From https://gist.github.com/antifuchs/9238468
+    (setq helm-idle-delay 0.0 ; update fast sources immediately (doesn't).
+          helm-input-idle-delay 0.01  ; this actually updates things
+                                        ; reeeelatively quickly.
+          helm-yas-display-key-on-candidate t
+          helm-quick-update t
+          helm-M-x-requires-pattern nil
+          helm-ff-skip-boring-files t)
+    (helm-mode))
+  :bind (("C-c h" . helm-mini)
+         ("C-h a" . helm-apropos)
+         ("C-x C-b" . helm-buffers-list)
+         ("C-x b" . helm-buffers-list)
+         ("M-y" . helm-show-kill-ring)
+         ("M-x" . helm-M-x)
+         ("C-x c o" . helm-occur)
+         ("C-x c s" . helm-swoop)
+         ("C-x c y" . helm-yas-complete)
+         ("C-x c Y" . helm-yas-create-snippet-on-region)
+         ("C-x c b" . my/helm-do-grep-book-notes)
+         ("C-x c SPC" . helm-all-mark-rings)))
+(ido-mode -1) ;; Turn off ido mode in case I enabled it accidentally
+
+(use-package helm-descbinds
+  :defer t
+  :bind (("C-h b" . helm-descbinds)
+         ("C-h w" . helm-descbinds)))
+(define-key helm-map (kbd "TAB") #'helm-execute-persistent-action)
+(define-key helm-map (kbd "<tab>") #'helm-execute-persistent-action)
+(define-key helm-map (kbd "C-z") #'helm-select-action)
+;;better modeline rice
+(use-package smart-mode-line)
+
+;;lazy shit
+(fset 'yes-or-no-p 'y-or-n-p)
+
+
+;;pretty colors
+(add-to-list 'load-path "usr/share/emacs24/site-lisp/emacs-goodies-el/color-theme.el")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-tty-dark)))
+
+
+;; Default tabs/indents are 2 spaces
+(setq-default tab-width 2)
+(setq tab-width 2)
+(setq standard-indent 2)
+
+;; Don't indent with tabs
+(setq-default indent-tabs-mode nil)
+
+;; Make the region act quite like the text "highlight" in many apps.
+(setq transient-mark-mode t)
+
+;;History
+(setq savehist-file "~/.emacs.d/savehist")
+(savehist-mode 1)
+(setq history-length t)
+(setq history-delete-duplicates t)
+(setq savehist-save-minibuffer-history 1)
+(setq savehist-additional-variables
+      '(kill-ring
+        search-ring
+        regexp-search-ring))
+
+
+;;org mode
+;;org
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+(global-set-key (kbd "<f7>") 'org-mark-ring-push)
+(global-set-key (kbd "C-<f7>") 'org-mark-ring-goto)
+(defun my-org-archive-done-tasks ()
+  (interactive)
+  (org-map-entries 'org-archive-subtree "/DONE" 'file))
+(setq org-capture-templates
+      (quote (("t" "Todo" entry (file+headline "~/Dropbox/org/Todo.org" "Todo")
+               "** TODO %?")
+              ("n" "Note" entry (file "~/Dropbox/org/notes.org")
+               "** %? :NOTE:\n%U\n%a\n")
+              ("w" "Task" entry (file+headline "~/Dropbox/org/Todo.org" "Tasks")
+               "* TODO %? \nWho: %^{Who}\nWhat: %^{What}\nWhere: %^{Where}\nWhy: %^{Why}\nWhen:\n")
+              ("j" "Journal" entry (file+datetree "~/Dropbox/org/Diary.org")
+               "** %?\n%U\n")
+              ("a" "Appointment" entry (file+headline "~/Dropbox/org/Todo.org" "Meetings")
+               "** Appointment: %? :APPOINTMENT:")
+              ("m" "Meeting" entry (file+headline "~/Dropbox/org/Todo.org" "Meetings")
+               "** Meeting: %? :MEETING:")
+              ("e" "Event" entry (file+headline "~/Dropbox/org/Todo.org" "Events")
+               "* %? %a"))))
+
+;;erc
+;; Rename server buffers to reflect the current network name instead
+;; of SERVER:PORT (e.g., "freenode" instead of "irc.freenode.net:6667").
+;; This is useful when using a bouncer like ZNC where you have multiple
+;; connections to the same server.
+(setq erc-rename-buffers t)
+
+;; Interpret mIRC-style color commands in IRC chats
+(setq erc-interpret-mirc-color t)
+
+;; The following are commented out by default, but users of other
+;; non-Emacs IRC clients might find them useful.
+;; Kill buffers for channels after /part
+(setq erc-kill-buffer-on-part t)
+;; Kill buffers for private queries after quitting the server
+(setq erc-kill-queries-on-quit t)
+;; Kill buffers for server messages after quitting the server
+(setq erc-kill-server-buffer-on-quit t)
+
+(load "~/.ercpass")
+(require 'erc-services)
+(erc-services-mode 1)
+
+(setq erc-prompt-for-nickserv-password nil)
+
+(setq erc-nickserv-passwords
+      `((parahumans     (("eleventh" . ,parahumans)))))
+
+(setq erc-join-buffer 'bury)
+;;auto-complete
+(require 'auto-complete)
+(ac-config-default)
+(global-auto-complete-mode t)
+
+(require 'smart-tab)
+(require 'rainbow-delimiters)
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Terminus" :foundry "xos4" :slant normal :weight normal :height 120 :width normal)))))
