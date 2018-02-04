@@ -200,7 +200,7 @@
       nil "[fieldset="str"]"\n_ \n"[/fieldset]")
 
 ;;gnus
-(gnus-demon-add-handler 'gnus-demon-scan-mail 5 nil)
+
  
 ;;bindings
 ;;bbcode
@@ -243,7 +243,7 @@
  '(package-enable-at-startup t)
  '(package-selected-packages
 	 (quote
-		(gnus-desktop-notify erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds)))
+		(erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

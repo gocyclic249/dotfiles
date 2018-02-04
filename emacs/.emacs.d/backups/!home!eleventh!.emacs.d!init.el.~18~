@@ -176,9 +176,6 @@
      (define-skeleton bb-img
       "Insert [img] ... [/img] tags."
       nil "[img]" _ "[/img]")
-     (define-skeleton bb-say
-      "Insert [say] ... [/say] tags."
-      nil \n"[say]" _ "[/say]")
     (define-skeleton bb-indent
       "Insert [indent] ... [/indent] tags."
       nil "[indent]" _ "[/indent]")
@@ -200,7 +197,7 @@
       nil "[fieldset="str"]"\n_ \n"[/fieldset]")
 
 ;;gnus
-(gnus-demon-add-handler 'gnus-demon-scan-mail 5 nil)
+
  
 ;;bindings
 ;;bbcode
@@ -211,11 +208,10 @@
 (global-set-key "\C-c\C-b\C-m" 'bb-img)
 (global-set-key "\C-c\C-b\C-n" 'bb-indent)
 (global-set-key "\C-c\C-b\C-d" 'bb-dice)
-(global-set-key "\C-c\C-b\C-p" 'bb-spoiler)
+(global-set-key "\C-c\C-b\C-s" 'bb-spoiler)
 (global-set-key "\C-c\C-b\C-x" 'bb-secret)
 (global-set-key "\C-c\C-b\C-c" 'bb-color)
 (global-set-key "\C-c\C-b\C-f" 'bb-field)
-(global-set-key "\C-c\C-b\C-s" 'bb-say)
 ;;org
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
@@ -224,14 +220,6 @@
 (global-set-key (kbd "<f7>") 'org-mark-ring-push)
 (global-set-key (kbd "C-<f7>") 'org-mark-ring-goto)
 
-;;buffers
-(global-set-key (kbd "<C-tab>") 'next-buffer)
-(global-set-key (kbd "<C-S-tab>") 'previous-buffer)
-
-;;mode hooks
-(add-hook 'text-mode-hook	'auto-complete-mode)
-(add-hook 'text-mode-hook 'visual-line-mode)
-(add-hook 'text-mode-hook	'ispell-minor-mode)
 
 
 (custom-set-variables
@@ -239,11 +227,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(doc-view-continuous t)
  '(package-enable-at-startup t)
  '(package-selected-packages
 	 (quote
-		(gnus-desktop-notify erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds)))
+		(erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

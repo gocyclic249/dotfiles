@@ -200,7 +200,7 @@
       nil "[fieldset="str"]"\n_ \n"[/fieldset]")
 
 ;;gnus
-(gnus-demon-add-handler 'gnus-demon-scan-mail 5 nil)
+
  
 ;;bindings
 ;;bbcode

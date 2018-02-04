@@ -1,0 +1,11 @@
+;; -*- mode:emacs-lisp; coding: utf-8-emacs; -*-
+;; Gnus startup file.
+;; Never delete this file -- if you want to force Gnus to read the
+;; .newsrc file (if you have one), touch .newsrc instead.
+(setq gnus-newsrc-file-version "Gnus v5.13")
+
+(setq gnus-newsrc-last-checked-date '"Sat, 03 Feb 2018 15:33:50 -0700")
+
+(setq gnus-newsrc-alist '(("INBOX" 3 ((1 . 5)) ((unexist) (seen (2 . 5))) nil ((modseq . "8") (uidvalidity . "1517672694") (active 1 . 5) (permanent-flags %Answered %Flagged %Deleted %Seen %Draft %*))) ("Junk" 3 nil ((unexist)) nil ((modseq . "1") (uidvalidity . "1517672695") (active 1 . 0) (permanent-flags %Answered %Flagged %Deleted %Seen %Draft %*))) ("Trash" 3 nil ((unexist)) nil ((modseq . "1") (uidvalidity . "1517672696") (active 1 . 0) (permanent-flags %Answered %Flagged %Deleted %Seen %Draft %*))) ("nndraft:drafts" 1 nil nil (nndraft "") ((gnus-dummy (gnus-draft-mode))))))
+
+(setq gnus-server-alist '(("archive" nnfolder "archive" (nnfolder-directory "~/Mail/archive") (nnfolder-active-file "~/Mail/archive/active") (nnfolder-get-new-mail nil) (nnfolder-inhibit-expiry t))))

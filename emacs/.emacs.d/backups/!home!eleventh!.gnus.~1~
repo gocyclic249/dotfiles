@@ -1,0 +1,12 @@
+(setq user-mail-address "11eleventh11@tfwno.gf"
+      user-full-name "eleventh")
+
+(setq gnus-select-method
+      '(nnimap "cock.li"
+	       (nnimap-address "mail.cock.li")  ; it could also be imap.googlemail.com if that's your server.
+	       (nnimap-server-port 143)
+	       (nnimap-stream ssl)))
+
+(setq smtpmail-smtp-server "mail.cock.li"
+      smtpmail-smtp-service 587
+      gnus-ignored-newsgroups "^to\\.\\|^[0-9. ]+\\( \\|$\\)\\|^[\"]\"[#'()]")

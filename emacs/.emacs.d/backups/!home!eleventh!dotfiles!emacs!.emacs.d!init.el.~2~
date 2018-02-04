@@ -16,6 +16,8 @@
 (setq vc-make-backup-files t)
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
 
+;;end sentence one space
+(setq sentence-end-double-space nil)
 
 
 
@@ -56,8 +58,6 @@
 (define-key helm-map (kbd "<tab>") #'helm-execute-persistent-action)
 (define-key helm-map (kbd "C-z") #'helm-select-action)
 
-;;looks
-
 ;;better modeline rice
 (use-package smart-mode-line)
 
@@ -80,13 +80,10 @@
 (setq standard-indent 2)
 
 ;; Don't indent with tabs
-(setq-default indent-tabs-mode t)
+(setq-default indent-tabs-mode nil)
 
 ;; Make the region act quite like the text "highlight" in many apps.
 (setq transient-mark-mode t)
-
-;;end sentence one space
-(setq sentence-end-double-space nil)
 
 ;;History
 (setq savehist-file "~/.emacs.d/savehist")
@@ -101,6 +98,13 @@
 
 
 ;;org mode
+;;org
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+(global-set-key (kbd "<f7>") 'org-mark-ring-push)
+(global-set-key (kbd "C-<f7>") 'org-mark-ring-goto)
 (defun my-org-archive-done-tasks ()
   (interactive)
   (org-map-entries 'org-archive-subtree "/DONE" 'file))
@@ -166,72 +170,41 @@
     (define-skeleton bb-underline
       "Make underlined text."
       nil "[u]" _ "[/u]")
-    (define-skeleton bb-color
-      "Color Text."
-			"Color: "
-      nil "[color="str"]" _ "[/color]")
-     (define-skeleton bb-list
+    (define-skeleton bb-tt
+      "Typewriter font."
+      nil "[font=\"Courier New\"]" _ "[/font]")
+    (define-skeleton bb-url
+      "Prompt for URL and insert link."
+      "URL: " "[url=\"" str "\"]" _ "[/url]")
+    (define-skeleton bb-list
       "Start an unordered list."
       nil "[list][*] " _ "\n[/list]")
-     (define-skeleton bb-img
+    (define-skeleton bb-point
+      "Make a new list point."
+      nil (unless (bolp) "\n") "[*] ")
+    (define-skeleton bb-img
       "Insert [img] ... [/img] tags."
       nil "[img]" _ "[/img]")
-     (define-skeleton bb-say
-      "Insert [say] ... [/say] tags."
-      nil \n"[say]" _ "[/say]")
     (define-skeleton bb-indent
       "Insert [indent] ... [/indent] tags."
       nil "[indent]" _ "[/indent]")
-    (define-skeleton bb-dice
-      "Dice roller and title"
-      "Title: "
-      nil "[dice="str"]" _ "[/dice]")
-    (define-skeleton bb-spoiler
-      "Spoiler"
-      "Title: "
-      nil "[spoilerbutton="str"]"\n_ \n"[/spoilerbutton]")
-    (define-skeleton bb-secret
-      "Secret"
-      "Name: "
-      nil "[secret="str"]"\n_ \n"[/secret]")
-    (define-skeleton bb-field
-      "Fieldset"
-      "Title: "
-      nil "[fieldset="str"]"\n_ \n"[/fieldset]")
+    (define-skeleton bb-youtube
+      "Insert [youtube] ... [/youtube] tags."
+      nil "[youtube]" _ "[/youtube]")
 
-;;gnus
-(gnus-demon-add-handler 'gnus-demon-scan-mail 5 nil)
- 
-;;bindings
-;;bbcode
-(global-set-key "\C-c\C-b\C-i" 'bb-italic)
-(global-set-key "\C-c\C-b\C-u" 'bb-underline)
-(global-set-key "\C-c\C-b\C-b" 'bb-bold)
-(global-set-key "\C-c\C-b\C-l" 'bb-list)
-(global-set-key "\C-c\C-b\C-m" 'bb-img)
-(global-set-key "\C-c\C-b\C-n" 'bb-indent)
-(global-set-key "\C-c\C-b\C-d" 'bb-dice)
-(global-set-key "\C-c\C-b\C-p" 'bb-spoiler)
-(global-set-key "\C-c\C-b\C-x" 'bb-secret)
-(global-set-key "\C-c\C-b\C-c" 'bb-color)
-(global-set-key "\C-c\C-b\C-f" 'bb-field)
-(global-set-key "\C-c\C-b\C-s" 'bb-say)
-;;org
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
-(global-set-key "\C-cc" 'org-capture)
-(global-set-key "\C-cb" 'org-iswitchb)
-(global-set-key (kbd "<f7>") 'org-mark-ring-push)
-(global-set-key (kbd "C-<f7>") 'org-mark-ring-goto)
 
-;;buffers
-(global-set-key (kbd "<C-tab>") 'next-buffer)
-(global-set-key (kbd "<C-S-tab>") 'previous-buffer)
-
-;;mode hooks
-(add-hook 'text-mode-hook	'auto-complete-mode)
-(add-hook 'text-mode-hook 'visual-line-mode)
-(add-hook 'text-mode-hook	'ispell-minor-mode)
+    (global-set-key "\C-c\C-f\C-e" 'bb-italic)
+    (global-set-key "\C-c\C-f\C-u" 'bb-underline)
+    (global-set-key "\C-c\C-f\C-b" 'bb-bold)
+    (global-set-key "\C-c\C-f\C-t" 'bb-tt)
+    (global-set-key "\C-c\C-fu"    'bb-url)
+    (global-set-key "\C-c\C-f\C-l" 'bb-list)
+    (global-set-key "\C-cj"        'bb-point)
+    (global-set-key "\C-c\C-j"     'bb-point)
+    (global-set-key "\C-c\C-fi"    'bb-img)
+    (global-set-key "\C-c\C-f\C-i" 'bb-indent)
+    (global-set-key "\C-c\C-f\C-y" 'bb-youtube)
+(global-set-key "\C-c\C-fy"    'bb-youtube)
 
 
 (custom-set-variables
@@ -239,13 +212,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(doc-view-continuous t)
  '(package-enable-at-startup t)
  '(package-selected-packages
-	 (quote
-		(gnus-desktop-notify erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds)))
- '(show-paren-mode t)
- '(tool-bar-mode nil))
+   (quote
+    (erc-colorize helm-firefox rainbow-delimiters zenburn-theme smart-tabs-mode smart-tab auto-complete use-package smart-mode-line julia-mode helm-descbinds))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

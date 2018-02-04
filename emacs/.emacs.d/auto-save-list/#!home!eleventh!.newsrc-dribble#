@@ -1,0 +1,7 @@
+
+
+
+(gnus-group-set-info '("INBOX" 3 ((1 . 7)) ((unexist) (seen (1 . 7))) nil ((modseq . "11") (uidvalidity . "1517672694") (active 1 . 7) (permanent-flags %Answered %Flagged %Deleted %Seen %Draft %*))))
+
+
+

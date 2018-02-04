@@ -1,0 +1,21 @@
+;;dnd mail
+(setq user-mail-address "11eleventh11@tfwno.gf"
+      user-full-name "eleventh")
+
+(setq gnus-select-method
+      '(nnimap "cock.li"
+	       (nnimap-address "mail.cock.li")
+	       (nnimap-server-port 993)
+	       (nnimap-stream ssl)))
+
+(setq smtpmail-smtp-server "mail.cock.li"
+      smtpmail-smtp-service 587
+      gnus-ignored-newsgroups "^to\\.\\|^[0-9. ]+\\( \\|$\\)\\|^[\"]\"[#'()]")
+
+;;autocheck
+(require 'gnus-autocheck)
+
+;; automatic check every 2 minutes for new incoming mails by night
+(setq gnus-autocheck-interval (* 60 2))
+
+
